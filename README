@@ -4,6 +4,11 @@ If you plan to use checkout-clone or checkout-update you'll need to patch git wi
 
 If you plan to use fast-import you would need to patch git with patches/fast-import.
 
+== build ==
+
+ruby extconf.rb
+make
+
 == troubleshooting ==
 
 If you get this error:
