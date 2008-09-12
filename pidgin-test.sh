@@ -5,6 +5,8 @@ export GIT=git
 
 fast_import ()
 {
+        export GIT_DIR=$PWD/pidgin/fast.git
+        $GIT init
         ./clone-fast.rb | $GIT fast-import --date-format=rfc2822 --tolerant
 }
 
