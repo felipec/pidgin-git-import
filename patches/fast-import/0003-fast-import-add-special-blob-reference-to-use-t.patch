@@ -1,0 +1,83 @@
+From 86676005cc65b4096c504632a299876ad1874ee0 Mon Sep 17 00:00:00 2001
+From: Felipe Contreras <felipe.contreras@gmail.com>
+Date: Wed, 10 Sep 2008 23:23:49 +0300
+Subject: [PATCH] fast-import: add special '-' blob reference to use the previous one.
+
+Signed-off-by: Felipe Contreras <felipe.contreras@gmail.com>
+---
+ Documentation/git-fast-import.txt |    6 +++---
+ fast-import.c                     |   13 ++++++++++---
+ 2 files changed, 13 insertions(+), 6 deletions(-)
+
+diff --git a/Documentation/git-fast-import.txt b/Documentation/git-fast-import.txt
+index 31c187a..91297d3 100644
+--- a/Documentation/git-fast-import.txt
++++ b/Documentation/git-fast-import.txt
+@@ -461,9 +461,9 @@ External data format::
+ 	'M' SP <mode> SP <dataref> SP <path> LF
+ ....
+ +
+-Here `<dataref>` can be either a mark reference (`:<idnum>`)
+-set by a prior `blob` command, or a full 40-byte SHA-1 of an
+-existing Git blob object.
++Here `<dataref>` can be either a mark reference (`:<idnum>`) set by a prior
++`blob` command, a special `-` reference to use the one of the ancestor, or
++a full 40-byte SHA-1 of an existing Git blob object.
+ 
+ Inline data format::
+ 	The data content for the file has not been supplied yet.
+diff --git a/fast-import.c b/fast-import.c
+index 400ca71..fcf51ab 100644
+--- a/fast-import.c
++++ b/fast-import.c
+@@ -1385,7 +1385,8 @@ static int tree_content_set(
+ 				if (mode == S_IFREG)
+ 					mode = e->versions[0].mode;
+ 				e->versions[1].mode = (mode == S_IFREG) ? (S_IFREG | 0644) : mode;
+-				hashcpy(e->versions[1].sha1, sha1);
++				hashcpy(e->versions[1].sha1,
++					is_null_sha1(sha1) ? e->versions[0].sha1 : sha1);
+ 				if (e->tree)
+ 					release_tree_content_recursive(e->tree);
+ 				e->tree = subtree;
+@@ -1420,7 +1421,8 @@ static int tree_content_set(
+ 	} else {
+ 		e->tree = subtree;
+ 		e->versions[1].mode = (mode == S_IFREG) ? (S_IFREG | 0644) : mode;
+-		hashcpy(e->versions[1].sha1, sha1);
++		hashcpy(e->versions[1].sha1,
++			is_null_sha1(sha1) ? e->versions[0].sha1 : sha1);
+ 	}
+ 	hashclr(root->versions[1].sha1);
+ 	return 1;
+@@ -1862,7 +1864,7 @@ static void file_change_m(struct branch *b)
+ 	const char *endp;
+ 	struct object_entry *oe = oe;
+ 	unsigned char sha1[20];
+-	uint16_t mode, inline_data = 0;
++	uint16_t mode, inline_data = 0, empty_blob = 0;
+ 
+ 	if (!prefixcmp(p, "- ")) {
+ 		mode = 0;
+@@ -1893,6 +1895,10 @@ static void file_change_m(struct branch *b)
+ 	} else if (!prefixcmp(p, "inline")) {
+ 		inline_data = 1;
+ 		p += 6;
++	} else if (!prefixcmp(p, "- ")) {
++		hashclr(sha1);
++		empty_blob = 1;
++		p += 1;
+ 	} else {
+ 		if (get_sha1_hex(p, sha1))
+ 			die("Invalid SHA1: %s", command_buf.buf);
+@@ -1936,6 +1942,7 @@ static void file_change_m(struct branch *b)
+ 		if (oe->type != OBJ_BLOB)
+ 			die("Not a blob (actually a %s): %s",
+ 				typename(oe->type), command_buf.buf);
++	} else if (empty_blob) {
+ 	} else {
+ 		enum object_type type = sha1_object_info(sha1, NULL);
+ 		if (type < 0)
+-- 
+1.6.0.1
+

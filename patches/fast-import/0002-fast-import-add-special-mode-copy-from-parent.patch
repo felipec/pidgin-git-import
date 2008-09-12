@@ -1,0 +1,99 @@
+From 7693dc5a4c4a169ec2a87af84700efbb4f810b69 Mon Sep 17 00:00:00 2001
+From: Felipe Contreras <felipe.contreras@gmail.com>
+Date: Wed, 10 Sep 2008 23:00:10 +0300
+Subject: [PATCH] fast-import: add special mode; copy from parent.
+
+Signed-off-by: Felipe Contreras <felipe.contreras@gmail.com>
+---
+ Documentation/git-fast-import.txt |    1 +
+ fast-import.c                     |   41 +++++++++++++++++++++---------------
+ 2 files changed, 25 insertions(+), 17 deletions(-)
+
+diff --git a/Documentation/git-fast-import.txt b/Documentation/git-fast-import.txt
+index 42e10c1..31c187a 100644
+--- a/Documentation/git-fast-import.txt
++++ b/Documentation/git-fast-import.txt
+@@ -488,6 +488,7 @@ in octal.  Git only supports the following modes:
+ * `160000`: A gitlink, SHA-1 of the object refers to a commit in
+   another repository. Git links can only be specified by SHA or through
+   a commit mark. They are used to implement submodules.
++* `-`: A special mode; copy the parent's mode.
+ 
+ In both formats `<path>` is the complete path of the file to be added
+ (if not already existing) or modified (if already existing).
+diff --git a/fast-import.c b/fast-import.c
+index 01be3fa..400ca71 100644
+--- a/fast-import.c
++++ b/fast-import.c
+@@ -1356,7 +1356,7 @@ static int tree_content_set(
+ 	struct tree_entry *root,
+ 	const char *p,
+ 	const unsigned char *sha1,
+-	const uint16_t mode,
++	uint16_t mode,
+ 	struct tree_content *subtree)
+ {
+ 	struct tree_content *t = root->tree;
+@@ -1382,7 +1382,9 @@ static int tree_content_set(
+ 						&& e->versions[1].mode == mode
+ 						&& !hashcmp(e->versions[1].sha1, sha1))
+ 					return 0;
+-				e->versions[1].mode = mode;
++				if (mode == S_IFREG)
++					mode = e->versions[0].mode;
++				e->versions[1].mode = (mode == S_IFREG) ? (S_IFREG | 0644) : mode;
+ 				hashcpy(e->versions[1].sha1, sha1);
+ 				if (e->tree)
+ 					release_tree_content_recursive(e->tree);
+@@ -1417,7 +1419,7 @@ static int tree_content_set(
+ 		tree_content_set(e, slash1 + 1, sha1, mode, subtree);
+ 	} else {
+ 		e->tree = subtree;
+-		e->versions[1].mode = mode;
++		e->versions[1].mode = (mode == S_IFREG) ? (S_IFREG | 0644) : mode;
+ 		hashcpy(e->versions[1].sha1, sha1);
+ 	}
+ 	hashclr(root->versions[1].sha1);
+@@ -1862,20 +1864,25 @@ static void file_change_m(struct branch *b)
+ 	unsigned char sha1[20];
+ 	uint16_t mode, inline_data = 0;
+ 
+-	p = get_mode(p, &mode);
+-	if (!p)
+-		die("Corrupt mode: %s", command_buf.buf);
+-	switch (mode) {
+-	case S_IFREG | 0644:
+-	case S_IFREG | 0755:
+-	case S_IFLNK:
+-	case S_IFGITLINK:
+-	case 0644:
+-	case 0755:
+-		/* ok */
+-		break;
+-	default:
+-		die("Corrupt mode: %s", command_buf.buf);
++	if (!prefixcmp(p, "- ")) {
++		mode = 0;
++		p += 2;
++	} else {
++		p = get_mode(p, &mode);
++		if (!p)
++			die("Corrupt mode: %s", command_buf.buf);
++		switch (mode) {
++		case S_IFREG | 0644:
++		case S_IFREG | 0755:
++		case S_IFLNK:
++		case S_IFGITLINK:
++		case 0644:
++		case 0755:
++			/* ok */
++			break;
++		default:
++			die("Corrupt mode: %s", command_buf.buf);
++		}
+ 	}
+ 
+ 	if (*p == ':') {
+-- 
+1.6.0.1
+

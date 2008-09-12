@@ -1,0 +1,137 @@
+Shlomi Loubaton <shlomister@gmail.com>
+Justin Pryzby <justinpryzby@users.sourceforge.net>
+Loptosko <loptosko@gmail.com>
+John Bailey <rekkanoryo@cpw.pidgin.im>
+Bouklis Panos <panos@echidna-band.com>
+Rai S. Regawa <raireg@yahoo.com>
+Toni Hermoso <toniher@softcatala.org>
+Francisco Rial <fjrial@cesga.es>
+Ari Pollak <ari@debian.org>
+Luke Ross <luke@lukeross.name>
+Evan Schoenberg <evands@pidgin.im>
+Amanpreet Singh Alam <aalam@users.sf.net>
+Josep Puigdemont <josep.puigdemont@gmail.com>
+Jeffrey Connelly <jeff2@soc.pidgin.im>
+Daniel Atallah <datallah@pidgin.im>
+Takashi Aihana <takeshi.aihana@gmail.com>
+Timo Jyrinki <timo.jyrinki@iki.fi>
+Etan Reisner <deryni@pidgin.im>
+Jochen Kemnade <jochenkemnade@web.de>
+Kevin Stange <kstange@pidgin.im>
+Sadrul Chowdhury <sadrul@pidgin.im>
+Stu Tomlinson <nosnilmot@pidgin.im>
+Khaled Hosny <khaledhosny@eglug.org>
+Kelemen Gábor <kelemeng@gnome.hu>
+Ivar Smolin <okul@linux.ee>
+John Bailey <rekkanoryo@pidgin.im>
+Yusuke Odate <yusuke.odate@gmail.com>
+Felipe Contreras <felipe.contreras@gmail.com>
+Nathan Walp <nwalp@pidgin.im>
+Anousak Souphavah <anousak@gmail.com>
+Björn Voigt <bjoern@cs.tu-berlin.de>
+Casey Harkins <charkins@pidgin.im>
+Ka-Hing CHeung <khc@pidgin.im>
+Miloslav Trmac <mitr@volny.cz>
+Serdar Soytetir <tulliana@gmail.com>
+Peter Hjalmarsson <xake@telia.com>
+Friedel Wolff <friedel@translate.org.za>
+Bartoz Oler <bartosz@pidgin.im>
+Mark Doliner <markdoliner@pidgin.im>
+Andrew Gaul <andrew@gaul.org>
+Hallvard Glad <hallvard.glad@gmail.com>
+Éric Boumaour <zongo_fr@users.sourceforge.net>
+Éric Boumaour <eric.boumaour_pidgin@m4x.org>
+Abel Cheung <abelindsay@gmail.com>
+Éric Boumaour <zongo_fr@users.sf.net>
+Evan Schoenberg <evands>
+Saleem Abdulrasool <compnerd@compnerd.org>
+Dmitry Beloglazov <dm1024@gmail.com>
+Konrad Gräfe <konradgraefe@aol.com>
+Tailor Script <tailor@pidgin.im>
+Ethan Blanton <elb@pidgin.im>
+Will Thompson <resiak@pidgin.im>
+Jovan Naumovski <jove.mk@gmail.com>
+Javier Fernández-Sanguino Peña <jfs@computer.org>
+Luke Schierer <lschiere@pidgin.im>
+Ihar Hrachyshka <ihar.hrachyshka@gmail.com>
+Warren Togami <wtogami>
+Peter Hjalmarsson <xake@rymdraket.net>
+Shalom Craimer <scraimer@gmail.com>
+John Bailey <rekkanoryo@rekkanoryo.org>
+Richard Laager <rlaager@pidgin.im>
+Funda Wang <fundawang@gmail.com>
+Gabriel Schulhof <nix@go-nix.ca>
+Laurynas Biveinis <laurynas.biveinis@gmail.com>
+Hylke Bons <hbons@pidgin.im>
+Elliott Sales de Andrade <quantum.analyst@gmail.com>
+Stu Tomlinson <stu@nosnilmot.com>
+Espen Stefansen <espenas@gmail.com>
+Michael Shkutkov <mshkutkov@soc.pidgin.im>
+Christopher O'Brien <siege@pidgin.im>
+Gary Kramlich <grim@pidgin.im>
+Shalom Craimer <am@adiumx.com>
+Арангел Ангов <ufo@linux.net.mk>
+Tim Ringerbach <marv@pidgin.im>
+William Ehlhardt <wehlhard@soc.pidgin.im>
+Maurício Collares <mauricioc@gmail.com>
+Sean Egan <seanegan@pidgin.im>
+Shalom Craimer <scraimer>
+Yngve Spjeld Landro <nynorsk@strilen.net>
+Mihály Mészáros <poizon@sth.sze.hu>
+Eoin Coffey <ecoffey@soc.pidgin.im>
+Eric Polino <aluink@pidgin.im>
+Carlos Silva <typ0@pidgin.im>
+Andreas Stührk <andy-pidgin@hammerhartes.de>
+Ambrose C. Li <acli@ada.dhs.org>
+RKVS Raman <rkvsraman@gmail.com>
+Will Thompson <resiak@soc.pidgin.im>
+Mişu Moldovan <dumol@gnome.ro>
+Martin Srebotnjak <miles@filmsi.net>
+Nick Hebner <hebnern@gmail.com>
+Miloš Popović <gpopac@gmail.com>
+Mar Castro <mariamarcp@gmail.com>
+Claudio Satriano <satriano@na.infn.it>
+Arangel Angov <arangel@linux.net.mk>
+Richard Nelson <wabz@pidgin.im>
+Kevin Wu Won <exclipy@gmail.com>
+Ryan Barrett <ryanbarrett@users.sourceforge.net>
+Andrew Hoffman <Andrew Hoffman>
+Tailor Script <tailor@homing.pidgin.im>
+Tailor Script <tailor@localhost.localdomain>
+Sean Egan <seanegan>
+Sadrul <sadrul>
+Mark Doliner <thekingant>
+Richard Laager <rlaager>
+Stu Tomlinson <nosnilmot>
+Luke Schierer <lschiere>
+Daniel Atallah <datallah>
+Thomas Butter <tbutter>
+Etan Reisner <deryni>
+Etan Reisner <deryni9>
+Nathan Walp <faceprint>
+Tim Ringerbach <marv_sf>
+Herman Bloggs <hermanator>
+Jim Duchek <jimduchek>
+Rob Flynn <robflynn>
+Christian Hammond <chipx86>
+Jim Seymour <jseymour>
+Eric Warmenhoven <warmenhoven>
+Syd Logan <slogan>
+Gary Kramlich <amc_grim>
+Ethan Blanton <eblanton>
+MaYuan <mayuan2006>
+Ka-Hing CHeung <bsponline@users.sourceforge.net>
+Ka-Hing CHeung <khc@hxbc.us>
+Vivien Bernet-Rollande <scrouaf@soc.pidgin.im>
+Sulabh Mahajan <sulabh@soc.pidgin.im>
+Mike Ruprecht <maiku@soc.pidgin.im>
+Prekshu Ajmera <prekshu@soc.pidgin.im>
+Christopher O'Brien <taliesein>
+Mark Huetsch <markhuetsch>
+Geoff Foster <g-off_>
+Bartosz Oler <boler>
+Aaron Sheldon <aaronsheldon>
+Todd Kulesza <fflewddur>
+Piotr Zielinski <zielaj>
+Elliott Sales de Andrade <qulogic@pidgin.im>
+Justin Rodriguez <ffdragon@soc.pidgin.im>

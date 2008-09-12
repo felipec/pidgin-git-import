@@ -1,0 +1,22 @@
+Check test.sh for usage.
+
+If you plan to use checkout-clone or checkout-update you'll need to patch git with patches/write-raw.
+
+If you plan to use fast-import you would need to patch git with patches/fast-import.
+
+== troubleshooting ==
+
+If you get this error:
+stack level too deep (SystemStackError)
+
+run:
+ulimit -s 102400
+
+== todo ==
+
+ * fast-import still doesn't produce an exact clone.
+ * fast-import doesn't generate tags or branches.
+ * checkout-clone takes too much resources generating a topologically sorted
+   list of revisions to import.
+ * improve the authors' map.
+ * remove glib's dependency.

@@ -1,0 +1,71 @@
+From 0531667f95b375a8dfec5272a0207214fb5a8e41 Mon Sep 17 00:00:00 2001
+From: Felipe Contreras <felipe.contreras@gmail.com>
+Date: Tue, 2 Sep 2008 00:03:31 +0300
+Subject: [PATCH] fast-import: add ignore non-existent files option.
+
+This is useful for SCMs that don't have proper changesets in each
+revision (monotone).
+
+Signed-off-by: Felipe Contreras <felipe.contreras@gmail.com>
+---
+ Documentation/git-fast-import.txt |    4 ++++
+ fast-import.c                     |   14 ++++++++++++--
+ 2 files changed, 16 insertions(+), 2 deletions(-)
+
+diff --git a/Documentation/git-fast-import.txt b/Documentation/git-fast-import.txt
+index c2f483a..42e10c1 100644
+--- a/Documentation/git-fast-import.txt
++++ b/Documentation/git-fast-import.txt
+@@ -95,6 +95,10 @@ OPTIONS
+ 	memory used by fast-import during this run.  Showing this output
+ 	is currently the default, but can be disabled with \--quiet.
+ 
++--tolerant::
++	Avoid fatal exceptions when actions are executed in non-existent
++	files.  For example removing a file that is not there.
++
+ 
+ Performance
+ -----------
+diff --git a/fast-import.c b/fast-import.c
+index 7089e6f..01be3fa 100644
+--- a/fast-import.c
++++ b/fast-import.c
+@@ -345,6 +345,7 @@ static struct recent_command *rc_free;
+ static unsigned int cmd_save = 100;
+ static uintmax_t next_mark;
+ static struct strbuf new_data = STRBUF_INIT;
++static int tolerant;
+ 
+ static void write_branch_report(FILE *rpt, struct branch *b)
+ {
+@@ -1993,8 +1994,15 @@ static void file_change_cr(struct branch *b, int rename)
+ 		tree_content_remove(&b->branch_tree, s, &leaf);
+ 	else
+ 		tree_content_get(&b->branch_tree, s, &leaf);
+-	if (!leaf.versions[1].mode)
+-		die("Path %s not in branch", s);
++	if (!leaf.versions[1].mode) {
++		if (tolerant) {
++			if (leaf.tree)
++				release_tree_content_recursive(leaf.tree);
++			warning("Path %s not in branch", s);
++			return;
++		} else
++			die("Path %s not in branch", s);
++	}
+ 	tree_content_set(&b->branch_tree, d,
+ 		leaf.versions[1].sha1,
+ 		leaf.versions[1].mode,
+@@ -2447,6 +2455,8 @@ int main(int argc, const char **argv)
+ 			show_stats = 0;
+ 		else if (!strcmp(a, "--stats"))
+ 			show_stats = 1;
++		else if (!strcmp(a, "--tolerant"))
++			tolerant = 1;
+ 		else
+ 			die("unknown option %s", a);
+ 	}
+-- 
+1.6.0.1
+
