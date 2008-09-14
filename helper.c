@@ -348,6 +348,38 @@ rb_db_get_heads (VALUE self)
     }
 }
 
+static void
+add_tag_cb (gpointer key,
+            gpointer value,
+            gpointer data)
+{
+    Revision *revision;
+    revision = value;
+    rb_hash_aset (data, rb_str_new2 (key), rb_str_new (revision->id, 40));
+}
+
+static VALUE
+rb_db_get_tags (VALUE self,
+                VALUE roots)
+{
+    struct mtn_data *data;
+
+    Data_Get_Struct (self, struct mtn_data, data);
+
+    if (!data->initialized)
+    {
+	initialize_revisions (data);
+	data->initialized = true;
+    }
+
+    {
+	VALUE hash;
+	hash = rb_hash_new ();
+        g_hash_table_foreach (tags, add_tag_cb, hash);
+	return hash;
+    }
+}
+
 void
 Init_helper ()
 {
@@ -359,4 +391,5 @@ Init_helper ()
     rb_define_method (rb_cMtn_Db, "finalize", rb_db_finalize, 0);
     rb_define_method (rb_cMtn_Db, "get_topology", rb_db_get_topology, 1);
     rb_define_method (rb_cMtn_Db, "get_heads", rb_db_get_heads, 0);
+    rb_define_method (rb_cMtn_Db, "get_tags", rb_db_get_tags, 0);
 }
