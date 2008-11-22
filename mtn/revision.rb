@@ -29,7 +29,7 @@ module Mtn
     end
 
     def get_details
-      rows = $db.execute("select id,name,value,keypair from revision_certs where id == '#{@id}'")
+      rows = $db.execute("select id,name,value,keypair from revision_certs where id == ?", SQLite3::Blob.new(@id.to_a.pack("H*")))
       rows.each do |e|
         id, name, value, keypair = e
         @committer = keypair if not @changelog and name == "changelog"
@@ -40,10 +40,10 @@ module Mtn
     def parents()
       if not @parents
         @parents = []
-        rows = $db.execute("select parent,child from revision_ancestry where child == '#{@id}'")
+        rows = $db.execute("select parent,child from revision_ancestry where child == ?", SQLite3::Blob.new(@id.to_a.pack("H*")))
         rows.each do |e|
           parent, child = e
-
+          parent = parent.unpack("H*").to_s
           @parents << $revisions[parent] if $revisions[parent]
         end
       end
@@ -53,9 +53,10 @@ module Mtn
     def childs()
       if not @childs
         @childs = []
-        rows = $db.execute("select parent,child from revision_ancestry where parent == '#{@id}'")
+        rows = $db.execute("select parent,child from revision_ancestry where parent == ?", SQLite3::Blob.new(@id.to_a.pack("H*")))
         rows.each do |e|
           parent, child = e
+          child = child.unpack("H*").to_s
           @childs << $revisions[child] if $revisions[child]
         end
       end

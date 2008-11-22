@@ -25,7 +25,7 @@ module Mtn
                            revision_ancestry on revisions.id = revision_ancestry.parent
                            where revision_ancestry.child is null")
         rows.each do |e|
-          @heads << $revisions[e.first]
+          @heads << $revisions[e.first.unpack("H*").to_s]
         end
       end
       return @heads
@@ -42,7 +42,7 @@ module Mtn
       list = RevisionList.new
       rows = $db.execute("select id from revisions")
       rows.each do |e|
-        id = e[0]
+        id = e.first.unpack("H*").to_s
         commit = Revision.new(id)
         $revisions[id] = commit
         list.add(commit)

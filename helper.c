@@ -57,13 +57,53 @@ revision_free (Revision *revision)
     g_free (revision);
 }
 
+static inline char *
+id2str (sqlite3_stmt *sql_statement,
+        int col)
+{
+    const void *val;
+    char *result;
+    int bytes;
+
+    val = sqlite3_column_blob (sql_statement, col);
+    bytes = sqlite3_column_bytes (sql_statement, col);
+
+    result = malloc (bytes * 2 + 1);
+
+    {
+        unsigned int i;
+        for (i = 0; i < bytes; i++)
+        {
+            sprintf (result + i * 2, "%02hhx\n", ((char *) val)[i]);
+        }
+        result[i * 2] = '\0';
+    }
+
+    return result;
+}
+
+static inline VALUE
+id2rstr (sqlite3_stmt *sql_statement,
+         int col)
+{
+    char *val;
+    VALUE ret;
+
+    val = id2str (sql_statement, col);
+    ret = rb_str_new2 (val);
+    free (val);
+
+    return ret;
+}
+
 static void
 create_revisions_cb (sqlite3_stmt *sql_statement,
 		     gpointer cb_data)
 {
-    const char *val;
-    val = sqlite3_column_text (sql_statement, 0);
+    char *val;
+    val = id2str (sql_statement, 0);
     revision_new (val);
+    free (val);
 }
 
 static inline Revision *
@@ -76,13 +116,13 @@ static void
 import_ancestry_cb (sqlite3_stmt *sql_statement,
 		    gpointer cb_data)
 {
-    const char *parent_id;
-    const char *child_id;
+    char *parent_id;
+    char *child_id;
     Revision *parent;
     Revision *child;
 
-    parent_id = sqlite3_column_text (sql_statement, 0);
-    child_id = sqlite3_column_text (sql_statement, 1);
+    parent_id = id2str (sql_statement, 0);
+    child_id = id2str (sql_statement, 1);
 
     parent = get_revision (parent_id);
     child = get_revision (child_id);
@@ -90,17 +130,21 @@ import_ancestry_cb (sqlite3_stmt *sql_statement,
     if (!parent)
     {
 	/* g_warning ("no parent: %s: %s", child_id, parent_id); */
-	return;
+        goto leave;
     }
 
     if (!child)
     {
 	/* g_warning ("no child: %s: %s", parent_id, child_id); */
-	return;
+        goto leave;
     }
 
     parent->childs = g_slist_append (parent->childs, child);
     child->parents = g_slist_append (child->parents, parent);
+
+leave:
+    free (parent_id);
+    free (child_id);
 }
 
 static void
@@ -108,17 +152,18 @@ import_certs_cb (sqlite3_stmt *sql_statement,
 		 gpointer data)
 {
     Revision *revision;
-    const char *id;
+    char *id;
     const char *name;
     const char *value;
     const char *keypair;
 
-    id = sqlite3_column_text (sql_statement, 0);
+    id = id2str (sql_statement, 0);
     name = sqlite3_column_text (sql_statement, 1);
     value = sqlite3_column_text (sql_statement, 2);
     keypair = sqlite3_column_text (sql_statement, 3);
 
     revision = get_revision (id);
+    free (id);
 
     /* g_debug ("%s=%s", name, value); */
 
@@ -288,7 +333,7 @@ traverse (Revision *revision,
 	}
     }
 
-    rb_ary_push (ary, rb_str_new (revision->id, 40));
+    rb_ary_push (ary, rb_str_new2 (revision->id));
 }
 
 static VALUE
@@ -326,9 +371,7 @@ static void
 get_heads_cb (sqlite3_stmt *sql_statement,
 	      gpointer cb_data)
 {
-    const char *val;
-    val = sqlite3_column_text (sql_statement, 0);
-    rb_ary_push (cb_data, rb_str_new (val, 40));
+    rb_ary_push (cb_data, id2rstr (sql_statement, 0));
 }
 
 static VALUE
@@ -355,7 +398,7 @@ add_tag_cb (gpointer key,
 {
     Revision *revision;
     revision = value;
-    rb_hash_aset (data, rb_str_new2 (key), rb_str_new (revision->id, 40));
+    rb_hash_aset (data, rb_str_new2 (key), rb_str_new2 (revision->id));
 }
 
 static VALUE
