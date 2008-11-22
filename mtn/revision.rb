@@ -17,7 +17,6 @@ module Mtn
       @id = id
       @branches = []
       @parents = nil
-      @childs = nil
     end
 
     def to_s
@@ -48,19 +47,6 @@ module Mtn
         end
       end
       return @parents
-    end
-
-    def childs()
-      if not @childs
-        @childs = []
-        rows = $db.execute("select parent,child from revision_ancestry where parent == ?", SQLite3::Blob.new(@id.to_a.pack("H*")))
-        rows.each do |e|
-          parent, child = e
-          child = child.unpack("H*").to_s
-          @childs << $revisions[child] if $revisions[child]
-        end
-      end
-      return @childs
     end
 
     def []=(name, value)

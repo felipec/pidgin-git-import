@@ -1,5 +1,6 @@
 require 'sqlite3'
 require 'time'
+require 'mtn/revision'
 
 module Mtn
 
