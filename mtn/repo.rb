@@ -1,6 +1,6 @@
-require 'sqlite3'
 require 'time'
 require 'mtn/revision'
+require 'mtn/db'
 
 module Mtn
 
@@ -34,10 +34,6 @@ module Mtn
   end
 
   class Repo
-
-    def initialize()
-      $db = SQLite3::Database.new(ENV['MTN_DATABASE'])
-    end
 
     def get_all
       list = RevisionList.new

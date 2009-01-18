@@ -1,4 +1,5 @@
 require 'date'
+require 'mtn/db'
 
 module Mtn
 
