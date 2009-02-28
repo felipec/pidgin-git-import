@@ -23,6 +23,11 @@ when "update"
   $stderr.puts "Importing mtn revisions"
   git.export
   $stderr.puts "Finished"
+when "export-tags"
+  git = Git::Importer.new
+  $stderr.puts "Exporting tags"
+  git.export_tags
+  $stderr.puts "Finished"
 when "clone-fast"
   r = Mtn::Repo.new
   $stderr.puts "Getting mtn revisions"
