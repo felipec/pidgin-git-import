@@ -90,6 +90,11 @@ module Git
       get_revisions
     end
 
+    def init
+      system "git init"
+      system "git config core.bare false"
+    end
+
     def export
       @count = 0
 

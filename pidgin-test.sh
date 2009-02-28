@@ -1,13 +1,12 @@
 export MTN_DATABASE=$PWD/../mtn/pidgin.mtn
 export AUTHOR_MAP=$PWD/pidgin/authors_map.txt
 export RUBYLIB=$PWD
-export GIT=git
 
 fast_import ()
 {
         export GIT_DIR=$PWD/pidgin/fast.git
-        $GIT init
-        ./clone-fast.rb | $GIT fast-import --date-format=rfc2822 --tolerant
+
+        ./clone-fast.rb
 }
 
 checkout_clone ()

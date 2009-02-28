@@ -78,109 +78,10 @@ end
 $mtn = MtnIO.new
 $mark = 1
 
-def new_blob(id, mark)
-  # $stderr.puts "new blob: #{id}"
-  data = $mtn.get_file(id)
-  puts "blob\nmark :#{mark}\ndata #{data.length}\n#{data}"
-end
-
-def test(r)
-  r.get_details
-  file_actions = {}
-
-  tmp = $mtn.get_revision(r.id)
-  tmp.split("\n\n").each do |l|
-    case l
-    when /^patch /
-      match = l.match('^patch "([^"]+)"\n from .([a-f0-9]+).\n   to .([a-f0-9]+).')
-      name = match[1]
-      fa = file_actions[name] ||= FileAction.new(:modify, name)
-      fa.mark = $mark += 1
-      new_blob(match[3], fa.mark)
-    when /^add_file /
-      match = l.match('^add_file "([^"]+)"\n content .([a-f0-9]+).')
-      name = match[1]
-      fa = file_actions[name] ||= FileAction.new(:add, name)
-      fa.mark = $mark += 1
-      new_blob(match[2], fa.mark)
-    when /^delete /
-      match = l.match('^delete "([^"]+)"')
-      name = match[1]
-      file_actions[name] = FileAction.new(:delete, name)
-    when /^rename /
-      match = l.match('^rename "([^"]+)"\n    to "([^"]+)"')
-      name = match[1]
-      new_name = match[2]
-      file_actions[name] = FileAction.new(:rename, name, :new_name => new_name)
-    when /^  set /
-      match = l.match('^  set "([^"]+)"\n attr "mtn:execute"\nvalue "([^"]+)"')
-      next if not match
-      name = match[1]
-      fa = file_actions[name] ||= FileAction.new(:chattr, name)
-      fa.exec = (match[2] == "true") ? true : false
-    when /^clear /
-      match = l.match('^clear "([^"]+)"\n attr "mtn:execute"')
-      next if not match
-      name = match[1]
-      fa = file_actions[name] ||= FileAction.new(:chattr, name)
-      fa.exec = false
-    when /^add_dir /
-      match = l.match('^add_dir "([^"]*)"')
-      name = match[1]
-    end
-  end
-
-  files_text = ""
-
-  file_actions.each do |k,fa|
-    case fa.action
-    when :modify, :add, :chattr
-      if fa.exec == nil
-        perms = "-"
-      else
-        perms = fa.exec ? "100755" : "100644"
-      end
-      ref = fa.mark ? ":#{fa.mark}" : "-"
-      files_text << "M #{perms} #{ref} #{fa.name}\n"
-    when :delete
-      files_text << "D #{fa.name}\n"
-    when :rename
-      files_text << "R #{fa.name} #{fa.new_name}\n"
-    end
-  end
-
-  r.mark = $mark += 1
-  puts "commit refs/mtn/#{r.id}"
-  puts "mark #{r.mark}"
-  puts "author #{Mtn.get_full_id(r.author)} #{r.date.rfc2822}"
-  puts "committer #{Mtn.get_full_id(r.committer)} #{r.date.rfc2822}"
-  puts "data #{r.body.length}"
-  puts r.body
-
-  if not r.parents.empty?
-    parents = r.parents.clone
-    p = parents.shift
-    puts "from #{p.mark}"
-
-    parents.each do |p|
-      puts "merge #{p.mark}"
-    end
-  end
-
-  print files_text
-end
-
 module Git
 
-  class ExportCommit
-
-    def git_export
-      test @original
-    end
-
-  end
-
-  class Importer
+  class FastImporter < Importer
+    attr_writer :pipe
 
     def initialize
       @mtn = Mtn::Db.new(ENV['MTN_DATABASE'])
@@ -200,17 +101,113 @@ module Git
     def export
       @count = 0
 
+      @pipe = IO.popen("git fast-import --date-format=rfc2822 --tolerant", "w+")
+
       list = export_list()
 
       list.each do |e|
         @count += 1
         # $stderr.puts "== mtn/#{e}: #{@count} =="
-        e.meta.git_export
+        fast_revision_export(e)
         if (@count % 500 == 0)
           $stderr.puts "== %0.2f%% (%d/%d) generating %s ==\n" % [ (100.0 * @count) / list.length, @count, list.length, e ]
-          puts "checkpoint"
+          @pipe.puts "checkpoint"
         end
       end
+
+      @pipe.close
+    end
+
+    def new_blob(id, mark)
+      # $stderr.puts "new blob: #{id}"
+      data = $mtn.get_file(id)
+      @pipe.puts "blob\nmark :#{mark}\ndata #{data.length}\n#{data}"
+    end
+
+    def fast_revision_export(r)
+      r.get_details
+      file_actions = {}
+
+      tmp = $mtn.get_revision(r.id)
+      tmp.split("\n\n").each do |l|
+        case l
+        when /^patch /
+          match = l.match('^patch "([^"]+)"\n from .([a-f0-9]+).\n   to .([a-f0-9]+).')
+          name = match[1]
+          fa = file_actions[name] ||= FileAction.new(:modify, name)
+          fa.mark = $mark += 1
+          new_blob(match[3], fa.mark)
+        when /^add_file /
+          match = l.match('^add_file "([^"]+)"\n content .([a-f0-9]+).')
+          name = match[1]
+          fa = file_actions[name] ||= FileAction.new(:add, name)
+          fa.mark = $mark += 1
+          new_blob(match[2], fa.mark)
+        when /^delete /
+          match = l.match('^delete "([^"]+)"')
+          name = match[1]
+          file_actions[name] = FileAction.new(:delete, name)
+        when /^rename /
+          match = l.match('^rename "([^"]+)"\n    to "([^"]+)"')
+          name = match[1]
+          new_name = match[2]
+          file_actions[name] = FileAction.new(:rename, name, :new_name => new_name)
+        when /^  set /
+          match = l.match('^  set "([^"]+)"\n attr "mtn:execute"\nvalue "([^"]+)"')
+          next if not match
+          name = match[1]
+          fa = file_actions[name] ||= FileAction.new(:chattr, name)
+          fa.exec = (match[2] == "true") ? true : false
+        when /^clear /
+          match = l.match('^clear "([^"]+)"\n attr "mtn:execute"')
+          next if not match
+          name = match[1]
+          fa = file_actions[name] ||= FileAction.new(:chattr, name)
+          fa.exec = false
+        when /^add_dir /
+          match = l.match('^add_dir "([^"]*)"')
+          name = match[1]
+        end
+      end
+
+      files_text = ""
+
+      file_actions.each do |k,fa|
+        case fa.action
+        when :modify, :add, :chattr
+          if fa.exec == nil
+            perms = "-"
+          else
+            perms = fa.exec ? "100755" : "100644"
+          end
+          ref = fa.mark ? ":#{fa.mark}" : "-"
+          files_text << "M #{perms} #{ref} #{fa.name}\n"
+        when :delete
+          files_text << "D #{fa.name}\n"
+        when :rename
+          files_text << "R #{fa.name} #{fa.new_name}\n"
+        end
+      end
+
+      r.mark = $mark += 1
+      @pipe.puts "commit refs/mtn/#{r.id}"
+      @pipe.puts "mark #{r.mark}"
+      @pipe.puts "author #{Mtn.get_full_id(r.author)} #{r.date.rfc2822}"
+      @pipe.puts "committer #{Mtn.get_full_id(r.committer)} #{r.date.rfc2822}"
+      @pipe.puts "data #{r.body.length}"
+      @pipe.puts r.body
+
+      if not r.parents.empty?
+        parents = r.parents.clone
+        p = parents.shift
+        @pipe.puts "from #{p.mark}"
+
+        parents.each do |p|
+          @pipe.puts "merge #{p.mark}"
+        end
+      end
+
+      @pipe.puts files_text
     end
 
   end
