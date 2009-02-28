@@ -13,9 +13,9 @@ module Mtn
 
     File.open(ENV['AUTHOR_MAP']) do |f|
       f.each do |line|
-        r = line.scan /(.*) <(.*)>/
+        r = line.scan /(.*) = (.*) <(.*)>/
           next if r.empty?
-        real_name, id = r[0]
+        id, real_name, email = r[0]
         @map[id] = real_name
       end
     end
