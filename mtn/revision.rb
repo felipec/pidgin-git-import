@@ -44,7 +44,9 @@ module Mtn
         rows.each do |e|
           parent, child = e
           parent = parent.unpack("H*").to_s
-          @parents << $revisions[parent] if $revisions[parent]
+          next if parent == ""
+          raise StandardError, "unable to find parent: '#{parent}' of '@id'" if not $revisions[parent]
+          @parents << $revisions[parent]
         end
       end
       return @parents
