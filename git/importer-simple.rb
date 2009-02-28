@@ -17,7 +17,9 @@ module Git
       wd = "/tmp/mtn2git/#{@id}"
       system "rm -rf #{wd}"
       fork do
-        exec "mtn checkout --db #{db} --revision #{@id} --branch #{@original.branches.first} --reallyquiet #{wd}"
+        cmd = "mtn checkout --db #{db} --revision #{@id} --branch #{@original.branches.first} --reallyquiet #{wd}"
+        # puts "#{cmd}"
+        exec "#{cmd} 2> /dev/null"
       end
       Process.wait
       raise StandardError, "mtn error" if $?.to_i != 0
