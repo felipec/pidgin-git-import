@@ -24,6 +24,7 @@ module Git
     def initialize(commit)
       @id = commit.id
       @original = commit
+      ENV["TZ"] = "UTC" # so Time.to_s uses UTC
     end
 
     def git_id()
