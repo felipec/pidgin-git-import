@@ -23,7 +23,7 @@ module Git
       raw_commit = commit(tree)
       puts raw_commit
       File.open("/tmp/commit.txt", "w") { |f| f.write raw_commit }
-      @git_id = `git write-raw < /tmp/commit.txt`.chomp
+      @git_id = `git hash-object -t commit -w --stdin < /tmp/commit.txt`.chomp
       system "git update-ref refs/mtn/#{@id} #{@git_id}"
       @original.branches.each do |e|
         system "git update-ref refs/heads/#{e} #{@git_id}"
