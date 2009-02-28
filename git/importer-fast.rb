@@ -190,7 +190,8 @@ module Git
       end
 
       r.mark = $mark += 1
-      @pipe.puts "commit refs/mtn/#{r.id}"
+      branch = r.branches.first || "unknwon"
+      @pipe.puts "commit refs/heads/#{branch}"
       @pipe.puts "mark #{r.mark}"
       @pipe.puts "author #{Mtn.get_full_id(r.author)} #{r.date.rfc2822}"
       @pipe.puts "committer #{Mtn.get_full_id(r.committer)} #{r.date.rfc2822}"
