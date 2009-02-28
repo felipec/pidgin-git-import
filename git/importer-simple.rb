@@ -46,7 +46,7 @@ module Git
 
     def init
       git_dir = ENV['GIT_DIR']
-      system "git init"
+      system "git init --quiet"
       system "git config core.bare false"
       File.open("#{git_dir}/info/exclude", "w") do |f|
         f.write "_MTN\n"

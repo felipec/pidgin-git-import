@@ -92,7 +92,7 @@ module Git
     end
 
     def init
-      system "git init"
+      system "git init --quiet"
       system "git config core.bare false"
     end
 
