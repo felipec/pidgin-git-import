@@ -53,7 +53,7 @@ module Git
       end
     end
 
-    def export_list
+    def export_list(head = nil)
       def travel(c)
         return [] if c.traveled
         $stderr.puts "%s -> %s" % [c.id, c.meta.git_id]
@@ -68,7 +68,7 @@ module Git
       end
 
       list = []
-      heads = @mtn.get_heads()
+      heads = head ? [ head ] : @mtn.get_heads()
       heads.each do |e|
         head = Mtn.get_revision(e)
         list += travel(head)
@@ -77,12 +77,19 @@ module Git
       return list
     end
 
-    def export
+    def export(options = {})
       @count = 0
 
       Dir.push @wd
 
-      list = export_list()
+      if options[:revisions]
+        list = []
+        options[:revisions].each do |r|
+          list << Mtn.get_revision(r)
+        end
+      else
+        list = export_list(options[:heads])
+      end
 
       list.each do |e|
         @count += 1

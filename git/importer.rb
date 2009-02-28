@@ -96,10 +96,17 @@ module Git
       system "git config core.bare false"
     end
 
-    def export
+    def export(options = {})
       @count = 0
 
-      list = export_list()
+      if options[:revisions]
+        list = []
+        options[:revisions].each do |r|
+          list << Mtn.get_revision(r)
+        end
+      else
+        list = export_list(options[:heads])
+      end
 
       list.each do |e|
         @count += 1

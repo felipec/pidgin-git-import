@@ -87,8 +87,8 @@ module Git
       @mtn = Mtn::Db.new(ENV['MTN_DATABASE'])
     end
 
-    def export_list
-      heads = @mtn.get_heads
+    def export_list(head = nil)
+      heads = head ? [ head ] : @mtn.get_heads()
       t = @mtn.get_topology(heads)
       list = []
       t.each do |id|
@@ -98,12 +98,19 @@ module Git
       return list
     end
 
-    def export
+    def export(options = {})
       @count = 0
 
       @pipe = IO.popen("git fast-import --date-format=rfc2822 --tolerant", "w+")
 
-      list = export_list()
+      if options[:revisions]
+        list = []
+        revisions.each do |r|
+          list << Mtn.get_revision(r)
+        end
+      else
+        list = export_list(options[:heads])
+      end
 
       list.each do |e|
         @count += 1
