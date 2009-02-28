@@ -8,7 +8,7 @@ r = Mtn::Repo.new
 $stderr.puts "Getting mtn revisions"
 $list = r.get_all
 git = Git::Importer.new
-$stderr.puts "Importing mtn revisions"
 git.init
+$stderr.puts "Importing mtn revisions"
 git.export
 $stderr.puts "Finished"

@@ -5,6 +5,7 @@ class FileAction
   attr_reader :action
   attr_accessor :name, :new_name
   attr_accessor :exec, :mark
+
   def initialize(action, fn, args = {})
     @action = action
     @name = fn
