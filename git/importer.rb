@@ -96,6 +96,44 @@ module Git
       system "git config core.bare false"
     end
 
+    def export_list(head = nil)
+      def travel(c)
+        return [] if c.traveled
+        $stderr.puts "%s -> %s" % [c.id, c.meta.git_id]
+        return [] if c.meta.git_id
+        list = []
+        c.traveled = true
+        c.parents.each do |e|
+          list += travel(e)
+        end
+
+        return list.push(c)
+      end
+
+      list = []
+      heads = head ? [ head ] : @mtn.get_heads()
+      heads.each do |e|
+        head = Mtn.get_revision(e)
+        list += travel(head)
+      end
+
+      return list
+    end
+
+    # fast one
+=begin
+    def export_list(head = nil)
+      heads = head ? [ head ] : @mtn.get_heads()
+      t = @mtn.get_topology(heads)
+      list = []
+      t.each do |id|
+        commit = Mtn.get_revision(id)
+        list.push(commit)
+      end
+      return list
+    end
+=end
+
     def export(options = {})
       @count = 0
 

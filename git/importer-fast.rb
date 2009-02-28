@@ -88,17 +88,6 @@ module Git
       @mtn = Mtn::Db.new(ENV['MTN_DATABASE'])
     end
 
-    def export_list(head = nil)
-      heads = head ? [ head ] : @mtn.get_heads()
-      t = @mtn.get_topology(heads)
-      list = []
-      t.each do |id|
-        commit = Mtn.get_revision(id)
-        list.push(commit)
-      end
-      return list
-    end
-
     def export(options = {})
       @count = 0
 
