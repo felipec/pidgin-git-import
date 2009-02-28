@@ -57,7 +57,7 @@ module Mtn
       when "changelog"
         @body = value[-1].chr == "\n" ? value : value + "\n" if not @body
       when "date"
-        @date = Time.xmlschema(value) if not @date
+        @date = Time.xmlschema(value + "Z") if not @date
       when "author"
         @author = value if not @author
       end
