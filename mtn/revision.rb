@@ -55,7 +55,7 @@ module Mtn
       when "branch"
         @branches << value
       when "changelog"
-        @body = value if not @body
+        @body = value[-1].chr == "\n" ? value : value + "\n" if not @body
       when "date"
         @date = Time.xmlschema(value) if not @date
       when "author"
