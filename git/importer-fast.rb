@@ -172,7 +172,7 @@ module Git
 
       files_text = ""
 
-      file_actions.each do |k,fa|
+      file_actions.each_value do |fa|
         case fa.action
         when :modify, :add, :chattr
           if fa.exec == nil
