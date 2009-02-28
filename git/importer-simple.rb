@@ -13,12 +13,17 @@ module Git
       return if git_id
       get_details
 
+      db = ENV['MTN_DATABASE']
+      wd = "/tmp/mtn2git/#{@id}"
+      system "rm -rf #{wd}"
       fork do
-        exec "mtn update --revision #{@id} --branch #{@original.branches.first} --reallyquiet"
+        exec "mtn checkout --db #{db} --revision #{@id} --branch #{@original.branches.first} --reallyquiet #{wd}"
       end
       Process.wait
       raise StandardError, "mtn error" if $?.to_i != 0
+      Dir.push wd
       system "git ls-files --modified --others --exclude-standard -z | git update-index --add --remove -z --stdin"
+      Dir.pop
       tree = `git write-tree`.chomp
       raw_commit = commit(tree)
       puts raw_commit
@@ -28,6 +33,7 @@ module Git
       @original.branches.each do |e|
         system "git update-ref refs/heads/#{e} #{@git_id}"
       end
+      system "rm -rf #{wd}"
     end
 
   end
@@ -35,7 +41,6 @@ module Git
   class Importer
 
     def initialize
-      @wd = ENV['MTN_WORKINGDIR']
       get_revisions
     end
 
@@ -56,8 +61,6 @@ module Git
     def export(options = {})
       @count = 0
 
-      Dir.push @wd
-
       if options[:revisions]
         list = []
         options[:revisions].each do |r|
@@ -73,8 +76,6 @@ module Git
         #$stderr.puts "== %0.2f%% (%d/%d) generating %s ==\n" % [ (100.0 * @count) / list.length, @count, list.length, e ]
         e.meta.git_export
       end
-
-      Dir.pop
     end
 
   end
