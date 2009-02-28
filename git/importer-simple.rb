@@ -34,11 +34,8 @@ module Git
 
   class Importer
 
-    def initialize(dir)
-      @dir = dir
-      $git_dir = dir
+    def initialize
       @wd = ENV['MTN_WORKINGDIR']
-      ENV['GIT_DIR'] = dir
       get_revisions
     end
 
@@ -48,9 +45,10 @@ module Git
     end
 
     def init
+      git_dir = ENV['GIT_DIR']
       system "git init"
       system "git config core.bare false"
-      File.open("#{@dir}/info/exclude", "w") do |f|
+      File.open("#{git_dir}/info/exclude", "w") do |f|
         f.write "_MTN\n"
       end
     end

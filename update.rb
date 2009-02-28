@@ -7,7 +7,7 @@ require 'git/importer-simple'
 r = Mtn::Repo.new
 $stderr.puts "Getting mtn revisions"
 $list = r.get_all
-git = Git::Importer.new(ARGV[0])
+git = Git::Importer.new
 $stderr.puts "Importing mtn revisions"
 git.export
 $stderr.puts "Finished"

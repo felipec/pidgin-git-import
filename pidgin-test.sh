@@ -12,19 +12,21 @@ fast_import ()
 
 checkout_clone ()
 {
+        export GIT_DIR=$PWD/../new.git
         export MTN_WORKINGDIR=$PWD/pidgin/wd
         export MTN_BRANCH=im.pidgin.pidgin
 
         mtn checkout -d $MTN_DATABASE -b $MTN_BRANCH $MTN_WORKINGDIR
-        ./clone.rb $PWD/../new.git
+        ./clone.rb
 }
 
 checkout_update ()
 {
+        export GIT_DIR=$PWD/../new.git
         export MTN_WORKINGDIR=$PWD/pidgin/wd
 
         mtn pull -d $MTN_DATABASE
-        ./update.rb $PWD/../new.git
+        ./update.rb
 }
 
 checkout_update
