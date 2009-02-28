@@ -6,14 +6,14 @@ fast_import ()
 {
         export GIT_DIR=$PWD/pidgin/fast.git
 
-        ./clone-fast.rb
+        ./app.rb "clone-fast"
 }
 
 checkout_clone ()
 {
         export GIT_DIR=$PWD/../new.git
 
-        ./clone.rb
+        ./app.rb "clone"
 }
 
 checkout_update ()
@@ -21,7 +21,7 @@ checkout_update ()
         export GIT_DIR=$PWD/../new.git
 
         mtn pull -d $MTN_DATABASE
-        ./update.rb
+        ./app.rb "update"
 }
 
 checkout_update
