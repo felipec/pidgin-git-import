@@ -1,7 +1,20 @@
 module Mtn
 
   def Mtn.get_full_id(id)
-    return "#{get_real_name(id)} <#{id}>"
+    name = get_real_name(id)
+    if name
+      return "#{name} <#{id}>"
+    else
+      if id
+        if id =~ /<.*>/
+          return id
+        else
+          return "<#{id}>"
+        end
+      else
+        return "<unknown>"
+      end
+    end
   end
 
   private
@@ -23,7 +36,7 @@ module Mtn
 
   def Mtn.get_real_name(id)
     get_author_map if @map == nil
-    return @map[id] ? @map[id] : "Unknown"
+    return @map[id]
   end
 
 end
