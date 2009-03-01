@@ -11,14 +11,14 @@ fast_import ()
 
 checkout_clone ()
 {
-        export GIT_DIR=$PWD/../new.git
+        export GIT_DIR=$PWD/pidgin/simple.git
 
         ./app.rb "clone"
 }
 
 checkout_update ()
 {
-        export GIT_DIR=$PWD/../new.git
+        export GIT_DIR=$PWD/pidgin/simple.git
 
         mtn pull -d $MTN_DATABASE
         ./app.rb "update"
