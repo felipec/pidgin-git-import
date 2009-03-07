@@ -17,7 +17,7 @@ module Git
       wd = "/tmp/mtn2git/#{@id}"
       system "rm -rf #{wd}"
       fork do
-        cmd = "mtn checkout --db #{db} --revision #{@id} --branch #{@original.branches.first} --reallyquiet #{wd}"
+        cmd = "mtn checkout --db #{db} --revision #{@id} --reallyquiet #{wd}"
         # puts "#{cmd}"
         exec "#{cmd} 2> /dev/null"
       end
