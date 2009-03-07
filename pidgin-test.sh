@@ -5,13 +5,6 @@ export RUBYLIB=$PWD
 fast_import ()
 {
         export GIT_DIR=$PWD/pidgin/fast.git
-
-        ./app.rb "clone-fast"
-}
-
-fast_import_mtn ()
-{
-        export GIT_DIR=$PWD/pidgin/fast.git
         git_marks="pidgin/marks-git.txt"
         mtn_marks="pidgin/marks-mtn.txt"
 
@@ -37,4 +30,4 @@ checkout_update ()
         ./app.rb "update"
 }
 
-fast_import_mtn
+fast_import
