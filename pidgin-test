@@ -32,4 +32,9 @@ slow_update ()
         ./app.rb "update"
 }
 
+dry_run ()
+{
+        ./app.rb "dry-run"
+}
+
 $1

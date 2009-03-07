@@ -25,6 +25,17 @@ when "update"
   $stderr.puts "Importing mtn revisions"
   git.export
   $stderr.puts "Finished"
+when "dry-run"
+  require 'git/importer-null'
+
+  r = Mtn::Repo.new
+  $stderr.puts "Getting mtn revisions"
+  $list = r.get_all
+  git = Git::Importer.new
+  git.init
+  $stderr.puts "Importing mtn revisions"
+  git.export
+  $stderr.puts "Finished"
 when "missing-authors"
   require 'git/importer-null'
 
