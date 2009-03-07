@@ -148,12 +148,6 @@ module Git
       end
     end
 
-    def export_tags
-      tags = @mtn.get_tags()
-      tags.each do |k,v|
-        puts "git tag #{k} mtn/#{v}"
-      end
-    end
   end
 
 end

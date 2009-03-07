@@ -26,7 +26,7 @@ when "update"
   git.export
   $stderr.puts "Finished"
 when "export-tags"
-  require 'git/importer-simple'
+  require 'git/importer-null'
 
   git = Git::Importer.new
   $stderr.puts "Exporting tags"
