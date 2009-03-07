@@ -33,9 +33,6 @@ module Git
       return @git_id if @git_id
       @git_id = `git show-ref -s mtn/#{@id}`.chomp
       @git_id = nil if @git_id == ""
-      # if File.exist?("#{$git_dir}/refs/mtn/#{@id}")
-      #  @git_id = File.open("#{$git_dir}/refs/mtn/#{@id}") { |f| f.read }.chomp
-      # end
       return @git_id
     end
 

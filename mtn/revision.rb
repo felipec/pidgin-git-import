@@ -45,7 +45,7 @@ module Mtn
           parent, child = e
           parent = parent.unpack("H*").to_s
           next if parent == ""
-          raise StandardError, "unable to find parent: '#{parent}' of '@id'" if not $revisions[parent]
+          raise StandardError, "unable to find parent: '#{parent}' of '#{@id}'" if not $revisions[parent]
           @parents << $revisions[parent]
         end
       end
