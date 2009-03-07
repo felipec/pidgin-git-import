@@ -11,6 +11,9 @@ class Array
   alias :traverse :each
 end
 
+class ParentError < RuntimeError
+end
+
 class Mtn::Revision
   attr_accessor :traveled
 
@@ -73,6 +76,7 @@ module Git
       lines << "tree #{tree}" if tree
       @original.parents.each do |e|
         p = Mtn.get_revision(e)
+        raise ParentError, "unable to find parent: '#{e}' of '#{@id}'" if not p.meta.git_id
         lines << "parent #{p.meta.git_id}"
       end
       lines << "author #{Mtn.get_full_id(@author)} #{@date}"

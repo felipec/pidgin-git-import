@@ -8,7 +8,10 @@ module Git
     def git_export
       return if git_id
       get_details
-      puts commit()
+      begin
+        puts commit()
+      rescue ParentError
+      end
     end
 
     def check_authors
