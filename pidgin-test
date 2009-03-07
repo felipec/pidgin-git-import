@@ -1,8 +1,10 @@
+#!/bin/bash
+
 export MTN_DATABASE=$PWD/../mtn/pidgin.mtn
 export AUTHOR_MAP=$PWD/pidgin/authors_map.txt
 export RUBYLIB=$PWD
 
-fast_import ()
+import ()
 {
         export GIT_DIR=$PWD/pidgin/fast.git
         git_marks="pidgin/marks-git.txt"
@@ -15,14 +17,14 @@ fast_import ()
         git fast-import $git_extra --export-marks=$git_marks
 }
 
-checkout_clone ()
+slow_import ()
 {
         export GIT_DIR=$PWD/pidgin/simple.git
 
         ./app.rb "clone"
 }
 
-checkout_update ()
+slow_update ()
 {
         export GIT_DIR=$PWD/pidgin/simple.git
 
@@ -30,4 +32,4 @@ checkout_update ()
         ./app.rb "update"
 }
 
-fast_import
+$1
