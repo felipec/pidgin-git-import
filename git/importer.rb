@@ -12,6 +12,8 @@ class Array
 end
 
 class Mtn::Revision
+  attr_accessor :traveled
+
   def meta()
     @meta ||= Git::ExportCommit.new(self)
   end
@@ -83,17 +85,13 @@ module Git
 
   end
 
-  def get_revisions
-  end
-
   class Importer
+
     def initialize
-      get_revisions
+      @mtn = Mtn::Db.new(ENV['MTN_DATABASE'])
     end
 
     def init
-      system "git init --quiet"
-      system "git config core.bare false"
     end
 
     def export_list(head = nil)

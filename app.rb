@@ -2,10 +2,11 @@
 
 require 'mtn/repo'
 require 'mtn/revision'
-require 'git/importer-simple'
 
 case ARGV[0]
 when "clone"
+  require 'git/importer-simple'
+
   r = Mtn::Repo.new
   $stderr.puts "Getting mtn revisions"
   $list = r.get_all
@@ -15,6 +16,8 @@ when "clone"
   git.export
   $stderr.puts "Finished"
 when "update"
+  require 'git/importer-simple'
+
   r = Mtn::Repo.new
   $stderr.puts "Getting mtn revisions"
   $list = r.get_all
@@ -23,6 +26,8 @@ when "update"
   git.export
   $stderr.puts "Finished"
 when "export-tags"
+  require 'git/importer-simple'
+
   git = Git::Importer.new
   $stderr.puts "Exporting tags"
   git.export_tags

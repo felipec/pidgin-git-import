@@ -42,41 +42,12 @@ module Git
 
   class Importer
 
-    def initialize
-      get_revisions
-    end
-
-    def get_revisions
-      @list = $list
-      @mtn = Mtn::Db.new(ENV['MTN_DATABASE'])
-    end
-
     def init
       git_dir = ENV['GIT_DIR']
       system "git init --quiet"
       system "git config core.bare false"
       File.open("#{git_dir}/info/exclude", "w") do |f|
         f.write "_MTN\n"
-      end
-    end
-
-    def export(options = {})
-      @count = 0
-
-      if options[:revisions]
-        list = []
-        options[:revisions].each do |r|
-          list << Mtn.get_revision(r)
-        end
-      else
-        list = export_list(options[:heads])
-      end
-
-      list.each do |e|
-        @count += 1
-        $stderr.puts "== mtn/#{e}: #{@count} =="
-        #$stderr.puts "== %0.2f%% (%d/%d) generating %s ==\n" % [ (100.0 * @count) / list.length, @count, list.length, e ]
-        e.meta.git_export
       end
     end
 
