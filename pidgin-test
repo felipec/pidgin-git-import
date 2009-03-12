@@ -13,7 +13,7 @@ import ()
         git init
         test -f $git_marks && git_extra="--import-marks=$git_marks"
         test -f $mtn_marks && mtn_extra="--import-marks=$mtn_marks"
-        mtn git_export -d $MTN_DATABASE --authors-file=$AUTHOR_MAP --refs=revs $mtn_extra --export-marks=$mtn_marks |
+        mtn git_export -d $MTN_DATABASE --authors-file=$AUTHOR_MAP --refs=revs $mtn_extra --export-marks=$mtn_marks --use-one-changelog |
         git fast-import $git_extra --export-marks=$git_marks
 }
 
