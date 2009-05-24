@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export MTN_DATABASE=$PWD/../mtn/pidgin.mtn
+export MTN_DATABASE=$PWD/pidgin/repo.mtn
 export AUTHOR_MAP=$PWD/pidgin/authors_map.txt
 
 import ()
