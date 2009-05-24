@@ -2,7 +2,6 @@
 
 export MTN_DATABASE=$PWD/../mtn/pidgin.mtn
 export AUTHOR_MAP=$PWD/pidgin/authors_map.txt
-export RUBYLIB=$PWD
 
 import ()
 {
@@ -28,26 +27,6 @@ update ()
         mtn pull -d $MTN_DATABASE
         mtn git_export -d $MTN_DATABASE --authors-file=$AUTHOR_MAP --refs=revs $mtn_extra --export-marks=$mtn_marks --use-one-changelog |
         git fast-import $git_extra --export-marks=$git_marks
-}
-
-slow_import ()
-{
-        export GIT_DIR=$PWD/pidgin/simple.git
-
-        ./app.rb "clone"
-}
-
-slow_update ()
-{
-        export GIT_DIR=$PWD/pidgin/simple.git
-
-        mtn pull -d $MTN_DATABASE
-        ./app.rb "update"
-}
-
-dry_run ()
-{
-        ./app.rb "dry-run"
 }
 
 $1
