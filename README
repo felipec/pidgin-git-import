@@ -1,20 +1,11 @@
-Check pidgin-test for an example.
+Take a look into 'pidgin-test'
 
-== build ==
+Then do:
 
-ruby extconf.rb
-make
+  ./pidgin-test import
 
-== troubleshooting ==
+and see the magick happen :)
 
-If you get this error:
-stack level too deep (SystemStackError)
+To update:
 
-run:
-ulimit -s 102400
-
-== todo ==
-
- * checkout-clone takes too many resources generating a topologically sorted
-   list of revisions to import.
- * remove glib's dependency.
+  ./pidgin-test update

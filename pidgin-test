@@ -5,7 +5,7 @@ export AUTHOR_MAP=$PWD/pidgin/authors_map.txt
 
 import ()
 {
-        export GIT_DIR=$PWD/pidgin/fast.git
+        export GIT_DIR=$PWD/pidgin/repo.git
         git_marks="pidgin/marks-git.txt"
         mtn_marks="pidgin/marks-mtn.txt"
 
@@ -18,7 +18,7 @@ import ()
 
 update ()
 {
-        export GIT_DIR=$PWD/pidgin/fast.git
+        export GIT_DIR=$PWD/pidgin/repo.git
         git_marks="pidgin/marks-git.txt"
         mtn_marks="pidgin/marks-mtn.txt"
 
