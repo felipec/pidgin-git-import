@@ -1,0 +1,15 @@
+#!/bin/sh
+
+export GIT_DIR=pidgin/repo.git
+
+git init
+
+git_marks="pidgin/marks-git.txt"
+mtn_marks="pidgin/marks-mtn.txt"
+
+touch $git_marks $mtn_marks
+
+mtn --db pidgin.mtn pull
+mtn git_export --db pidgin/repo.mtn --authors-file=pidgin/authors_map.txt \
+        --refs=revs --import-marks=$mtn_marks --export-marks=$mtn_marks --use-one-changelog |
+        git fast-import --import-marks=$git_marks --export-marks=$git_marks
