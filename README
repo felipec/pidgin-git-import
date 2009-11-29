@@ -1,11 +1,14 @@
-Take a look into 'pidgin-test'
+pidgin-git-import is a project that provides simple scripts to convert pidgin's
+mtn repository to git.
 
-Then do:
+Since it uses mtn's git_export the end result is guaranteed to be an
+almost-exact replica of the original repo. You'll need a very recent version of
+monotone: 0.46.
 
-  ./pidgin-test import
+If you don't have the pidgin mtn repository:
 
-and see the magick happen :)
+ $ ./init
 
-To update:
+Otherwise, just
 
-  ./pidgin-test update
+ $ ./import
