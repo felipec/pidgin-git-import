@@ -1,0 +1,11 @@
+#!/bin/sh
+
+die() {
+	echo >&2 "$@"
+	exit 1
+}
+
+wget -c http://developer.pidgin.im/static/pidgin.mtn.bz2 &&
+bzip2 -d pidgin.mtn.bz2 &&
+mtn --db pidgin.mtn db migrate ||
+die "unable to fetch"
