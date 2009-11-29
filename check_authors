@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+@map = {}
+@missing = {}
+
+File.readlines('authors_map.txt').each do |l|
+  l.scan(/(.*) = (.*) <(.*)>/) do |id,real_name,email|
+    @map[id] = real_name
+  end
+end
+
+def run_query(query)
+  result = `mtn db --db pidgin.mtn execute '#{query}'`
+  result.split($/)[2..-1].each do |a|
+    id, count = a.split(" | ")
+    next if id.empty?
+    next if @map.include?(id)
+    @missing[id] ||= 0
+    @missing[id] += count.to_i
+  end
+end
+
+run_query 'select k.name,count(*) from revision_certs c join public_keys k on c.keypair_id = k.id where c.name="author" group by value'
+run_query 'select value,count(*) from revision_certs where name="author" group by value'
+
+@missing.sort {|a,b| a[1] <=> b[1]}.each do |k,v|
+  puts "#{k} | #{v}"
+end
