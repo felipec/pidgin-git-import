@@ -12,8 +12,8 @@ end
 def run_query(query)
   result = `mtn db --db pidgin.mtn execute '#{query}'`
   result.split($/)[2..-1].each do |a|
+    next if a.empty?
     id, count = a.split(" | ")
-    next if id.empty?
     next if @map.include?(id)
     @missing[id] ||= 0
     @missing[id] += count.to_i
