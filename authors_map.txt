@@ -190,3 +190,7 @@ aluink@soc.pidgin.im = Eric Polino <aluink@gmail.com>
 wade@soc.pidgin.im = Wade Fagen <wade@soc.pidgin.im>
 andrew.victor@mxit.com = Andrew Victor <avictor.za@gmail.com>
 aman@tmm1.net = Aman Gupta <aman@tmm1.net>
+masca@cpw.pidgin.im = Jorge Villaseñor Salinas <salinasv@gmail.com>
+salinasv@gmail.com = Jorge Villaseñor Salinas <salinasv@gmail.com>
+ivan.komarov@soc.pidgin.im = Ivan Komarov <ivan.komarov@dfyz.info>
+gillux@soc.pidgin.im = Gilles Bedel <gillou.ray@free.fr>
