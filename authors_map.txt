@@ -195,3 +195,4 @@ masca@cpw.pidgin.im = Jorge Villaseñor Salinas <salinasv@gmail.com>
 salinasv@gmail.com = Jorge Villaseñor Salinas <salinasv@gmail.com>
 ivan.komarov@soc.pidgin.im = Ivan Komarov <ivan.komarov@dfyz.info>
 gillux@soc.pidgin.im = Gilles Bedel <gillou.ray@free.fr>
+morshed.nader@gmail.com = Nader Morshed <morshed.nader@gmail.com>
