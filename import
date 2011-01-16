@@ -10,6 +10,6 @@ mtn_marks="marks-mtn.txt"
 touch $git_marks $mtn_marks
 
 mtn --db pidgin.mtn pull
-mtn git_export --db pidgin.mtn --authors-file=authors_map.txt \
+mtn git_export --db pidgin.mtn --authors-file=authors_map.txt --branches-file=branches_map.txt \
         --refs=revs --import-marks=$mtn_marks --export-marks=$mtn_marks --use-one-changelog |
         git fast-import --import-marks=$git_marks --export-marks=$git_marks
