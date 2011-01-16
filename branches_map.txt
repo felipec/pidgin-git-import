@@ -138,3 +138,4 @@ im.pidgin.www = www
 im.pidgin.xmpp.custom_smiley = xmpp.custom_smiley
 im.vulture.vulture = im.vulture.vulture
 im.vulture.vulture = im.vulture.vulture
+im.pidgin.cpw.nader.asynclogging-3 = cpw.nader.asynclogging-3
