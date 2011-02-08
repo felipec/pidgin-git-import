@@ -12,3 +12,10 @@ If you don't have the pidgin mtn repository:
 Otherwise, just
 
  $ ./import
+
+You might want to run 'git gc --aggressive' to compress the repo the first
+time.
+
+And if you want to fix the repo (bad commits, missing authors, etc.):
+
+ $ ./fix
