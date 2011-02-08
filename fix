@@ -1,0 +1,71 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+@fwd = File.expand_path(File.dirname(__FILE__))
+@messages = File.join(@fwd, "messages")
+
+FileUtils.mkdir_p(@messages)
+
+ENV['GIT_DIR'] = "pidgin.git"
+
+@commit_authors = File.open("commit_authors", "w")
+@svn_map = {}
+
+# get svn-rev -> git-sha1 mapping
+`git log --format="%H %s\n" --grep gaim-migrate`.each do |l|
+   l.scan(/^(\S+) \[gaim-migrate @ (\d+)\]/) do |id, rev|
+     @svn_map[rev] = id
+   end
+end
+
+# convert svn path authors to something useful
+File.open("svn_authors").each do |l|
+  l.chomp!
+  rev, author = l.split(" ", 2)
+  next if author[0] != '#'[0]
+  author.scan(/^# (.*) <(.*)>/) do |name, email|
+    id = @svn_map[rev]
+    @commit_authors.puts([id, name, email].join(":"))
+  end
+end
+
+def fix_commit(rev, author = "")
+  id=`git rev-list -1 mtn/revs/#{rev} -- 2> /dev/null`.chomp
+  author.scan(/(.*) <(.*)>/) do |name, email|
+    @commit_authors.puts([id, name, email].join(":"))
+  end
+
+  return if not block_given?
+
+  File.open("#{@messages}/#{id}", 'w') do |f|
+    f.puts(yield)
+  end
+end
+
+require 'fix_commits'
+
+@commit_authors.close
+
+FileUtils.rm_rf("pidgin-fix.git")
+system "git clone --bare pidgin.git pidgin-fix.git"
+
+ENV['GIT_DIR'] = "pidgin-fix.git"
+
+env_filter = <<EOF
+line=$(grep "^$GIT_COMMIT:" "#{@fwd}/commit_authors")
+if [ "$line" ]; then
+  IFS=':' read __ GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL <<< "$line"
+  export GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL
+fi
+EOF
+
+msg_filter = <<EOF
+if [ -f "#{@messages}/$GIT_COMMIT" ]; then
+  cat "#{@messages}/$GIT_COMMIT"
+else
+  cat -
+fi
+EOF
+
+system "git filter-branch --env-filter '#{env_filter}' --msg-filter '#{msg_filter}' --tag-name-filter cat -- --all"
