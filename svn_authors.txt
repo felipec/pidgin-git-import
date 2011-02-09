@@ -13,7 +13,7 @@
 10936 Nathan
 10939 # Daniel Atallah
 10953 # Evan Schoenberg
-10956 Vincent van Adrighem
+10956 # Vincent van Adrighem
 10958 # Björn Voigt
 10959 # Javier Fernández-Sanguino Peña
 10967 # Dave West
@@ -38,7 +38,7 @@
 11075 # Javier Fernández-Sanguino Peña
 11077 # Björn Voigt
 11082 # Claudio Satriano
-11095 Vincent van Adrighem
+11095 # Vincent van Adrighem
 11099 Jean-Francois Roy
 11134 # Peter Lawler
 11136 # Andrew Hart
@@ -53,11 +53,11 @@
 11311 # Andrew Hart
 11344 Daniel Westermann-Clark
 11356 # Felipe Contreras
-11430 Miah Gregory
+11430 # Miah Gregory
 11442 # Sean Egan
 11443 # Sean Egan
 11448 # Etan Reisner
-11453 Miah Gregory
+11453 # Miah Gregory
 11457 # Kevin Stange
 11467 # Funda Wang
 11468 # Paladin R. Liu
@@ -78,7 +78,7 @@
 11634 Programe Shqip
 11641 # Claudio Satriano
 11642 # Paladin R. Liu
-11644 Mauricio de Lemos Rodrigues Collares Neto
+11644 # Mauricio Collares
 11646 # Javier Fernández-Sanguino Peña
 11647 # Felipe Contreras
 11651 # Evan Schoenberg
@@ -199,14 +199,14 @@
 13273 Ilya Konstantinov
 13323 # Erick Hamness
 13378 # Daniel Atallah
-13379 Federico Schwindt
-13381 Federico Schwindt
+13379 # Federico Schwindt
+13381 # Federico Schwindt
 13438 # Steve Láposi
 13464 Nacho Resa
 13465 # Bernat López
 13554 Charlie Gordon
 13622 # Zmitrok
-13643 Federico Schwindt
+13643 # Federico Schwindt
 4863 # Eric S. Raymond
 4606 # Feng-Cheng Chang
 4288 David Kaelbling
@@ -215,7 +215,7 @@
 4257 Eric Timme
 3826 Sergey V. Udaltsov (svu)
 3764 Craig
-3656 A Lee
+3656 # A Lee
 3652 David Fallon
 3565 # Malcolm Wallace
 3541 Craig Boston
@@ -223,7 +223,7 @@
 3531 # Ka-Hing Cheung
 3514 # Ari Pollak
 3509 Eric Melski
-3504 A Lee
+3504 # A Lee
 3502 # Christian Hammond
 3501 Chris Blizzard
 3494 Debian security team
@@ -741,7 +741,7 @@
 13709 # Steve Láposi
 13672 # Kevin Stange
 13671 # Kevin Stange
-13642 Federico Schwindt
+13642 # Federico Schwindt
 13641 # Peter McCurdy
 13637 # Peter McCurdy
 13635 # Will Thompson
@@ -770,7 +770,7 @@
 13418 # Sadrul Habib Chowdhury
 13417 # Sadrul Habib Chowdhury
 13408 # Mads Chr. Olesen
-13380 Federico Schwindt
+13380 # Federico Schwindt
 13352 # Peter Lawler
 13322 # Erick Hamness
 13274 Ilya Konstantinov
@@ -847,7 +847,7 @@
 12548 # Will Thompson
 12543 # Palmer Cox
 12542 # Palmer Cox
-12532 Alex Converse
+12532 # Alex Converse
 12530 # Pekka Riikonen
 12521 # Richard Laager
 12517 # Richard Laager
@@ -935,7 +935,7 @@
 11717 # Felipe Contreras
 11714 # Nathan Fredrickson
 11708 Fidel Martinez
-11697 Alex Converse
+11697 # Alex Converse
 11694 # Balwinder S Dheeman
 11691 # Felipe Contreras
 11683 Kristof Vansant
@@ -1230,7 +1230,7 @@
 10175 # Emil Nowak
 10172 # Stu Tomlinson
 10171 # Felipe Contreras
-10170 Mauricio Collares
+10170 # Mauricio Collares
 10168 # Mike Stoddard
 10167 # Stu Tomlinson
 10161 # Stu Tomlinson
@@ -1277,7 +1277,7 @@
 9950 # Felipe Contreras
 9942 # Felipe Contreras
 9938 # Stu Tomlinson
-9919 Robert Mibus
+9919 # Robert Mibus
 9915 # Pekka Riikonen
 9902 # Stu Tomlinson
 9869 # Felipe Contreras
@@ -1478,7 +1478,7 @@
 9240 # Ambrose Li
 9239 # Tim Ringenbach
 9236 # Tim Ringenbach
-9235 Robert Mibus
+9235 # Robert Mibus
 9220 # John Silvestri
 9215 # Andrew Wellington
 9214 # Gary Kramlich
@@ -1570,7 +1570,7 @@
 8854 # John Silvestri
 8851 # Nathan Fredrickson
 8849 # Daniel Atallah
-8846 Zaheer Merali
+8846 # Zaheer Merali
 8844 Philip Brown
 8842 Marc Mulcahy
 8833 # Etan Reisner
@@ -1657,7 +1657,7 @@
 8230 Tom Pennings
 8229 # Stu Tomlinson
 8220 # Stu Tomlinson
-8179 Robert Mibus
+8179 # Robert Mibus
 8166 # Daniel Atallah
 8164 # Ambrose Li
 8163 # Tim Ringenbach
@@ -1801,14 +1801,14 @@
 6801 Brian Tarricon
 6800 # Björn Voigt
 6793 Devin Bayer (mal0rd)
-6787 Mauricio de Lemos Rodrigues Collares
+6787 # Mauricio Collares
 6786 # Paul Aurich
 6785 # Funda Wang
 6784 # Björn Voigt
 6782 # Javier Fernández-Sanguino Peña
 6769 # Claudio Satriano
 6754 Zoltan Sutto
-6753 Vincent van Adrighem
+6753 # Vincent van Adrighem
 6748 Danilo Segan
 6747 # Claudio Satriano
 6741 Tomasz Gajewski
@@ -1823,14 +1823,14 @@
 6678 Sam Halliday
 6656 # Ethan Blanton
 6655 # Matthew Luckie
-6626 Mauricio de Lemos Rodrigues Collares Neto
+6626 # Mauricio Collares
 6621 # Ambrose Li
 6616 # Lee Roach
-6614 Mauricio de Lemos Rodrigues Collares Neto
+6614 # Mauricio Collares
 6613 Jakub Steiner at Ximian
 6612 chickenboycole
 6610 # Kevin Stange
-6600 Mauricio de Lemos Rodrigues Collares Neto
+6600 # Mauricio Collares
 6590 # Éric Boumaour
 6579 # Kevin Stange
 6569 # Morten Brix Pedersen
@@ -1842,7 +1842,7 @@
 6548 # Claudio Satriano
 6547 # Ka-Hing Cheung
 6546 # Ethan Blanton
-6531 Mauricio de Lemos Rodrigues Collares Neto
+6531 # Mauricio Collares
 6518 # Kevin Stange
 6516 # Ka-Hing Cheung
 6509 # John Silvestri
@@ -1856,8 +1856,8 @@
 6460 # Nathan Walp
 6458 # Morten Brix Pedersen
 6450 # Claudio Satriano
-6445 Mauricio de Lemos Rodrigues Collares Neto
-6440 Mauricio de Lemos Rodrigues Collares Neto
+6445 # Mauricio Collares
+6440 # Mauricio Collares
 6428 # Kyung-uk Son
 6403 # Nathan Walp
 6400 # Morten Brix Pedersen
@@ -1959,7 +1959,7 @@
 5624 # Robert McQueen
 5623 # Ka-Hing Cheung
 5618 # Ethan Blanton
-5616 Vincent van Adrighem
+5616 # Vincent van Adrighem
 5606 # Björn Voigt
 5596 # Javier Fernández-Sanguino Peña
 5565 Jeff Smith
@@ -2037,29 +2037,29 @@
 5002 # Ka-Hing Cheung
 4974 # Kyung-uk Son
 4965 # Björn Voigt
-4964 Vincent van Adrighem
+4964 # Vincent van Adrighem
 4954 # Morten Brix Pedersen
 4944 Matt Blaha (thecombatwombat)
 4921 # Nathan Walp
 4914 # Morten Brix Pedersen
 4909 # Nathan Walp
 4901 # Ka-Hing Cheung
-4900 Vincent van Adrighem
+4900 # Vincent van Adrighem
 4897 shadows
-4894 Matthew Smith (smigs)
+4894 # Matthew Smith
 4888 tony skuse (zeet)
 4885 # Ethan Blanton
-4884 Smigs
+4884 # Matthew Smith
 4881 # Björn Voigt
 4877 # Björn Voigt
 4876 # Nathan Conrad
 4873 # Björn Voigt
 4872 # Arun Tharuvai
-4871 Vincent van Adrighem
-4870 Matthew Smith (smigs)
-4869 Matthew Smith (smigs)
+4871 # Vincent van Adrighem
+4870 # Matthew Smith
+4869 # Matthew Smith
 4868 Misu Moldovan
-4867 Vincent van Adrighem
+4867 # Vincent van Adrighem
 4861 # Ari Pollak
 4857 # Paul Aurich
 4856 # Paul Aurich
@@ -2144,16 +2144,16 @@
 4448 # Nathan Walp
 4445 # Nathan Walp
 4439 # Etan Reisner
-4429 Alex Converse (alex4)
+4429 # Alex Converse
 4428 # Ari Pollak
 4427 # Nicolás Lichtmaier
 4426 # Nicolás Lichtmaier
 4418 Drew Martin (acm4me)
 4417 # Felipe Contreras
-4416 Vincent van Adrighem (valium)
+4416 # Vincent van Adrighem
 4405 # Éric Boumaour
 4402 # Robert McQueen
-4400 Alex Converse (alex4)
+4400 # Alex Converse
 4399 # Nicolás Lichtmaier
 4398 Taku YASUI (tach)
 4397 # Nathan Walp
@@ -2197,10 +2197,10 @@
 4287 David Kaelbling
 4274 # Nathan Walp
 4270 # Lee Roach
-4269 Matthew Smith (smigs)
+4269 # Matthew Smith
 4266 # Nicolás Lichtmaier
 4264 # Ka-Hing Cheung
-4263 Matthew Smith (smigs)
+4263 # Matthew Smith
 4262 # Nicolás Lichtmaier
 4259 Amiel Martin (agnosonga)
 4258 Eric Timme
@@ -2254,10 +2254,10 @@
 3907 # Nathan Walp
 3893 # Christian Hammond
 3890 # William T. Mahan
-3889 Jonas Birme' (birme)
+3889 # Jonas Birme
 3887 # Nathan Walp
-3874 Alex Converse (alex4)
-3873 birme
+3874 # Alex Converse
+3873 # Jonas Birme
 3872 Benjamin Sherman
 3869 # Nathan Walp
 3862 # Robert McQueen
@@ -2266,11 +2266,11 @@
 3855 # Ethan Blanton
 3843 # Etan Reisner
 3842 # Nathan Walp
-3841 birme
-3840 birme
+3841 # Jonas Birme
+3840 # Jonas Birme
 3838 # Etan Reisner
 3827 # Nathan Walp
-3788 Alex Converse (alex4)
+3788 # Alex Converse
 3785 # William T. Mahan
 3784 jstuart
 3765 Patrick (Zyk) Aussems
@@ -2316,7 +2316,7 @@
 3506 # Mark Doliner
 3503 Brian
 3500 Chris Blizzard
-3497 JONAS BIRME
+3497 # Jonas Birme
 3496 Brian
 3478 peloverde
 3459 # Etan Reisner
@@ -2333,7 +2333,7 @@
 3358 # Arkadiusz Miskiewicz
 3356 # Nathan Walp
 3350 # Mark Doliner
-3346 A Ho-seok Lee
+3346 # A Lee
 3344 # Robert McQueen
 3343 Daniel Walls
 3341 # Felipe Contreras
@@ -2425,7 +2425,7 @@
 2863 abiligiri
 2860 # Sean Egan
 2859 # Arkadiusz Miskiewicz
-2854 Ho-seok Lee
+2854 # A Lee
 2850 Christian Rose
 2848 # Arkadiusz Miskiewicz
 2819 # Arkadiusz Miskiewicz
@@ -2436,9 +2436,9 @@
 2805 # Arkadiusz Miskiewicz
 2803 moocow (transmission)
 2799 brian macke
-2797 A Lee (Ho-seok Lee)
-2796 A Lee (Ho-seok Lee)
-2794 Ho-seok Lee
+2797 # A Lee
+2796 # A Lee
+2794 # A Lee
 2793 Andrew Molly
 2774 # Decklin Foster
 2772 Arturo Cisneros (r2d2)
@@ -2497,8 +2497,8 @@
 1887 svalente
 1863 # Nathan Walp
 1823 # Decklin Foster
-1818 nsanch
-1816 nsanch
+1818 # Neil Sanchala
+1816 # Neil Sanchala
 1810 # Adam Fritzler
 1809 # Dennis Ristuccia
 1799 # Nathan Walp
@@ -2507,11 +2507,11 @@
 1751 # Decklin Foster
 1742 # Dennis Ristuccia
 1740 # Sean Egan
-1739 nsanch
-1736 nsanch
+1739 # Neil Sanchala
+1736 # Neil Sanchala
 1734 # Adam Fritzler
 1733 # Adam Fritzler
-1729 Neil Sanchala (nsanch)
+1729 # Neil Sanchala
 1669 phzzzt
 1657 # Decklin Foster
 1644 baldnik
@@ -2532,7 +2532,7 @@
 1302 # Decklin Foster
 1264 # Ben Miller
 1260 # Decklin Foster
-1248 nsanch
+1248 # Neil Sanchala
 1234 # Decklin Foster
 1219 Justin
 1212 # Decklin Foster
