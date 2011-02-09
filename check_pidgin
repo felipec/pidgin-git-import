@@ -1,0 +1,86 @@
+#!/usr/bin/env ruby
+
+@p_map = {}
+@p_map_todo = {}
+@p_svn_map = {}
+@f_map = {}
+
+@missmatches = {}
+@missing_marks = []
+
+dir = ARGV[0]
+
+File.open("#{dir}/authormap").each do |l|
+  id, author = l.chomp.split(" = ", 2)
+  @p_map[id] = author
+end
+
+File.open("#{dir}/authormap.TODO").each do |l|
+  id, author = l.chomp.split(" = ", 2)
+  @p_map_todo[id.downcase] = 1
+end
+
+File.open("#{dir}/svn-authors-map").each do |l|
+  id, author = l.chomp.split(" = ", 2)
+  @p_svn_map[id] = author
+end
+
+File.open('svn-authors-map').each do |l|
+  id, author = l.chomp.split(" = ", 2)
+  @f_map[id] = author
+end
+
+File.open("svn-authors").each do |l|
+  rev, author = l.chomp.split(" ", 2)
+  marked = author[0] == '#'[0]
+  author.gsub!(/^# /, '')
+  p_author = @p_svn_map[author] || author
+  f_author = @f_map[author] || author
+  if not marked
+    id = author.downcase.gsub(/ \(.*\).*/, '')
+    @missing_marks << author if not @p_map_todo[id]
+  end
+  next if p_author == f_author
+  next if p_author == f_author.gsub(/^Unknown\s/, '')
+  @missmatches[author] = [p_author, f_author]
+end
+
+puts "== svn =="
+
+@missmatches.each_value do |e|
+  puts "pidgin: #{e[0]}, felipec: #{e[1]}"
+end
+
+@missing_marks.each do |e|
+  puts "unmarked: #{e}"
+end
+
+puts "== normal =="
+
+File.open('authors-map').each do |l|
+  id, f_author = l.chomp.split(" = ", 2)
+  next if @p_svn_map[id]
+  @f_map[id] = f_author
+  p_author = @p_map[id]
+  next if p_author == f_author
+  if not p_author
+    puts "missing: #{id} = #{f_author}"
+    next
+  end
+  next if p_author == f_author.gsub(/(.*) <.*>/, '\1')
+  puts "pidgin: #{p_author}, felipec: #{f_author}"
+end
+
+puts "== bad =="
+
+@p_svn_map.each do |id, value|
+  @p_map.delete(id)
+end
+
+@f_map.each do |id, value|
+  @p_map.delete(id)
+end
+
+@p_map.each do |id, p_author|
+  puts "bad: #{id} = #{p_author}"
+end
