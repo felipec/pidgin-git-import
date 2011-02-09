@@ -189,6 +189,7 @@ end
 
 fix_commit("8f3c22382fdd3b6c4a0a3d29e4052c1b2138303a") do
 <<EOF
+[gaim-migrate @ 8044]
 "The labels for the preferences in the contact priority plugin have the
 standard alignment "center". This doesn't look nice. I saw, that other
 preferences in the preference window are aligned left/up. The patch
