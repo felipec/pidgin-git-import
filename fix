@@ -11,6 +11,13 @@ ENV['GIT_DIR'] = "pidgin.git"
 
 @commit_authors = File.open("commit_authors", "w")
 @svn_map = {}
+@map = {}
+
+File.readlines('svn_authors_map.txt').each do |l|
+  l.scan(/(.*) = (.*) <(.*)>/) do |id,real_name,email|
+    @map[id] = [real_name, email].join(":")
+  end
+end
 
 # get svn-rev -> git-sha1 mapping
 `git log --format="%H %s\n" --grep gaim-migrate --all`.each do |l|
@@ -24,9 +31,12 @@ File.open("svn_authors.txt").each do |l|
   l.chomp!
   rev, author = l.split(" ", 2)
   next if author[0] != '#'[0]
-  author.scan(/^# (.*) <(.*)>/) do |name, email|
-    id = @svn_map[rev]
-    @commit_authors.puts([id, name, email].join(":"))
+  author = author[2..-1]
+  id = @svn_map[rev]
+  if author =~ /^(.*) <(.*)>/
+    @commit_authors.puts([id, $1, $2].join(":"))
+  elsif @map[author]
+    @commit_authors.puts([id, @map[author]].join(":"))
   end
 end
 
