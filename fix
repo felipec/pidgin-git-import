@@ -13,7 +13,7 @@ ENV['GIT_DIR'] = "pidgin.git"
 @svn_map = {}
 
 # get svn-rev -> git-sha1 mapping
-`git log --format="%H %s\n" --grep gaim-migrate`.each do |l|
+`git log --format="%H %s\n" --grep gaim-migrate --all`.each do |l|
    l.scan(/^(\S+) \[gaim-migrate @ (\d+)\]/) do |id, rev|
      @svn_map[rev] = id
    end
