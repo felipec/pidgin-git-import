@@ -1,214 +1,214 @@
-10855 # Bernat López <bernatl@adequa.net>
-10850 # Daniel Atallah <datallah@pidgin.im>
-10865 # Daniel Atallah <datallah@pidgin.im>
-10867 # Daniel Atallah <datallah@pidgin.im>
-10876 # Stu Tomlinson <nosnilmot@pidgin.im>
-10880 # Dave West <kat@users.sourceforge.net>
-10897 # Felipe Contreras <felipe.contreras@gmail.com>
-10899 # Stu Tomlinson <nosnilmot@pidgin.im>
-10910 # Björn Voigt <bjoern@cs.tu-berlin.de>
+10855 # Bernat López
+10850 # Daniel Atallah
+10865 # Daniel Atallah
+10867 # Daniel Atallah
+10876 # Stu Tomlinson
+10880 # Dave West
+10897 # Felipe Contreras
+10899 # Stu Tomlinson
+10910 # Björn Voigt
 10917 # Unknown <oannu@users.sourceforge.net>
-10918 # Javier Fernández-Sanguino Peña <jfs@computer.org>
-10931 # Daniel Atallah <datallah@pidgin.im>
+10918 # Javier Fernández-Sanguino Peña
+10931 # Daniel Atallah
 10936 Nathan
-10939 # Daniel Atallah <datallah@pidgin.im>
-10953 # Evan Schoenberg <evands@pidgin.im>
+10939 # Daniel Atallah
+10953 # Evan Schoenberg
 10956 Vincent van Adrighem
-10958 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10959 # Javier Fernández-Sanguino Peña <jfs@computer.org>
-10967 # Dave West <kat@users.sourceforge.net>
-10972 # Felipe Contreras <felipe.contreras@gmail.com>
-10974 # Peter Lawler <pidgin@bleeter.id.au>
-10977 # Felipe Contreras <felipe.contreras@gmail.com>
-10981 # Björn Voigt <bjoern@cs.tu-berlin.de>
-11006 # Daniel Atallah <datallah@pidgin.im>
-11014 # Nathan Fredrickson <nathan@silverorange.com>
-11015 # Nathan Fredrickson <nathan@silverorange.com>
+10958 # Björn Voigt
+10959 # Javier Fernández-Sanguino Peña
+10967 # Dave West
+10972 # Felipe Contreras
+10974 # Peter Lawler
+10977 # Felipe Contreras
+10981 # Björn Voigt
+11006 # Daniel Atallah
+11014 # Nathan Fredrickson
+11015 # Nathan Fredrickson
 11017 Gregory C. Harfst
 11019 Henry Jen
-11024 # Kevin Stange <kstange@pidgin.im>
-11026 # Dave West <kat@users.sourceforge.net>
+11024 # Kevin Stange
+11026 # Dave West
 11031 Alex Duggan
-11036 # Tim Ringenbach <marv@pidgin.im>
-11042 # Gary Kramlich <grim@pidgin.im>
-11050 # Felipe Contreras <felipe.contreras@gmail.com>
-11067 # Dave West <kat@users.sourceforge.net>
+11036 # Tim Ringenbach
+11042 # Gary Kramlich
+11050 # Felipe Contreras
+11067 # Dave West
 11069 Henry Jen
-11072 # Funda Wang <fundawang@linux.net.cn>
-11075 # Javier Fernández-Sanguino Peña <jfs@computer.org>
-11077 # Björn Voigt <bjoern@cs.tu-berlin.de>
-11082 # Claudio Satriano <satriano@na.infn.it>
+11072 # Funda Wang
+11075 # Javier Fernández-Sanguino Peña
+11077 # Björn Voigt
+11082 # Claudio Satriano
 11095 Vincent van Adrighem
 11099 Jean-Francois Roy
-11134 # Peter Lawler <pidgin@bleeter.id.au>
-11136 # Andrew Hart <arhart@users.sourceforge.net>
-11137 # Evan Schoenberg <evands@pidgin.im>
-11146 # Andrew Hart <arhart@users.sourceforge.net>
-11164 # Daniel Atallah <datallah@pidgin.im>
-11205 # Daniel Atallah <datallah@pidgin.im>
-11211 # Evan Schoenberg <evands@pidgin.im>
-11215 # Peter Lawler <pidgin@bleeter.id.au>
+11134 # Peter Lawler
+11136 # Andrew Hart
+11137 # Evan Schoenberg
+11146 # Andrew Hart
+11164 # Daniel Atallah
+11205 # Daniel Atallah
+11211 # Evan Schoenberg
+11215 # Peter Lawler
 11259 John Jolly
 11264 DaSkreech
-11311 # Andrew Hart <arhart@users.sourceforge.net>
+11311 # Andrew Hart
 11344 Daniel Westermann-Clark
-11356 # Felipe Contreras <felipe.contreras@gmail.com>
+11356 # Felipe Contreras
 11430 Miah Gregory
-11442 # Sean Egan <seanegan@pidgin.im>
-11443 # Sean Egan <seanegan@pidgin.im>
-11448 # Etan Reisner <deryni@pidgin.im>
+11442 # Sean Egan
+11443 # Sean Egan
+11448 # Etan Reisner
 11453 Miah Gregory
-11457 # Kevin Stange <kstange@pidgin.im>
-11467 # Funda Wang <fundawang@linux.net.cn>
-11468 # Paladin R. Liu <paladin@ms1.hinet.net>
-11472 # Gary Kramlich <grim@pidgin.im>
-11475 # Felipe Contreras <felipe.contreras@gmail.com>
+11457 # Kevin Stange
+11467 # Funda Wang
+11468 # Paladin R. Liu
+11472 # Gary Kramlich
+11475 # Felipe Contreras
 11477 Nathan
-11491 # Felipe Contreras <felipe.contreras@gmail.com>
-11555 # Felipe Contreras <felipe.contreras@gmail.com>
-11557 # Björn Voigt <bjoern@cs.tu-berlin.de>
-11559 # Felipe Contreras <felipe.contreras@gmail.com>
-11585 # Kevin Stange <kstange@pidgin.im>
-11594 # Kevin Stange <kstange@pidgin.im>
-11596 # Kevin Stange <kstange@pidgin.im>
-11597 # Maxim V. Dziumanenko <mvd@mylinux.com.ua>
-11606 # Evan Schoenberg <evands@pidgin.im>
-11613 # Daniel Atallah <datallah@pidgin.im>
-11624 # Evan Schoenberg <evands@pidgin.im>
+11491 # Felipe Contreras
+11555 # Felipe Contreras
+11557 # Björn Voigt
+11559 # Felipe Contreras
+11585 # Kevin Stange
+11594 # Kevin Stange
+11596 # Kevin Stange
+11597 # Maxim V. Dziumanenko
+11606 # Evan Schoenberg
+11613 # Daniel Atallah
+11624 # Evan Schoenberg
 11634 Programe Shqip
-11641 # Claudio Satriano <satriano@na.infn.it>
-11642 # Paladin R. Liu <paladin@ms1.hinet.net>
+11641 # Claudio Satriano
+11642 # Paladin R. Liu
 11644 Mauricio de Lemos Rodrigues Collares Neto
-11646 # Javier Fernández-Sanguino Peña <jfs@computer.org>
-11647 # Felipe Contreras <felipe.contreras@gmail.com>
-11651 # Evan Schoenberg <evands@pidgin.im>
-11690 # Felipe Contreras <felipe.contreras@gmail.com>
+11646 # Javier Fernández-Sanguino Peña
+11647 # Felipe Contreras
+11651 # Evan Schoenberg
+11690 # Felipe Contreras
 11707 Fidel Martinez
-11716 # Felipe Contreras <felipe.contreras@gmail.com>
+11716 # Felipe Contreras
 11720 # Unknown <rbowes@users.sourceforge.net>
-11736 # Felipe Contreras <felipe.contreras@gmail.com>
-11742 # Andrew Magness <wing@users.sourceforge.net>
-11745 # Kevin Stange <kstange@pidgin.im>
-11746 # Kevin Stange <kstange@pidgin.im>
-11768 # Felipe Contreras <felipe.contreras@gmail.com>
-11770 # Robert McQueen <robot101@debian.org>
-11787 # Björn Voigt <bjoern@cs.tu-berlin.de>
-11820 # Jérôme Poulin <ticpu@users.sourceforge.net>
-11831 # Martin Srebotnjak <miles@filmsi.net>
-11885 # Jonathan Champ <royanee@users.sourceforge.net>
+11736 # Felipe Contreras
+11742 # Andrew Magness
+11745 # Kevin Stange
+11746 # Kevin Stange
+11768 # Felipe Contreras
+11770 # Robert McQueen
+11787 # Björn Voigt
+11820 # Jérôme Poulin
+11831 # Martin Srebotnjak
+11885 # Jonathan Champ
 11904 Magnus Hult
-11906 # Andrew Hart <arhart@users.sourceforge.net>
-11914 # Maxim V. Dziumanenko <mvd@mylinux.com.ua>
+11906 # Andrew Hart
+11914 # Maxim V. Dziumanenko
 11916 Kalle Kotte
-11920 # Luke Ross <luke@lukeross.name>
+11920 # Luke Ross
 11940 Malcolm Smith
 11943 Justin Wood
-11945 # Don Seiler <rizzo@gentoo.org>
+11945 # Don Seiler
 11948 Magnus Hult
-11962 # Richard Laager <rlaager@pidgin.im>
-11972 # Richard Laager <rlaager@pidgin.im>
-11974 # Björn Voigt <bjoern@cs.tu-berlin.de>
-12013 # Gediminas Čičinskas <wooz@parok.lt>
-12021 # Peter Hjalmarsson <xake@telia.com>
-12025 # Ambrose Li <ambrose.li@gmail.com>
-12031 # Felipe Contreras <felipe.contreras@gmail.com>
-12049 # Björn Voigt <bjoern@cs.tu-berlin.de>
-12054 # Richard Laager <rlaager@pidgin.im>
-12073 # Torrey McMahon <tmcmahon2@users.sourceforge.net>
-12075 # Ka-Hing Cheung <khc@pidgin.im>
-12100 # Christopher O'Brien <siege@pidgin.im>
+11962 # Richard Laager
+11972 # Richard Laager
+11974 # Björn Voigt
+12013 # Gediminas Čičinskas
+12021 # Peter Hjalmarsson
+12025 # Ambrose Li
+12031 # Felipe Contreras
+12049 # Björn Voigt
+12054 # Richard Laager
+12073 # Torrey McMahon
+12075 # Ka-Hing Cheung
+12100 # Christopher O'Brien
 12109 Carl-Daniel Hailfinger
 12143 # Nathan Conrad
-12146 # Cestonaro Thilo <ephraim@users.sourceforge.net>
-12148 # Stu Tomlinson <nosnilmot@pidgin.im>
-12164 # Gary Kramlich <grim@pidgin.im>
-12174 # Martin Srebotnjak <miles@filmsi.net>
+12146 # Cestonaro Thilo
+12148 # Stu Tomlinson
+12164 # Gary Kramlich
+12174 # Martin Srebotnjak
 12183 Bastien Durel
 12185 Will Gorman
-12189 # Richard Laager <rlaager@pidgin.im>
-12193 # Martin Srebotnjak <miles@filmsi.net>
-12201 # Richard Laager <rlaager@pidgin.im>
-12204 # Christopher O'Brien <siege@pidgin.im>
-12217 # Richard Laager <rlaager@pidgin.im>
+12189 # Richard Laager
+12193 # Martin Srebotnjak
+12201 # Richard Laager
+12204 # Christopher O'Brien
+12217 # Richard Laager
 12239 Curtis
-12247 # Marc E. <elcomandante@sbcglobal.net>
-12252 # Javier Fernández-Sanguino Peña <jfs@computer.org>
-12254 # Peter Lawler <pidgin@bleeter.id.au>
-12260 # Peter Lawler <pidgin@bleeter.id.au>
-12281 # Peter Lawler <pidgin@bleeter.id.au>
-12285 # Peter Lawler <pidgin@bleeter.id.au>
-12290 # Rian Hunter <chrono86@users.sourceforge.net>
-12304 # Richard Laager <rlaager@pidgin.im>
+12247 # Marc E.
+12252 # Javier Fernández-Sanguino Peña
+12254 # Peter Lawler
+12260 # Peter Lawler
+12281 # Peter Lawler
+12285 # Peter Lawler
+12290 # Rian Hunter
+12304 # Richard Laager
 12305 Peter Ajamian
 12313 Petter Johan Olsen
 12316 Eitan Isaacson
-12381 # Felipe Contreras <felipe.contreras@gmail.com>
-12386 # Ivar Smolin <okul@linux.ee>
-12397 # Robert McQueen <robot101@debian.org>
-12409 # Gary Kramlich <grim@pidgin.im>
-12419 # Ivar Smolin <okul@linux.ee>
-12430 # Richard Laager <rlaager@pidgin.im>
-12481 # Miklós Vajna <vmiklos@frugalware.org>
-12482 # Gary Kramlich <grim@pidgin.im>
-12486 # Gary Kramlich <grim@pidgin.im>
-12487 # Gary Kramlich <grim@pidgin.im>
-12489 # Pekka Riikonen <priikone@silcnet.org>
-12531 # Pekka Riikonen <priikone@silcnet.org>
-12538 # Martin Srebotnjak <miles@filmsi.net>
-12540 # Javier Fernández-Sanguino Peña <jfs@computer.org>
+12381 # Felipe Contreras
+12386 # Ivar Smolin
+12397 # Robert McQueen
+12409 # Gary Kramlich
+12419 # Ivar Smolin
+12430 # Richard Laager
+12481 # Miklós Vajna
+12482 # Gary Kramlich
+12486 # Gary Kramlich
+12487 # Gary Kramlich
+12489 # Pekka Riikonen
+12531 # Pekka Riikonen
+12538 # Martin Srebotnjak
+12540 # Javier Fernández-Sanguino Peña
 12541 Pascal Terjan
-12551 # Peter Lawler <pidgin@bleeter.id.au>
-12560 # Steven Garrity <sgarrity@silverorange.com>
-12600 # Björn Voigt <bjoern@cs.tu-berlin.de>
-12605 # Caleb Gilmour <caleb_gilmour@users.sourceforge.net>
+12551 # Peter Lawler
+12560 # Steven Garrity
+12600 # Björn Voigt
+12605 # Caleb Gilmour
 12631 # Jean-Yves Lefort
-12685 # John Bailey <rekkanoryo@rekkanoryo.org>
-12702 # John Bailey <rekkanoryo@rekkanoryo.org>
+12685 # John Bailey
+12702 # John Bailey
 12718 Dave Ahlswede
-12722 # Peter Lawler <pidgin@bleeter.id.au>
-12739 # Peter Lawler <pidgin@bleeter.id.au>
-12756 # Levi Bard <levi@bard.sytes.net>
-12762 # Richard Laager <rlaager@pidgin.im>
-12767 # Peter Lawler <pidgin@bleeter.id.au>
-12769 # Andrew Magness <wing@users.sourceforge.net>
-12818 # Warren Togami <warren@togami.com>
-12860 # Sadrul Habib Chowdhury <sadrul@pidgin.im>
-12869 # Jason Cohen <kryojenik23-pidgin@steltek.com>
-12882 # Pekka Riikonen <priikone@silcnet.org>
-12889 # Richard Laager <rlaager@pidgin.im>
-12896 # Evan Schoenberg <evands@pidgin.im>
-12898 # Stanislav Brabec <sbrabec@suse.cz>
-12932 # Richard Laager <rlaager@pidgin.im>
-12941 # Richard Laager <rlaager@pidgin.im>
-12944 # Richard Laager <rlaager@pidgin.im>
-12956 # Peter Lawler <pidgin@bleeter.id.au>
-12959 # Peter Lawler <pidgin@bleeter.id.au>
-12960 # Joshua Honeycutt <coweater@users.sourceforge.net>
-13011 # Palmer Cox <enix@users.sourceforge.net>
-13044 # Daniel Atallah <datallah@pidgin.im>
-13066 # Jason Roth <jroth2@users.sourceforge.net>
+12722 # Peter Lawler
+12739 # Peter Lawler
+12756 # Levi Bard
+12762 # Richard Laager
+12767 # Peter Lawler
+12769 # Andrew Magness
+12818 # Warren Togami
+12860 # Sadrul Habib Chowdhury
+12869 # Jason Cohen
+12882 # Pekka Riikonen
+12889 # Richard Laager
+12896 # Evan Schoenberg
+12898 # Stanislav Brabec
+12932 # Richard Laager
+12941 # Richard Laager
+12944 # Richard Laager
+12956 # Peter Lawler
+12959 # Peter Lawler
+12960 # Joshua Honeycutt
+13011 # Palmer Cox
+13044 # Daniel Atallah
+13066 # Jason Roth
 13079 Ryan McCabe
 13081 Lalo Martins
 13084 Ryan McCabe
-13102 # Levi Bard <levi@bard.sytes.net>
-13165 # Riley Patterson <therylz@users.sourceforge.net>
-13170 # Will Thompson <resiak@pidgin.im>
-13211 # Kevin Stange <kstange@pidgin.im>
-13234 # Evan Schoenberg <evands@pidgin.im>
-13243 # Wojtek Kaniewski <wojtekka@toxygen.net>
+13102 # Levi Bard
+13165 # Riley Patterson
+13170 # Will Thompson
+13211 # Kevin Stange
+13234 # Evan Schoenberg
+13243 # Wojtek Kaniewski
 13273 Ilya Konstantinov
-13323 # Erick Hamness <erickh@wiktel.com>
-13378 # Daniel Atallah <datallah@pidgin.im>
+13323 # Erick Hamness
+13378 # Daniel Atallah
 13379 Federico Schwindt
 13381 Federico Schwindt
-13438 # Steve Láposi <ronin_hun@users.sourceforge.net>
+13438 # Steve Láposi
 13464 Nacho Resa
 13465 # Bernat López
 13554 Charlie Gordon
-13622 # Zmitrok <zmitrok@users.sourceforge.net>
+13622 # Zmitrok
 13643 Federico Schwindt
-4863 # Eric S. Raymond <esr@thyrsus.com>
-4606 # Feng-Cheng Chang <breeze833@users.sourceforge.net>
+4863 # Eric S. Raymond
+4606 # Feng-Cheng Chang
 4288 David Kaelbling
 4286 David Kaelbling
 4285 David Kaelbling
@@ -217,2205 +217,2205 @@
 3764 Craig
 3656 A Lee
 3652 David Fallon
-3565 # Malcolm Wallace <msw@users.sourceforge.net>
+3565 # Malcolm Wallace
 3541 Craig Boston
-3540 # Nathan Walp <nwalp@pidgin.im>
-3531 # Ka-Hing Cheung <khc@pidgin.im>
-3514 # Ari Pollak <ari@debian.org>
+3540 # Nathan Walp
+3531 # Ka-Hing Cheung
+3514 # Ari Pollak
 3509 Eric Melski
 3504 A Lee
-3502 # Christian Hammond <chipx86@chipx86.com>
+3502 # Christian Hammond
 3501 Chris Blizzard
 3494 Debian security team
-3464 # Christian Hammond <chipx86@chipx86.com>
-3462 # Ethan Blanton <elb@pidgin.im>
-3449 # Christian Hammond <chipx86@chipx86.com>
+3464 # Christian Hammond
+3462 # Ethan Blanton
+3449 # Christian Hammond
 3448 Timothy Lee
 3446 R2D2781
 3439 Junichi Uekawa
-3438 # Robert McQueen <robot101@debian.org>
-17712 # Will Thompson <will.thompson@collabora.co.uk>
-17696 # Stanislav Brabec <sbrabec@suse.cz>
+3438 # Robert McQueen
+17712 # Will Thompson
+17696 # Stanislav Brabec
 17687 # Scott Jackson
-17682 # Ari Pollak <ari@debian.org>
-17681 # Ari Pollak <ari@debian.org>
-17677 # Ka-Hing Cheung <khc@hxbc.us>
+17682 # Ari Pollak
+17681 # Ari Pollak
+17677 # Ka-Hing Cheung
 17670 # Jan Kratochvil
 17663 # Damien Carbery
-17647 # Ka-Hing Cheung <khc@hxbc.us>
+17647 # Ka-Hing Cheung
 17644 # Benjamin Moody
 17643 # R.Ramkumar
 17628 # Eduardo Pérez
-17620 # Lee Roach <phroggster@gmail.com>
-17618 # Ambrose Li <ambrose.li@gmail.com>
-17617 # Richard Nelson <wabz@pidgin.im>
-17615 # Richard Nelson <wabz@pidgin.im>
-17611 # Henning Norén <henning.noren@gmail.com>
-17587 # Richard Nelson <wabz@pidgin.im>
-17569 # Torrey McMahon <tmcmahon2@users.sourceforge.net>
+17620 # Lee Roach
+17618 # Ambrose Li
+17617 # Richard Nelson
+17615 # Richard Nelson
+17611 # Henning Norén
+17587 # Richard Nelson
+17569 # Torrey McMahon
 17563 # Taso N. Devetzis
 17562 # Jason Lynch
-17561 # Ari Pollak <ari@debian.org>
-17555 # Björn Voigt <bjoern@cs.tu-berlin.de>
-17550 # Henning Norén <henning.noren@gmail.com>
-17545 # Richard Nelson <wabz@pidgin.im>
-17517 # Richard Nelson <wabz@pidgin.im>
-17512 # Richard Nelson <wabz@pidgin.im>
-17508 # Casey Harkins <charkins@pidgin.im>
-17493 # Richard Nelson <wabz@pidgin.im>
+17561 # Ari Pollak
+17555 # Björn Voigt
+17550 # Henning Norén
+17545 # Richard Nelson
+17517 # Richard Nelson
+17512 # Richard Nelson
+17508 # Casey Harkins
+17493 # Richard Nelson
 17491 # Matteo Settenvini
-17482 # Richard Nelson <wabz@pidgin.im>
-17478 # Richard Nelson <wabz@pidgin.im>
-17477 # Richard Nelson <wabz@pidgin.im>
-17471 # Martijn van Beers <martijn@eekeek.org>
-17467 # Richard Nelson <wabz@pidgin.im>
-17466 # Richard Nelson <wabz@pidgin.im>
-17462 # Richard Nelson <wabz@pidgin.im>
-17449 # Kevin Stange <kevin@simguy.net>
-17446 # Richard Nelson <wabz@pidgin.im>
-17445 # Richard Nelson <wabz@pidgin.im>
+17482 # Richard Nelson
+17478 # Richard Nelson
+17477 # Richard Nelson
+17471 # Martijn van Beers
+17467 # Richard Nelson
+17466 # Richard Nelson
+17462 # Richard Nelson
+17449 # Kevin Stange
+17446 # Richard Nelson
+17445 # Richard Nelson
 17444 # Paul Schulz
-17411 # Welker Zsombor <zdeqb@users.sourceforge.net>
-17405 # Mike Stoddard <mistoddard@novell.com>
-17403 # Sadrul Habib Chowdhury <imadil@gmail.com>
-17394 # Ari Pollak <ari@debian.org>
-17385 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-17376 # Richard Nelson <wabz@pidgin.im>
-17351 # Ka-Hing Cheung <khc@hxbc.us>
-17343 # Will Thompson <will.thompson@collabora.co.uk>
-17342 # Hendrik-Jan Heins <hjheins@gmail.com>
-17323 # Mike Stoddard <mistoddard@novell.com>
-17319 # Mike Stoddard <mistoddard@novell.com>
-17318 # Mike Stoddard <mistoddard@novell.com>
-17307 # Sadrul Habib Chowdhury <imadil@gmail.com>
+17411 # Welker Zsombor
+17405 # Mike Stoddard
+17403 # Sadrul Habib Chowdhury
+17394 # Ari Pollak
+17385 # Éric Boumaour
+17376 # Richard Nelson
+17351 # Ka-Hing Cheung
+17343 # Will Thompson
+17342 # Hendrik-Jan Heins
+17323 # Mike Stoddard
+17319 # Mike Stoddard
+17318 # Mike Stoddard
+17307 # Sadrul Habib Chowdhury
 17301 # Patrick Cheung
 17277 # Joymarquis
-17273 # Richard Nelson <wabz@pidgin.im>
-17264 # Stu Tomlinson <stu@nosnilmot.com>
+17273 # Richard Nelson
+17264 # Stu Tomlinson
 17240 # Lars T. Mikkelsen
-17232 # Casey Harkins <charkins@pidgin.im>
-17213 # Richard Nelson <wabz@pidgin.im>
-17210 # Jérôme Poulin <ticpu@users.sourceforge.net>
-17205 # Richard Nelson <wabz@pidgin.im>
-17203 # Richard Nelson <wabz@pidgin.im>
-17200 # Casey Harkins <charkins@pidgin.im>
-17198 # Peter McCurdy <cpirate@users.sourceforge.net>
+17232 # Casey Harkins
+17213 # Richard Nelson
+17210 # Jérôme Poulin
+17205 # Richard Nelson
+17203 # Richard Nelson
+17200 # Casey Harkins
+17198 # Peter McCurdy
 17172 # Anders Kaseorg
 17171 # Alex Badea
-17151 # John Bailey <rekkanoryo@rekkanoryo.org>
-17148 # Kevin Stange <kevin@simguy.net>
-17137 # Richard Nelson <wabz@pidgin.im>
-17085 # Richard Nelson <wabz@pidgin.im>
-17076 # Hil <allhilbert@users.sourceforge.net>
+17151 # John Bailey
+17148 # Kevin Stange
+17137 # Richard Nelson
+17085 # Richard Nelson
+17076 # Hil
 17039 # Georgi Georgiev
-16993 # Richard Nelson <wabz@pidgin.im>
+16993 # Richard Nelson
 16986 # Ian Goldberg
-16958 # Mark Schneider <queueram@gmail.com>
+16958 # Mark Schneider
 16953 # Alex Badea
-16830 # Henning Norén <henning.noren@gmail.com>
+16830 # Henning Norén
 16819 # Dan Winship
-16810 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16791 # Henning Norén <henning.noren@gmail.com>
+16810 # Sadrul Habib Chowdhury
+16791 # Henning Norén
 16778 # Joshua Blanton
-16765 # Kevin Stange <kevin@simguy.net>
-16594 # Richard Nelson <wabz@pidgin.im>
+16765 # Kevin Stange
+16594 # Richard Nelson
 16406 # Jonty Wareing
 16400 # Jonty Wareing
 16390 # Jonty Wareing
 16386 # Jono Cole
-16326 # Riley Patterson <therylz@users.sourceforge.net>
+16326 # Riley Patterson
 16320 # Wan Hing Wah
-16287 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16283 # Brian Chu <roast@users.sourceforge.net>
+16287 # Sadrul Habib Chowdhury
+16283 # Brian Chu
 16282 # Yosef Radchenko
-16281 # Ka-Hing Cheung <khc@hxbc.us>
-16279 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16257 # Brian Chu <roast@users.sourceforge.net>
-16232 # Don Seiler <rizzo@gentoo.org>
-16217 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16216 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16215 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16213 # Ka-Hing Cheung <khc@hxbc.us>
-16202 # Joshua Honeycutt <coweater@users.sourceforge.net>
-16195 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16194 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16193 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16191 # Ma Xuan <supermmx@gmail.com>
-16185 # Marc E. <elcomandante@sbcglobal.net>
-16182 # Jérôme Poulin <ticpu@users.sourceforge.net>
-16173 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16164 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16163 # Greg <gonufer@users.sourceforge.net>
-16162 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16138 # Aleksander Piotrowski <alek@nic.com.pl>
-16136 # Will Thompson <will.thompson@collabora.co.uk>
-16130 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16122 # Will Thompson <will.thompson@collabora.co.uk>
-16111 # Marc E. <elcomandante@sbcglobal.net>
-16106 # Marc E. <elcomandante@sbcglobal.net>
-16096 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16095 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16094 # Chris <cbanal@users.sourceforge.net>
-16093 # Miguel Rodríguez <miguelrp@users.sourceforge.net>
-16089 # Sadrul Habib Chowdhury <imadil@gmail.com>
-16088 # Casey Harkins <charkins@pidgin.im>
+16281 # Ka-Hing Cheung
+16279 # Sadrul Habib Chowdhury
+16257 # Brian Chu
+16232 # Don Seiler
+16217 # Sadrul Habib Chowdhury
+16216 # Sadrul Habib Chowdhury
+16215 # Sadrul Habib Chowdhury
+16213 # Ka-Hing Cheung
+16202 # Joshua Honeycutt
+16195 # Sadrul Habib Chowdhury
+16194 # Sadrul Habib Chowdhury
+16193 # Sadrul Habib Chowdhury
+16191 # Ma Xuan
+16185 # Marc E.
+16182 # Jérôme Poulin
+16173 # Sadrul Habib Chowdhury
+16164 # Sadrul Habib Chowdhury
+16163 # Greg
+16162 # Sadrul Habib Chowdhury
+16138 # Aleksander Piotrowski
+16136 # Will Thompson
+16130 # Sadrul Habib Chowdhury
+16122 # Will Thompson
+16111 # Marc E.
+16106 # Marc E.
+16096 # Sadrul Habib Chowdhury
+16095 # Sadrul Habib Chowdhury
+16094 # Chris
+16093 # Miguel Rodríguez
+16089 # Sadrul Habib Chowdhury
+16088 # Casey Harkins
 16087 # Wan Hing Wah
-16031 # Björn Voigt <bjoern@cs.tu-berlin.de>
-16003 # Björn Voigt <bjoern@cs.tu-berlin.de>
-16002 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15950 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15948 # John Bailey <rekkanoryo@rekkanoryo.org>
-15947 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15946 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15944 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15937 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15934 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15932 # Sadrul Habib Chowdhury <imadil@gmail.com>
+16031 # Björn Voigt
+16003 # Björn Voigt
+16002 # Björn Voigt
+15950 # Björn Voigt
+15948 # John Bailey
+15947 # Sadrul Habib Chowdhury
+15946 # Sadrul Habib Chowdhury
+15944 # Björn Voigt
+15937 # Sadrul Habib Chowdhury
+15934 # Sadrul Habib Chowdhury
+15932 # Sadrul Habib Chowdhury
 15929 # Fernando Herrera
-15925 # Björn Voigt <bjoern@cs.tu-berlin.de>
+15925 # Björn Voigt
 15907 # Julien Bossart
 15898 # Philip Derrin
-15895 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15894 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15886 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15885 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15884 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15882 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15853 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15829 # Bartosz Oler <bartosz@pidgin.im>
-15824 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15789 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15895 # Björn Voigt
+15894 # Sadrul Habib Chowdhury
+15886 # Sadrul Habib Chowdhury
+15885 # Sadrul Habib Chowdhury
+15884 # Sadrul Habib Chowdhury
+15882 # Sadrul Habib Chowdhury
+15853 # Sadrul Habib Chowdhury
+15829 # Bartosz Oler
+15824 # Sadrul Habib Chowdhury
+15789 # Sadrul Habib Chowdhury
 15764 # David Everly
-15760 # Kevin Stange <kevin@simguy.net>
-15758 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15755 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15750 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15746 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15737 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15733 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15731 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15728 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15760 # Kevin Stange
+15758 # Sadrul Habib Chowdhury
+15755 # Björn Voigt
+15750 # Sadrul Habib Chowdhury
+15746 # Sadrul Habib Chowdhury
+15737 # Sadrul Habib Chowdhury
+15733 # Sadrul Habib Chowdhury
+15731 # Sadrul Habib Chowdhury
+15728 # Sadrul Habib Chowdhury
 15725 # Scott Wolchok
-15724 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15724 # Sadrul Habib Chowdhury
 15723 # Scott Wolchok
-15713 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15713 # Sadrul Habib Chowdhury
 15712 # Shawn Outman
 15686 # Matthew Luckie
-15682 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15681 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15680 # Glauber de Oliveira Costa <gcosta@redhat.com>
-15679 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15649 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15648 # Dennis Nezic <dennisn@dennisn.dyndns.org>
-15647 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15645 # Greg Hudson <ghudson@mit.edu>
-15639 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15634 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15633 # Dennis Nezic <dennisn@dennisn.dyndns.org>
-15629 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15625 # Peter Lawler <bleeter@gmail.com>
+15682 # Sadrul Habib Chowdhury
+15681 # Sadrul Habib Chowdhury
+15680 # Glauber de Oliveira Costa
+15679 # Sadrul Habib Chowdhury
+15649 # Sadrul Habib Chowdhury
+15648 # Dennis Nezic
+15647 # Sadrul Habib Chowdhury
+15645 # Greg Hudson
+15639 # Björn Voigt
+15634 # Sadrul Habib Chowdhury
+15633 # Dennis Nezic
+15629 # Björn Voigt
+15625 # Peter Lawler
 15607 # Kevin Hunter
-15603 # Andrej Krivulčík <thefox692@users.sourceforge.net>
-15602 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15598 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15593 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15592 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15585 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15584 # Casey Harkins <charkins@pidgin.im>
-15583 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15578 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15558 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15557 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15556 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15603 # Andrej Krivulčík
+15602 # Sadrul Habib Chowdhury
+15598 # Sadrul Habib Chowdhury
+15593 # Sadrul Habib Chowdhury
+15592 # Sadrul Habib Chowdhury
+15585 # Sadrul Habib Chowdhury
+15584 # Casey Harkins
+15583 # Sadrul Habib Chowdhury
+15578 # Björn Voigt
+15558 # Sadrul Habib Chowdhury
+15557 # Sadrul Habib Chowdhury
+15556 # Sadrul Habib Chowdhury
 15555 # Tim Mooney
-15536 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15535 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15534 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15524 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15513 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15512 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15511 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15510 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15536 # Sadrul Habib Chowdhury
+15535 # Sadrul Habib Chowdhury
+15534 # Sadrul Habib Chowdhury
+15524 # Sadrul Habib Chowdhury
+15513 # Sadrul Habib Chowdhury
+15512 # Sadrul Habib Chowdhury
+15511 # Sadrul Habib Chowdhury
+15510 # Sadrul Habib Chowdhury
 15509 # Mart Raudsepp
 15508 # Unknown <eschman@users.sourceforge.net>
-15507 # Richard Nelson <wabz@pidgin.im>
-15506 # Evan Schoenberg <evan.s@dreskin.net>
-15501 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15500 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15499 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15498 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15497 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15496 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15495 # Christophe Chapuis <tofe2tofe@users.sourceforge.net>
-15494 # Will Thompson <will.thompson@collabora.co.uk>
-15489 # Evan Schoenberg <evan.s@dreskin.net>
-15487 # Evan Schoenberg <evan.s@dreskin.net>
-15451 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15433 # Jonathan Clark <ardentlygnarly@users.sourceforge.net>
-15432 # Jonathan Clark <ardentlygnarly@users.sourceforge.net>
+15507 # Richard Nelson
+15506 # Evan Schoenberg
+15501 # Sadrul Habib Chowdhury
+15500 # Sadrul Habib Chowdhury
+15499 # Sadrul Habib Chowdhury
+15498 # Sadrul Habib Chowdhury
+15497 # Sadrul Habib Chowdhury
+15496 # Sadrul Habib Chowdhury
+15495 # Christophe Chapuis
+15494 # Will Thompson
+15489 # Evan Schoenberg
+15487 # Evan Schoenberg
+15451 # Björn Voigt
+15433 # Jonathan Clark
+15432 # Jonathan Clark
 15425 # David Schmitt
-15405 # Casey Harkins <charkins@pidgin.im>
+15405 # Casey Harkins
 15401 # Pui Lam Wong
-15400 # Peter Lawler <bleeter@gmail.com>
-15381 # Evan Schoenberg <evan.s@dreskin.net>
-15380 # Evan Schoenberg <evan.s@dreskin.net>
+15400 # Peter Lawler
+15381 # Evan Schoenberg
+15380 # Evan Schoenberg
 15344 # Tim Mooney
-15335 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15317 # Bartosz Oler <bartosz@pidgin.im>
-15315 # Bartosz Oler <bartosz@pidgin.im>
-15314 # Bartosz Oler <bartosz@pidgin.im>
-15302 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15292 # Levi Bard <levi@bard.sytes.net>
-15287 # Richard Nelson <wabz@pidgin.im>
-15285 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15279 # Nick Hebner <hebnern@gmail.com>
-15268 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15335 # Sadrul Habib Chowdhury
+15317 # Bartosz Oler
+15315 # Bartosz Oler
+15314 # Bartosz Oler
+15302 # Sadrul Habib Chowdhury
+15292 # Levi Bard
+15287 # Richard Nelson
+15285 # Sadrul Habib Chowdhury
+15279 # Nick Hebner
+15268 # Sadrul Habib Chowdhury
 15266 # Philip Walford
-15265 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15258 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15257 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15255 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15254 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15252 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15251 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15249 # Peter Lawler <bleeter@gmail.com>
-15231 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15230 # Peter Lawler <bleeter@gmail.com>
-15218 # Andrea Canciani <ranma42@users.sourceforge.net>
-15216 # Peter Lawler <bleeter@gmail.com>
-15211 # Glauber de Oliveira Costa <gcosta@redhat.com>
-15200 # Casey Harkins <charkins@pidgin.im>
+15265 # Sadrul Habib Chowdhury
+15258 # Sadrul Habib Chowdhury
+15257 # Sadrul Habib Chowdhury
+15255 # Sadrul Habib Chowdhury
+15254 # Sadrul Habib Chowdhury
+15252 # Sadrul Habib Chowdhury
+15251 # Sadrul Habib Chowdhury
+15249 # Peter Lawler
+15231 # Sadrul Habib Chowdhury
+15230 # Peter Lawler
+15218 # Andrea Canciani
+15216 # Peter Lawler
+15211 # Glauber de Oliveira Costa
+15200 # Casey Harkins
 15199 # Jean-Yves Lefort
-15194 # Björn Voigt <bjoern@cs.tu-berlin.de>
-15175 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15163 # Casey Harkins <charkins@pidgin.im>
-15153 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15147 # Peter Lawler <bleeter@gmail.com>
-15145 # Peter Lawler <bleeter@gmail.com>
-15144 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15143 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15142 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15141 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15140 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15125 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15122 # John Bailey <rekkanoryo@rekkanoryo.org>
-15121 # Peter McCurdy <cpirate@users.sourceforge.net>
-15119 # Jonathan Clark <ardentlygnarly@users.sourceforge.net>
-15113 # Nick Hebner <hebnern@gmail.com>
-15112 # Thomas Butter <tbutter@users.sourceforge.net>
-15108 # Pekka Riikonen <priikone@iki.fi>
-15091 # Casey Harkins <charkins@pidgin.im>
+15194 # Björn Voigt
+15175 # Sadrul Habib Chowdhury
+15163 # Casey Harkins
+15153 # Sadrul Habib Chowdhury
+15147 # Peter Lawler
+15145 # Peter Lawler
+15144 # Sadrul Habib Chowdhury
+15143 # Sadrul Habib Chowdhury
+15142 # Sadrul Habib Chowdhury
+15141 # Sadrul Habib Chowdhury
+15140 # Sadrul Habib Chowdhury
+15125 # Sadrul Habib Chowdhury
+15122 # John Bailey
+15121 # Peter McCurdy
+15119 # Jonathan Clark
+15113 # Nick Hebner
+15112 # Thomas Butter
+15108 # Pekka Riikonen
+15091 # Casey Harkins
 15081 # Thomas Huriaux
-15058 # Jonathan Clark <ardentlygnarly@users.sourceforge.net>
-15057 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15056 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15044 # Casey Harkins <charkins@pidgin.im>
+15058 # Jonathan Clark
+15057 # Sadrul Habib Chowdhury
+15056 # Sadrul Habib Chowdhury
+15044 # Casey Harkins
 15043 # Unknown <lildude@users.sourceforge.net>
 15041 # Martijn Dekker
 15037 # Lucio Maciel
-15035 # Douglas Thrift <douglas@douglasthrift.net>
+15035 # Douglas Thrift
 15028 # Martijn Dekker
 15027 # Steve Cavilia
 15019 # Julien Pivotto
 15017 # Jon Oberheide
-15016 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15015 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15014 # Will Thompson <will.thompson@collabora.co.uk>
-15013 # Will Thompson <will.thompson@collabora.co.uk>
-15012 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15009 # Sadrul Habib Chowdhury <imadil@gmail.com>
-15008 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15016 # Sadrul Habib Chowdhury
+15015 # Sadrul Habib Chowdhury
+15014 # Will Thompson
+15013 # Will Thompson
+15012 # Sadrul Habib Chowdhury
+15009 # Sadrul Habib Chowdhury
+15008 # Sadrul Habib Chowdhury
 15004 # Wesley Lin
-15002 # Kris Marsh <moogman@gmail.com>
-14985 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14983 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14977 # Bartosz Oler <bartosz@pidgin.im>
-14975 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14970 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14956 # Dennis Lambe Jr. <malsyned@users.sourceforge.net>
-14942 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14939 # Sadrul Habib Chowdhury <imadil@gmail.com>
+15002 # Kris Marsh
+14985 # Sadrul Habib Chowdhury
+14983 # Sadrul Habib Chowdhury
+14977 # Bartosz Oler
+14975 # Sadrul Habib Chowdhury
+14970 # Sadrul Habib Chowdhury
+14956 # Dennis Lambe Jr.
+14942 # Sadrul Habib Chowdhury
+14939 # Sadrul Habib Chowdhury
 14938 # Nathan Conrad
-14927 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14927 # Sadrul Habib Chowdhury
 14900 # Jeffery To
-14833 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14833 # Sadrul Habib Chowdhury
 14820 # Simon Wilkinson
-14810 # Casey Harkins <charkins@pidgin.im>
-14801 # Björn Voigt <bjoern@cs.tu-berlin.de>
-14790 # Casey Harkins <charkins@pidgin.im>
-14789 # Aleksander Piotrowski <alek@nic.com.pl>
-14787 # Evan Schoenberg <evan.s@dreskin.net>
-14786 # Casey Harkins <charkins@pidgin.im>
-14785 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14784 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14782 # Casey Harkins <charkins@pidgin.im>
-14781 # Casey Harkins <charkins@pidgin.im>
-14780 # Casey Harkins <charkins@pidgin.im>
-14778 # Casey Harkins <charkins@pidgin.im>
+14810 # Casey Harkins
+14801 # Björn Voigt
+14790 # Casey Harkins
+14789 # Aleksander Piotrowski
+14787 # Evan Schoenberg
+14786 # Casey Harkins
+14785 # Sadrul Habib Chowdhury
+14784 # Sadrul Habib Chowdhury
+14782 # Casey Harkins
+14781 # Casey Harkins
+14780 # Casey Harkins
+14778 # Casey Harkins
 14776 # Pradyumna Sampath
-14775 # Peter Lawler <bleeter@gmail.com>
-14774 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14773 # Evan Schoenberg <evan.s@dreskin.net>
-14771 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14770 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14766 # Casey Harkins <charkins@pidgin.im>
+14775 # Peter Lawler
+14774 # Sadrul Habib Chowdhury
+14773 # Evan Schoenberg
+14771 # Sadrul Habib Chowdhury
+14770 # Sadrul Habib Chowdhury
+14766 # Casey Harkins
 14753 # Joshua Blanton
-14702 # Casey Harkins <charkins@pidgin.im>
-14673 # Peter Lawler <bleeter@gmail.com>
-14672 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14671 # Peter Lawler <bleeter@gmail.com>
-14668 # Will Thompson <will.thompson@collabora.co.uk>
-14666 # Will Thompson <will.thompson@collabora.co.uk>
-14665 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14646 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14645 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14644 # Will Thompson <will.thompson@collabora.co.uk>
-14609 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14607 # Pekka Riikonen <priikone@iki.fi>
-14604 # Peter Lawler <bleeter@gmail.com>
-14594 # Björn Voigt <bjoern@cs.tu-berlin.de>
-14592 # Casey Harkins <charkins@pidgin.im>
-14583 # Casey Harkins <charkins@pidgin.im>
-14582 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14578 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14575 # Evan Schoenberg <evan.s@dreskin.net>
-14569 # Peter Lawler <bleeter@gmail.com>
-14560 # Bartosz Oler <bartosz@pidgin.im>
-14559 # Bartosz Oler <bartosz@pidgin.im>
-14542 # Björn Voigt <bjoern@cs.tu-berlin.de>
-14539 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14702 # Casey Harkins
+14673 # Peter Lawler
+14672 # Sadrul Habib Chowdhury
+14671 # Peter Lawler
+14668 # Will Thompson
+14666 # Will Thompson
+14665 # Sadrul Habib Chowdhury
+14646 # Sadrul Habib Chowdhury
+14645 # Sadrul Habib Chowdhury
+14644 # Will Thompson
+14609 # Sadrul Habib Chowdhury
+14607 # Pekka Riikonen
+14604 # Peter Lawler
+14594 # Björn Voigt
+14592 # Casey Harkins
+14583 # Casey Harkins
+14582 # Sadrul Habib Chowdhury
+14578 # Sadrul Habib Chowdhury
+14575 # Evan Schoenberg
+14569 # Peter Lawler
+14560 # Bartosz Oler
+14559 # Bartosz Oler
+14542 # Björn Voigt
+14539 # Sadrul Habib Chowdhury
 14535 # Michael Carlson
-14532 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14532 # Sadrul Habib Chowdhury
 14531 # Michael Carlson
-14530 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14524 # Mike Stoddard <mistoddard@novell.com>
-14522 # Bartosz Oler <bartosz@pidgin.im>
-14519 # Pekka Riikonen <priikone@iki.fi>
-14505 # Peter Lawler <bleeter@gmail.com>
-14498 # Thomas Butter <tbutter@users.sourceforge.net>
-14496 # Björn Voigt <bjoern@cs.tu-berlin.de>
-14491 # Evan Schoenberg <evan.s@dreskin.net>
-14486 # Casey Harkins <charkins@pidgin.im>
-14477 # Casey Harkins <charkins@pidgin.im>
-14470 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14469 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14468 # Pekka Riikonen <priikone@iki.fi>
-14465 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14463 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14446 # Kevin Stange <kevin@simguy.net>
-14444 # Evan Schoenberg <evan.s@dreskin.net>
-14441 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14439 # Peter Lawler <bleeter@gmail.com>
-14436 # Kevin Stange <kevin@simguy.net>
-14433 # Casey Harkins <charkins@pidgin.im>
-14431 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14430 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14429 # Ka-Hing Cheung <khc@hxbc.us>
-14427 # Casey Harkins <charkins@pidgin.im>
-14426 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14424 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14416 # Casey Harkins <charkins@pidgin.im>
-14415 # Casey Harkins <charkins@pidgin.im>
-14413 # Levi Bard <levi@bard.sytes.net>
-14412 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14411 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14408 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14530 # Sadrul Habib Chowdhury
+14524 # Mike Stoddard
+14522 # Bartosz Oler
+14519 # Pekka Riikonen
+14505 # Peter Lawler
+14498 # Thomas Butter
+14496 # Björn Voigt
+14491 # Evan Schoenberg
+14486 # Casey Harkins
+14477 # Casey Harkins
+14470 # Sadrul Habib Chowdhury
+14469 # Sadrul Habib Chowdhury
+14468 # Pekka Riikonen
+14465 # Sadrul Habib Chowdhury
+14463 # Sadrul Habib Chowdhury
+14446 # Kevin Stange
+14444 # Evan Schoenberg
+14441 # Sadrul Habib Chowdhury
+14439 # Peter Lawler
+14436 # Kevin Stange
+14433 # Casey Harkins
+14431 # Sadrul Habib Chowdhury
+14430 # Sadrul Habib Chowdhury
+14429 # Ka-Hing Cheung
+14427 # Casey Harkins
+14426 # Sadrul Habib Chowdhury
+14424 # Sadrul Habib Chowdhury
+14416 # Casey Harkins
+14415 # Casey Harkins
+14413 # Levi Bard
+14412 # Sadrul Habib Chowdhury
+14411 # Sadrul Habib Chowdhury
+14408 # Sadrul Habib Chowdhury
 14397 # Chris Stafford
-14396 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14394 # Evan Schoenberg <evan.s@dreskin.net>
-14386 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14385 # Will Thompson <will.thompson@collabora.co.uk>
-14382 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14381 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14378 # Evan Schoenberg <evan.s@dreskin.net>
-14377 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14376 # Casey Harkins <charkins@pidgin.im>
-14372 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14370 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14359 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14357 # Ka-Hing Cheung <khc@hxbc.us>
-14356 # Mike Hearn <mike@theoretic.com>
-14353 # Pekka Riikonen <priikone@iki.fi>
-14351 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14348 # Casey Harkins <charkins@pidgin.im>
-14347 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14396 # Sadrul Habib Chowdhury
+14394 # Evan Schoenberg
+14386 # Sadrul Habib Chowdhury
+14385 # Will Thompson
+14382 # Sadrul Habib Chowdhury
+14381 # Sadrul Habib Chowdhury
+14378 # Evan Schoenberg
+14377 # Sadrul Habib Chowdhury
+14376 # Casey Harkins
+14372 # Sadrul Habib Chowdhury
+14370 # Sadrul Habib Chowdhury
+14359 # Sadrul Habib Chowdhury
+14357 # Ka-Hing Cheung
+14356 # Mike Hearn
+14353 # Pekka Riikonen
+14351 # Sadrul Habib Chowdhury
+14348 # Casey Harkins
+14347 # Sadrul Habib Chowdhury
 14342 # Fernando Herrera
-14338 # Will Thompson <will.thompson@collabora.co.uk>
-14333 # Levi Bard <levi@bard.sytes.net>
-14330 # Evan Schoenberg <evan.s@dreskin.net>
-14315 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14314 # Casey Harkins <charkins@pidgin.im>
-14311 # Casey Harkins <charkins@pidgin.im>
-14309 # Casey Harkins <charkins@pidgin.im>
-14308 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14338 # Will Thompson
+14333 # Levi Bard
+14330 # Evan Schoenberg
+14315 # Sadrul Habib Chowdhury
+14314 # Casey Harkins
+14311 # Casey Harkins
+14309 # Casey Harkins
+14308 # Sadrul Habib Chowdhury
 14306 # Joao Luís Marques Pinto
-14303 # Peter Lawler <bleeter@gmail.com>
-14301 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14300 # Bartosz Oler <bartosz@pidgin.im>
-14289 # Eoin Coffey <ecoffey@soc.pidgin.im>
+14303 # Peter Lawler
+14301 # Sadrul Habib Chowdhury
+14300 # Bartosz Oler
+14289 # Eoin Coffey
 14288 Richard Gobeille
 14287 Richard Gobeille
-14273 # Eoin Coffey <ecoffey@soc.pidgin.im>
-14272 # Eoin Coffey <ecoffey@soc.pidgin.im>
-14255 # Levi Bard <levi@bard.sytes.net>
-14247 # Levi Bard <levi@bard.sytes.net>
-14243 # Eoin Coffey <ecoffey@soc.pidgin.im>
-14242 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14241 # Evan Schoenberg <evan.s@dreskin.net>
-14227 # Kevin Stange <kevin@simguy.net>
+14273 # Eoin Coffey
+14272 # Eoin Coffey
+14255 # Levi Bard
+14247 # Levi Bard
+14243 # Eoin Coffey
+14242 # Sadrul Habib Chowdhury
+14241 # Evan Schoenberg
+14227 # Kevin Stange
 14225 Richard Gobeille
-14223 # Evan Schoenberg <evan.s@dreskin.net>
-14220 # Kevin Stange <kevin@simguy.net>
+14223 # Evan Schoenberg
+14220 # Kevin Stange
 14216 John Eckerdal
 14213 Richard Gobeille
-14212 # Evan Schoenberg <evan.s@dreskin.net>
-14211 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14205 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14202 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14200 # Evan Schoenberg <evan.s@dreskin.net>
-14199 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14198 # Evan Schoenberg <evan.s@dreskin.net>
-14197 # Casey Harkins <charkins@pidgin.im>
-14192 # Francesco Fracassi <ffracassi@users.sourceforge.net>
-14164 # Casey Harkins <charkins@pidgin.im>
+14212 # Evan Schoenberg
+14211 # Sadrul Habib Chowdhury
+14205 # Sadrul Habib Chowdhury
+14202 # Sadrul Habib Chowdhury
+14200 # Evan Schoenberg
+14199 # Sadrul Habib Chowdhury
+14198 # Evan Schoenberg
+14197 # Casey Harkins
+14192 # Francesco Fracassi
+14164 # Casey Harkins
 14161 # Joshua Blanton
-14158 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14158 # Sadrul Habib Chowdhury
 14150 Rodrigo Torres
-14146 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14141 # Richard Stellingwerff <remenic@gmail.com>
-14140 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14139 # Peter Lawler <bleeter@gmail.com>
-14137 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14131 # Sadrul Habib Chowdhury <imadil@gmail.com>
+14146 # Sadrul Habib Chowdhury
+14141 # Richard Stellingwerff
+14140 # Sadrul Habib Chowdhury
+14139 # Peter Lawler
+14137 # Sadrul Habib Chowdhury
+14131 # Sadrul Habib Chowdhury
 14110 David Fiander
-14109 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14108 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14106 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14104 # Kevin Stange <kevin@simguy.net>
-14103 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14102 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14094 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14091 # Peter Lawler <bleeter@gmail.com>
-14090 # Kevin Stange <kevin@simguy.net>
-14083 # Evan Schoenberg <evan.s@dreskin.net>
-14079 # Kevin Stange <kevin@simguy.net>
-14073 # Peter Lawler <bleeter@gmail.com>
-14072 # Kevin Stange <kevin@simguy.net>
-14054 # Will Thompson <will.thompson@collabora.co.uk>
-14048 # John Bailey <rekkanoryo@rekkanoryo.org>
-14040 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14021 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14014 # Sadrul Habib Chowdhury <imadil@gmail.com>
-14010 # Michael Carlson <corfe83@users.sourceforge.net>
-14000 # Casey Harkins <charkins@pidgin.im>
-13992 # Michael Carlson <corfe83@users.sourceforge.net>
-13973 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13970 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13959 # Michael Carlson <corfe83@users.sourceforge.net>
-13953 # Casey Harkins <charkins@pidgin.im>
+14109 # Sadrul Habib Chowdhury
+14108 # Sadrul Habib Chowdhury
+14106 # Sadrul Habib Chowdhury
+14104 # Kevin Stange
+14103 # Sadrul Habib Chowdhury
+14102 # Sadrul Habib Chowdhury
+14094 # Sadrul Habib Chowdhury
+14091 # Peter Lawler
+14090 # Kevin Stange
+14083 # Evan Schoenberg
+14079 # Kevin Stange
+14073 # Peter Lawler
+14072 # Kevin Stange
+14054 # Will Thompson
+14048 # John Bailey
+14040 # Sadrul Habib Chowdhury
+14021 # Sadrul Habib Chowdhury
+14014 # Sadrul Habib Chowdhury
+14010 # Michael Carlson
+14000 # Casey Harkins
+13992 # Michael Carlson
+13973 # Sadrul Habib Chowdhury
+13970 # Sadrul Habib Chowdhury
+13959 # Michael Carlson
+13953 # Casey Harkins
 13950 # Michael Carlson
-13949 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13945 # Eoin Coffey <ecoffey@soc.pidgin.im>
-13922 # Peter Lawler <bleeter@gmail.com>
-13920 # John Bailey <rekkanoryo@rekkanoryo.org>
-13919 # Casey Harkins <charkins@pidgin.im>
-13915 # Will Thompson <will.thompson@collabora.co.uk>
-13903 # Casey Harkins <charkins@pidgin.im>
-13902 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13900 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13897 # Kris Marsh <moogman@gmail.com>
-13889 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13888 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13874 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13873 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13863 # Levi Bard <levi@bard.sytes.net>
-13829 # Casey Harkins <charkins@pidgin.im>
-13816 # Casey Harkins <charkins@pidgin.im>
-13812 # Casey Harkins <charkins@pidgin.im>
-13805 # Levi Bard <levi@bard.sytes.net>
-13776 # Peter Lawler <bleeter@gmail.com>
-13773 # Francesco Fracassi <ffracassi@users.sourceforge.net>
-13763 # Francesco Fracassi <ffracassi@users.sourceforge.net>
-13738 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13727 # Peter Lawler <bleeter@gmail.com>
-13709 # Steve Láposi <ronin_hun@users.sourceforge.net>
-13672 # Kevin Stange <kevin@simguy.net>
-13671 # Kevin Stange <kevin@simguy.net>
+13949 # Sadrul Habib Chowdhury
+13945 # Eoin Coffey
+13922 # Peter Lawler
+13920 # John Bailey
+13919 # Casey Harkins
+13915 # Will Thompson
+13903 # Casey Harkins
+13902 # Sadrul Habib Chowdhury
+13900 # Sadrul Habib Chowdhury
+13897 # Kris Marsh
+13889 # Sadrul Habib Chowdhury
+13888 # Sadrul Habib Chowdhury
+13874 # Sadrul Habib Chowdhury
+13873 # Sadrul Habib Chowdhury
+13863 # Levi Bard
+13829 # Casey Harkins
+13816 # Casey Harkins
+13812 # Casey Harkins
+13805 # Levi Bard
+13776 # Peter Lawler
+13773 # Francesco Fracassi
+13763 # Francesco Fracassi
+13738 # Sadrul Habib Chowdhury
+13727 # Peter Lawler
+13709 # Steve Láposi
+13672 # Kevin Stange
+13671 # Kevin Stange
 13642 Federico Schwindt
-13641 # Peter McCurdy <cpirate@users.sourceforge.net>
-13637 # Peter McCurdy <cpirate@users.sourceforge.net>
-13635 # Will Thompson <will.thompson@collabora.co.uk>
+13641 # Peter McCurdy
+13637 # Peter McCurdy
+13635 # Will Thompson
 13623 Ken Tossell
-13621 # Zmitrok <zmitrok@users.sourceforge.net>
-13617 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13612 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13611 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13590 # Peter Lawler <bleeter@gmail.com>
-13558 # Peter Lawler <bleeter@gmail.com>
+13621 # Zmitrok
+13617 # Sadrul Habib Chowdhury
+13612 # Sadrul Habib Chowdhury
+13611 # Sadrul Habib Chowdhury
+13590 # Peter Lawler
+13558 # Peter Lawler
 13553 Charlie Gordon
-13523 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13507 # Levi Bard <levi@bard.sytes.net>
+13523 # Sadrul Habib Chowdhury
+13507 # Levi Bard
 13501 Ruediger Oertel
-13478 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13477 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13474 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13439 # Levi Bard <levi@bard.sytes.net>
-13437 # Steve Láposi <ronin_hun@users.sourceforge.net>
+13478 # Sadrul Habib Chowdhury
+13477 # Sadrul Habib Chowdhury
+13474 # Sadrul Habib Chowdhury
+13439 # Levi Bard
+13437 # Steve Láposi
 13434 Jeffery To
-13433 # Sadrul Habib Chowdhury <imadil@gmail.com>
+13433 # Sadrul Habib Chowdhury
 13429 Ilya Konstantinov
-13421 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13420 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13419 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13418 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13417 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13408 # Mads Chr. Olesen <mads@mchro.dk>
+13421 # Sadrul Habib Chowdhury
+13420 # Sadrul Habib Chowdhury
+13419 # Sadrul Habib Chowdhury
+13418 # Sadrul Habib Chowdhury
+13417 # Sadrul Habib Chowdhury
+13408 # Mads Chr. Olesen
 13380 Federico Schwindt
-13352 # Peter Lawler <bleeter@gmail.com>
-13322 # Erick Hamness <erickh@wiktel.com>
+13352 # Peter Lawler
+13322 # Erick Hamness
 13274 Ilya Konstantinov
-13242 # Wojtek Kaniewski <wojtekka@toxygen.net>
-13235 # Evan Schoenberg <evan.s@dreskin.net>
+13242 # Wojtek Kaniewski
+13235 # Evan Schoenberg
 13203 nekokun
 13173 Szilard Novaki
-13169 # Will Thompson <will.thompson@collabora.co.uk>
-13166 # Levi Bard <levi@bard.sytes.net>
-13164 # Riley Patterson <therylz@users.sourceforge.net>
-13163 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13111 # Kevin Stange <kevin@simguy.net>
-13101 # Levi Bard <levi@bard.sytes.net>
-13089 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13088 # Sadrul Habib Chowdhury <imadil@gmail.com>
-13085 # Sadrul Habib Chowdhury <imadil@gmail.com>
+13169 # Will Thompson
+13166 # Levi Bard
+13164 # Riley Patterson
+13163 # Sadrul Habib Chowdhury
+13111 # Kevin Stange
+13101 # Levi Bard
+13089 # Sadrul Habib Chowdhury
+13088 # Sadrul Habib Chowdhury
+13085 # Sadrul Habib Chowdhury
 13083 Ryan McCabe
 13082 Lalo Martins
-13035 # Levi Bard <levi@bard.sytes.net>
-13009 # Jason Roth <jroth2@users.sourceforge.net>
-12992 # Stanislav Brabec <sbrabec@suse.cz>
-12991 # Sadrul Habib Chowdhury <imadil@gmail.com>
-12990 # Sadrul Habib Chowdhury <imadil@gmail.com>
-12989 # Sadrul Habib Chowdhury <imadil@gmail.com>
+13035 # Levi Bard
+13009 # Jason Roth
+12992 # Stanislav Brabec
+12991 # Sadrul Habib Chowdhury
+12990 # Sadrul Habib Chowdhury
+12989 # Sadrul Habib Chowdhury
 12962 Fred Hampton
-12961 # Joshua Honeycutt <coweater@users.sourceforge.net>
-12958 # Peter Lawler <bleeter@gmail.com>
-12957 # Peter Lawler <bleeter@gmail.com>
-12954 # Sadrul Habib Chowdhury <imadil@gmail.com>
-12945 # Richard Laager <rlaager@wiktel.com>
-12940 # Richard Laager <rlaager@wiktel.com>
-12938 # Richard Laager <rlaager@wiktel.com>
-12935 # Richard Laager <rlaager@wiktel.com>
-12933 # Richard Laager <rlaager@wiktel.com>
-12912 # Richard Laager <rlaager@wiktel.com>
-12911 # Richard Laager <rlaager@wiktel.com>
-12899 # Richard Laager <rlaager@wiktel.com>
-12897 # Evan Schoenberg <evan.s@dreskin.net>
-12895 # Richard Laager <rlaager@wiktel.com>
-12893 # Richard Laager <rlaager@wiktel.com>
-12892 # Richard Laager <rlaager@wiktel.com>
-12891 # Richard Laager <rlaager@wiktel.com>
-12890 # Richard Laager <rlaager@wiktel.com>
-12888 # Richard Laager <rlaager@wiktel.com>
-12884 # Don Seiler <rizzo@gentoo.org>
+12961 # Joshua Honeycutt
+12958 # Peter Lawler
+12957 # Peter Lawler
+12954 # Sadrul Habib Chowdhury
+12945 # Richard Laager
+12940 # Richard Laager
+12938 # Richard Laager
+12935 # Richard Laager
+12933 # Richard Laager
+12912 # Richard Laager
+12911 # Richard Laager
+12899 # Richard Laager
+12897 # Evan Schoenberg
+12895 # Richard Laager
+12893 # Richard Laager
+12892 # Richard Laager
+12891 # Richard Laager
+12890 # Richard Laager
+12888 # Richard Laager
+12884 # Don Seiler
 12871 Dave Ahlswede
-12870 # Jason Cohen <kryojenik23-pidgin@steltek.com>
-12868 # Sadrul Habib Chowdhury <imadil@gmail.com>
+12870 # Jason Cohen
+12868 # Sadrul Habib Chowdhury
 12866 Ted Percival
-12859 # Sadrul Habib Chowdhury <imadil@gmail.com>
-12858 # Kevin Stange <kevin@simguy.net>
-12798 # Michael R. Head <burner@suppressingfire.org>
+12859 # Sadrul Habib Chowdhury
+12858 # Kevin Stange
+12798 # Michael R. Head
 12797 Abdulla Kamar
-12786 # Peter Lawler <bleeter@gmail.com>
-12768 # Peter Lawler <bleeter@gmail.com>
-12763 # Richard Laager <rlaager@wiktel.com>
-12755 # Levi Bard <levi@bard.sytes.net>
-12754 # Richard Laager <rlaager@wiktel.com>
-12753 # Richard Laager <rlaager@wiktel.com>
-12752 # Richard Laager <rlaager@wiktel.com>
-12751 # Richard Laager <rlaager@wiktel.com>
-12750 # Richard Laager <rlaager@wiktel.com>
-12749 # Evan Schoenberg <evan.s@dreskin.net>
-12721 # Peter Lawler <bleeter@gmail.com>
+12786 # Peter Lawler
+12768 # Peter Lawler
+12763 # Richard Laager
+12755 # Levi Bard
+12754 # Richard Laager
+12753 # Richard Laager
+12752 # Richard Laager
+12751 # Richard Laager
+12750 # Richard Laager
+12749 # Evan Schoenberg
+12721 # Peter Lawler
 12720 Alex Duggan
 12719 Dave Ahlswede
-12717 # Richard Laager <rlaager@wiktel.com>
+12717 # Richard Laager
 12632 # Jean-Yves Lefort
 12609 Rainer Blessing
-12608 # Benjamin Canou <bookeldor@gmail.com>
-12574 # Richard Laager <rlaager@wiktel.com>
-12561 # Steven Garrity <sgarrity@silverorange.com>
-12553 # Arun Tharuvai <aatharuv@mit.edu>
-12548 # Will Thompson <will.thompson@collabora.co.uk>
-12543 # Palmer Cox <enix@users.sourceforge.net>
-12542 # Palmer Cox <enix@users.sourceforge.net>
+12608 # Benjamin Canou
+12574 # Richard Laager
+12561 # Steven Garrity
+12553 # Arun Tharuvai
+12548 # Will Thompson
+12543 # Palmer Cox
+12542 # Palmer Cox
 12532 Alex Converse
-12530 # Pekka Riikonen <priikone@iki.fi>
-12521 # Richard Laager <rlaager@wiktel.com>
-12517 # Richard Laager <rlaager@wiktel.com>
-12516 # Richard Laager <rlaager@wiktel.com>
-12515 # Richard Laager <rlaager@wiktel.com>
-12514 # Richard Laager <rlaager@wiktel.com>
-12513 # Richard Laager <rlaager@wiktel.com>
-12512 # Richard Laager <rlaager@wiktel.com>
-12511 # Richard Laager <rlaager@wiktel.com>
-12510 # Richard Laager <rlaager@wiktel.com>
-12484 # Kevin Stange <kevin@simguy.net>
-12480 # Miklós Vajna <vmiklos@frugalware.org>
-12475 # Richard Laager <rlaager@wiktel.com>
-12472 # Richard Laager <rlaager@wiktel.com>
-12466 # Richard Laager <rlaager@wiktel.com>
-12465 # Richard Laager <rlaager@wiktel.com>
-12464 # Richard Laager <rlaager@wiktel.com>
-12459 # Richard Laager <rlaager@wiktel.com>
-12433 # Richard Laager <rlaager@wiktel.com>
-12431 # Richard Laager <rlaager@wiktel.com>
-12429 # Richard Laager <rlaager@wiktel.com>
-12428 # Richard Laager <rlaager@wiktel.com>
-12417 # Richard Laager <rlaager@wiktel.com>
-12403 # Richard Laager <rlaager@wiktel.com>
-12382 # Felipe Contreras <felipe.contreras@gmail.com>
-12337 # Richard Laager <rlaager@wiktel.com>
-12336 # Richard Laager <rlaager@wiktel.com>
-12335 # Richard Laager <rlaager@wiktel.com>
-12334 # Richard Laager <rlaager@wiktel.com>
-12329 # Richard Laager <rlaager@wiktel.com>
-12328 # Gary Kramlich <grim@reaperworld.com>
-12326 # Gary Kramlich <grim@reaperworld.com>
-12325 # Gary Kramlich <grim@reaperworld.com>
-12324 # Gary Kramlich <grim@reaperworld.com>
-12323 # Gary Kramlich <grim@reaperworld.com>
+12530 # Pekka Riikonen
+12521 # Richard Laager
+12517 # Richard Laager
+12516 # Richard Laager
+12515 # Richard Laager
+12514 # Richard Laager
+12513 # Richard Laager
+12512 # Richard Laager
+12511 # Richard Laager
+12510 # Richard Laager
+12484 # Kevin Stange
+12480 # Miklós Vajna
+12475 # Richard Laager
+12472 # Richard Laager
+12466 # Richard Laager
+12465 # Richard Laager
+12464 # Richard Laager
+12459 # Richard Laager
+12433 # Richard Laager
+12431 # Richard Laager
+12429 # Richard Laager
+12428 # Richard Laager
+12417 # Richard Laager
+12403 # Richard Laager
+12382 # Felipe Contreras
+12337 # Richard Laager
+12336 # Richard Laager
+12335 # Richard Laager
+12334 # Richard Laager
+12329 # Richard Laager
+12328 # Gary Kramlich
+12326 # Gary Kramlich
+12325 # Gary Kramlich
+12324 # Gary Kramlich
+12323 # Gary Kramlich
 12315 Eitan Isaacson
-12306 # Richard Laager <rlaager@wiktel.com>
-12291 # Rian Hunter <chrono86@users.sourceforge.net>
-12253 # Christopher O'Brien <siege@pidgin.im>
-12246 # Marc E. <elcomandante@sbcglobal.net>
+12306 # Richard Laager
+12291 # Rian Hunter
+12253 # Christopher O'Brien
+12246 # Marc E.
 12241 Derrick J Brashear
-12228 # Richard Laager <rlaager@wiktel.com>
-12227 # Richard Laager <rlaager@wiktel.com>
-12226 # Richard Laager <rlaager@wiktel.com>
-12213 # Richard Laager <rlaager@wiktel.com>
-12190 # Richard Laager <rlaager@wiktel.com>
+12228 # Richard Laager
+12227 # Richard Laager
+12226 # Richard Laager
+12213 # Richard Laager
+12190 # Richard Laager
 12186 Will Gorman
-12182 # Richard Laager <rlaager@wiktel.com>
-12181 # Richard Laager <rlaager@wiktel.com>
-12157 # Richard Laager <rlaager@wiktel.com>
-12145 # Cestonaro Thilo <ephraim@users.sourceforge.net>
+12182 # Richard Laager
+12181 # Richard Laager
+12157 # Richard Laager
+12145 # Cestonaro Thilo
 12142 # Nathan Conrad
 12110 Gregory C. Harfst
 12108 Carl-Daniel Hailfinger
-12102 # Christopher O'Brien <siege@pidgin.im>
-12074 # Ka-Hing Cheung <khc@hxbc.us>
-12072 # Torrey McMahon <tmcmahon2@users.sourceforge.net>
-12055 # Richard Laager <rlaager@wiktel.com>
-12032 # Felipe Contreras <felipe.contreras@gmail.com>
-11996 # William Jon McCann <mccannwj@users.sourceforge.net>
-11990 # Nathan Fredrickson <nathan@silverorange.com>
-11989 # Nathan Fredrickson <nathan@silverorange.com>
-11978 # Felipe Contreras <felipe.contreras@gmail.com>
-11973 # Björn Voigt <bjoern@cs.tu-berlin.de>
-11971 # Richard Laager <rlaager@wiktel.com>
-11963 # Richard Laager <rlaager@wiktel.com>
+12102 # Christopher O'Brien
+12074 # Ka-Hing Cheung
+12072 # Torrey McMahon
+12055 # Richard Laager
+12032 # Felipe Contreras
+11996 # William Jon McCann
+11990 # Nathan Fredrickson
+11989 # Nathan Fredrickson
+11978 # Felipe Contreras
+11973 # Björn Voigt
+11971 # Richard Laager
+11963 # Richard Laager
 11960 Ettore Simone
 11947 Magnus Hult
-11946 # Don Seiler <rizzo@gentoo.org>
+11946 # Don Seiler
 11939 Malcolm Smith
 11913 Kalle Kotte
-11907 # Andrew Hart <arhart@users.sourceforge.net>
+11907 # Andrew Hart
 11903 Magnus Hult
-11888 # Lee Roach <phroggster@gmail.com>
-11887 # William Jon McCann <mccannwj@users.sourceforge.net>
-11862 # Felipe Contreras <felipe.contreras@gmail.com>
-11860 # Richard Laager <rlaager@wiktel.com>
-11772 # Felipe Contreras <felipe.contreras@gmail.com>
-11769 # Felipe Contreras <felipe.contreras@gmail.com>
-11762 # Richard Laager <rlaager@wiktel.com>
-11752 # Evan Schoenberg <evan.s@dreskin.net>
-11744 # Kevin Stange <kevin@simguy.net>
-11737 # Felipe Contreras <felipe.contreras@gmail.com>
-11722 # Balwinder S Dheeman <bsd@rubyforge.org>
-11717 # Felipe Contreras <felipe.contreras@gmail.com>
-11714 # Nathan Fredrickson <nathan@silverorange.com>
+11888 # Lee Roach
+11887 # William Jon McCann
+11862 # Felipe Contreras
+11860 # Richard Laager
+11772 # Felipe Contreras
+11769 # Felipe Contreras
+11762 # Richard Laager
+11752 # Evan Schoenberg
+11744 # Kevin Stange
+11737 # Felipe Contreras
+11722 # Balwinder S Dheeman
+11717 # Felipe Contreras
+11714 # Nathan Fredrickson
 11708 Fidel Martinez
 11697 Alex Converse
-11694 # Balwinder S Dheeman <bsd@rubyforge.org>
-11691 # Felipe Contreras <felipe.contreras@gmail.com>
+11694 # Balwinder S Dheeman
+11691 # Felipe Contreras
 11683 Kristof Vansant
-11673 # Gary Kramlich <grim@reaperworld.com>
-11657 # Balwinder S Dheeman <bsd@rubyforge.org>
+11673 # Gary Kramlich
+11657 # Balwinder S Dheeman
 11653 # Thomas Huriaux
 11652 Graham Cole
-11650 # Evan Schoenberg <evan.s@dreskin.net>
-11648 # Felipe Contreras <felipe.contreras@gmail.com>
-11595 # Kevin Stange <kevin@simguy.net>
-11586 # Kevin Stange <kevin@simguy.net>
-11584 # Kevin Stange <kevin@simguy.net>
-11583 # Daniel Atallah <daniel.atallah@gmail.com>
-11577 # Gary Kramlich <grim@reaperworld.com>
-11560 # Felipe Contreras <felipe.contreras@gmail.com>
-11556 # Felipe Contreras <felipe.contreras@gmail.com>
+11650 # Evan Schoenberg
+11648 # Felipe Contreras
+11595 # Kevin Stange
+11586 # Kevin Stange
+11584 # Kevin Stange
+11583 # Daniel Atallah
+11577 # Gary Kramlich
+11560 # Felipe Contreras
+11556 # Felipe Contreras
 11543 Michele Baldessari
-11542 # Kevin Stange <kevin@simguy.net>
-11540 # Kevin Stange <kevin@simguy.net>
-11536 # Evan Schoenberg <evan.s@dreskin.net>
-11534 # Gary Kramlich <grim@reaperworld.com>
+11542 # Kevin Stange
+11540 # Kevin Stange
+11536 # Evan Schoenberg
+11534 # Gary Kramlich
 11533 Erik Lee
 11516 Patrik Kullman
-11512 # Andrew Hart <arhart@users.sourceforge.net>
+11512 # Andrew Hart
 11511 Norberto Lopes
-11506 # Gary Kramlich <grim@reaperworld.com>
-11505 # Andrew Hart <arhart@users.sourceforge.net>
-11492 # Felipe Contreras <felipe.contreras@gmail.com>
-11480 # Evan Schoenberg <evan.s@dreskin.net>
-11476 # Felipe Contreras <felipe.contreras@gmail.com>
-11474 # Evan Schoenberg <evan.s@dreskin.net>
-11473 # Gary Kramlich <grim@reaperworld.com>
+11506 # Gary Kramlich
+11505 # Andrew Hart
+11492 # Felipe Contreras
+11480 # Evan Schoenberg
+11476 # Felipe Contreras
+11474 # Evan Schoenberg
+11473 # Gary Kramlich
 11451 Scott Shedden
-11441 # Björn Voigt <bjoern@cs.tu-berlin.de>
+11441 # Björn Voigt
 11410 Laurent Rineau
-11403 # Matthew A. Nicholson <therealman11@users.sourceforge.net>
-11384 # Daniel Atallah <daniel.atallah@gmail.com>
-11375 # Chris J. Friesen <Darth_Sebulba04@yahoo.com>
-11371 # Eric S. Raymond <esr@thyrsus.com>
-11370 # Jonathan Champ <royanee@users.sourceforge.net>
-11366 # Andrew Hart <arhart@users.sourceforge.net>
-11364 # Alceste Scalas <alceste.scalas@gmx.net>
-11357 # Felipe Contreras <felipe.contreras@gmail.com>
-11351 # Andrew Hart <arhart@users.sourceforge.net>
+11403 # Matthew A. Nicholson
+11384 # Daniel Atallah
+11375 # Chris J. Friesen
+11371 # Eric S. Raymond
+11370 # Jonathan Champ
+11366 # Andrew Hart
+11364 # Alceste Scalas
+11357 # Felipe Contreras
+11351 # Andrew Hart
 11345 Daniel Westermann-Clark
-11342 # Manuel Amador <rudd-o@rudd-o.com>
-11252 # Andrew Hart <arhart@users.sourceforge.net>
-11248 # Jonathan Champ <royanee@users.sourceforge.net>
+11342 # Manuel Amador
+11252 # Andrew Hart
+11248 # Jonathan Champ
 11239 Brad Turcotte
-11228 # Andrew Hart <arhart@users.sourceforge.net>
-11224 # Peter Lawler <bleeter@gmail.com>
-11212 # Evan Schoenberg <evan.s@dreskin.net>
-11198 # Nathan Fredrickson <nathan@silverorange.com>
-11196 # Evan Schoenberg <evan.s@dreskin.net>
-11193 # Evan Schoenberg <evan.s@dreskin.net>
-11165 # Daniel Atallah <daniel.atallah@gmail.com>
-11139 # Evan Schoenberg <evan.s@dreskin.net>
-11131 # Nathan Fredrickson <nathan@silverorange.com>
-11130 # Caleb Gilmour <caleb_gilmour@users.sourceforge.net>
-11119 # Calle Englund <notcalle@users.sourceforge.net>
-11111 # Evan Schoenberg <evan.s@dreskin.net>
-11051 # Felipe Contreras <felipe.contreras@gmail.com>
-11047 # Jonathan Champ <royanee@users.sourceforge.net>
-11045 # Derek Battams <dbattams@users.sourceforge.net>
-11044 # Marc E. <elcomandante@sbcglobal.net>
-11040 # Philip Van Hoof <freax@users.sourceforge.net>
+11228 # Andrew Hart
+11224 # Peter Lawler
+11212 # Evan Schoenberg
+11198 # Nathan Fredrickson
+11196 # Evan Schoenberg
+11193 # Evan Schoenberg
+11165 # Daniel Atallah
+11139 # Evan Schoenberg
+11131 # Nathan Fredrickson
+11130 # Caleb Gilmour
+11119 # Calle Englund
+11111 # Evan Schoenberg
+11051 # Felipe Contreras
+11047 # Jonathan Champ
+11045 # Derek Battams
+11044 # Marc E.
+11040 # Philip Van Hoof
 11038 # Fernando Herrera
-11027 # Dave West <kat@users.sourceforge.net>
-11022 # Stu Tomlinson <stu@nosnilmot.com>
-11021 # Stu Tomlinson <stu@nosnilmot.com>
+11027 # Dave West
+11022 # Stu Tomlinson
+11021 # Stu Tomlinson
 11020 Henry Jen
 11018 Gregory C. Harfst
-11013 # Dave West <kat@users.sourceforge.net>
-11011 # Dave West <kat@users.sourceforge.net>
+11013 # Dave West
+11011 # Dave West
 11008 Jean-Francois Roy
-11003 # Felipe Contreras <felipe.contreras@gmail.com>
-11002 # Felipe Contreras <felipe.contreras@gmail.com>
-11001 # Dave West <kat@users.sourceforge.net>
-10999 # Dave West <kat@users.sourceforge.net>
-10998 # Rian Hunter <chrono86@users.sourceforge.net>
-10996 # Dave West <kat@users.sourceforge.net>
-10966 # Stu Tomlinson <stu@nosnilmot.com>
-10965 # Stu Tomlinson <stu@nosnilmot.com>
-10943 # Marc E. <elcomandante@sbcglobal.net>
-10938 # Daniel Atallah <daniel.atallah@gmail.com>
-10937 # Nathan Walp <nwalp@pidgin.im>
-10935 # Daniel Atallah <daniel.atallah@gmail.com>
-10932 # Stu Tomlinson <stu@nosnilmot.com>
-10930 # Gary Kramlich <grim@reaperworld.com>
-10923 # Dave West <kat@users.sourceforge.net>
-10920 # John Silvestri <john.silvestri@gmail.com>
-10914 # Daniel Atallah <daniel.atallah@gmail.com>
-10904 # Dave West <kat@users.sourceforge.net>
-10902 # Gary Kramlich <grim@reaperworld.com>
-10901 # Gary Kramlich <grim@reaperworld.com>
-10900 # Stu Tomlinson <stu@nosnilmot.com>
-10898 # Arun Tharuvai <aatharuv@mit.edu>
-10893 # Dave West <kat@users.sourceforge.net>
-10887 # Dave West <kat@users.sourceforge.net>
-10882 # Daniel Atallah <daniel.atallah@gmail.com>
-10879 # Stu Tomlinson <stu@nosnilmot.com>
-10877 # Stu Tomlinson <stu@nosnilmot.com>
-10875 # Stu Tomlinson <stu@nosnilmot.com>
-10864 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-10849 # Gary Kramlich <grim@reaperworld.com>
-10845 # Daniel Atallah <daniel.atallah@gmail.com>
-10844 # Dave West <kat@users.sourceforge.net>
-10838 # Christian Hammond <chipx86@chipx86.com>
-10834 # Stu Tomlinson <stu@nosnilmot.com>
+11003 # Felipe Contreras
+11002 # Felipe Contreras
+11001 # Dave West
+10999 # Dave West
+10998 # Rian Hunter
+10996 # Dave West
+10966 # Stu Tomlinson
+10965 # Stu Tomlinson
+10943 # Marc E.
+10938 # Daniel Atallah
+10937 # Nathan Walp
+10935 # Daniel Atallah
+10932 # Stu Tomlinson
+10930 # Gary Kramlich
+10923 # Dave West
+10920 # John Silvestri
+10914 # Daniel Atallah
+10904 # Dave West
+10902 # Gary Kramlich
+10901 # Gary Kramlich
+10900 # Stu Tomlinson
+10898 # Arun Tharuvai
+10893 # Dave West
+10887 # Dave West
+10882 # Daniel Atallah
+10879 # Stu Tomlinson
+10877 # Stu Tomlinson
+10875 # Stu Tomlinson
+10864 # Robert McQueen
+10849 # Gary Kramlich
+10845 # Daniel Atallah
+10844 # Dave West
+10838 # Christian Hammond
+10834 # Stu Tomlinson
 10833 Sig Weber
-10831 # Gary Kramlich <grim@reaperworld.com>
-10830 # Gary Kramlich <grim@reaperworld.com>
-10825 # Dave West <kat@users.sourceforge.net>
-10824 # Dave West <kat@users.sourceforge.net>
-10821 # Daniel Atallah <daniel.atallah@gmail.com>
-10820 # Daniel Atallah <daniel.atallah@gmail.com>
-10819 # Daniel Atallah <daniel.atallah@gmail.com>
-10815 # Daniel Atallah <daniel.atallah@gmail.com>
-10813 # Daniel Atallah <daniel.atallah@gmail.com>
-10810 # Nathan Fredrickson <nathan@silverorange.com>
-10809 # Daniel Atallah <daniel.atallah@gmail.com>
-10808 # Daniel Atallah <daniel.atallah@gmail.com>
-10807 # Kevin Stange <kevin@simguy.net>
-10805 # Daniel Atallah <daniel.atallah@gmail.com>
-10804 # Arun Tharuvai <aatharuv@mit.edu>
-10803 # Arun Tharuvai <aatharuv@mit.edu>
-10802 # Stu Tomlinson <stu@nosnilmot.com>
-10801 # Stu Tomlinson <stu@nosnilmot.com>
-10799 # Stu Tomlinson <stu@nosnilmot.com>
-10798 # Kevin Stange <kevin@simguy.net>
-10786 # Felipe Contreras <felipe.contreras@gmail.com>
-10785 # Arun Tharuvai <aatharuv@mit.edu>
-10784 # Felipe Contreras <felipe.contreras@gmail.com>
+10831 # Gary Kramlich
+10830 # Gary Kramlich
+10825 # Dave West
+10824 # Dave West
+10821 # Daniel Atallah
+10820 # Daniel Atallah
+10819 # Daniel Atallah
+10815 # Daniel Atallah
+10813 # Daniel Atallah
+10810 # Nathan Fredrickson
+10809 # Daniel Atallah
+10808 # Daniel Atallah
+10807 # Kevin Stange
+10805 # Daniel Atallah
+10804 # Arun Tharuvai
+10803 # Arun Tharuvai
+10802 # Stu Tomlinson
+10801 # Stu Tomlinson
+10799 # Stu Tomlinson
+10798 # Kevin Stange
+10786 # Felipe Contreras
+10785 # Arun Tharuvai
+10784 # Felipe Contreras
 10781 # François Gagné
 10773 Dave Bell
-10758 # Andrew Wellington <proton@users.sf.net>
-10749 # Daniel Atallah <daniel.atallah@gmail.com>
-10748 # Stu Tomlinson <stu@nosnilmot.com>
-10745 # Peter Lawler <bleeter@gmail.com>
-10741 # Felipe Contreras <felipe.contreras@gmail.com>
-10740 # Felipe Contreras <felipe.contreras@gmail.com>
-10739 # Felipe Contreras <felipe.contreras@gmail.com>
-10738 # Felipe Contreras <felipe.contreras@gmail.com>
-10737 # Felipe Contreras <felipe.contreras@gmail.com>
-10736 # Felipe Contreras <felipe.contreras@gmail.com>
-10726 # Dave West <kat@users.sourceforge.net>
-10724 # Nathan Fredrickson <nathan@silverorange.com>
-10723 # Felipe Contreras <felipe.contreras@gmail.com>
-10721 # Dave West <kat@users.sourceforge.net>
-10718 # Gary Kramlich <grim@reaperworld.com>
-10716 # Mike Stoddard <mistoddard@novell.com>
-10707 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10706 # Kevin Stange <kevin@simguy.net>
+10758 # Andrew Wellington
+10749 # Daniel Atallah
+10748 # Stu Tomlinson
+10745 # Peter Lawler
+10741 # Felipe Contreras
+10740 # Felipe Contreras
+10739 # Felipe Contreras
+10738 # Felipe Contreras
+10737 # Felipe Contreras
+10736 # Felipe Contreras
+10726 # Dave West
+10724 # Nathan Fredrickson
+10723 # Felipe Contreras
+10721 # Dave West
+10718 # Gary Kramlich
+10716 # Mike Stoddard
+10707 # Björn Voigt
+10706 # Kevin Stange
 10698 Rhett Robinson
-10693 # Kevin Stange <kevin@simguy.net>
-10691 # Mike Stoddard <mistoddard@novell.com>
-10689 # Stu Tomlinson <stu@nosnilmot.com>
-10688 # Ambrose Li <ambrose.li@gmail.com>
-10685 # Dave West <kat@users.sourceforge.net>
+10693 # Kevin Stange
+10691 # Mike Stoddard
+10689 # Stu Tomlinson
+10688 # Ambrose Li
+10685 # Dave West
 10677 # Unknown <oannu@users.sourceforge.net>
-10669 # Stu Tomlinson <stu@nosnilmot.com>
-10666 # Joe Shaw <joe@joeshaw.org>
-10665 # Evan Schoenberg <evan.s@dreskin.net>
-10664 # Dave West <kat@users.sourceforge.net>
-10662 # Stu Tomlinson <stu@nosnilmot.com>
-10659 # Gary Kramlich <grim@reaperworld.com>
+10669 # Stu Tomlinson
+10666 # Joe Shaw
+10665 # Evan Schoenberg
+10664 # Dave West
+10662 # Stu Tomlinson
+10659 # Gary Kramlich
 10658 Mike Castle
-10656 # Dave West <kat@users.sourceforge.net>
-10655 # Christopher O'Brien <siege@pidgin.im>
-10651 # Gary Kramlich <grim@reaperworld.com>
-10648 # Peter Lawler <bleeter@gmail.com>
-10647 # Peter Lawler <bleeter@gmail.com>
-10644 # Daniel Atallah <daniel.atallah@gmail.com>
-10643 # Daniel Atallah <daniel.atallah@gmail.com>
-10642 # Gary Kramlich <grim@reaperworld.com>
-10640 # Dave West <kat@users.sourceforge.net>
-10639 # Dave West <kat@users.sourceforge.net>
-10638 # Nathan Fredrickson <nathan@silverorange.com>
-10634 # Stu Tomlinson <stu@nosnilmot.com>
-10633 # Stu Tomlinson <stu@nosnilmot.com>
-10631 # Ka-Hing Cheung <khc@hxbc.us>
-10626 # Stu Tomlinson <stu@nosnilmot.com>
-10622 # Stu Tomlinson <stu@nosnilmot.com>
-10621 # Nathan Fredrickson <nathan@silverorange.com>
-10618 # Stu Tomlinson <stu@nosnilmot.com>
-10613 # Stu Tomlinson <stu@nosnilmot.com>
-10609 # Daniel Atallah <daniel.atallah@gmail.com>
-10608 # Stu Tomlinson <stu@nosnilmot.com>
-10607 # Stu Tomlinson <stu@nosnilmot.com>
-10605 # Arun Tharuvai <aatharuv@mit.edu>
-10600 # Etan Reisner <pidgin@unreliablesource.net>
-10595 # Kevin Stange <kevin@simguy.net>
-10593 # Stu Tomlinson <stu@nosnilmot.com>
-10576 # Felipe Contreras <felipe.contreras@gmail.com>
-10565 # Stu Tomlinson <stu@nosnilmot.com>
-10555 # Stu Tomlinson <stu@nosnilmot.com>
-10550 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10549 # Ambrose Li <ambrose.li@gmail.com>
-10537 # Ambrose Li <ambrose.li@gmail.com>
-10533 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10532 # Dave West <kat@users.sourceforge.net>
-10531 # Mike Stoddard <mistoddard@novell.com>
-10527 # Peter Lawler <bleeter@gmail.com>
-10526 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10525 # Daniel Atallah <daniel.atallah@gmail.com>
-10522 # Daniel Atallah <daniel.atallah@gmail.com>
-10521 # Kevin Stange <kevin@simguy.net>
-10513 # Andrew Wellington <proton@users.sf.net>
-10510 # Joe Shaw <joe@joeshaw.org>
-10509 # Daniel Atallah <daniel.atallah@gmail.com>
-10501 # Joe LaPenna <jlapenna@users.sourceforge.net>
-10499 # Mike Stoddard <mistoddard@novell.com>
-10495 # Daniel Atallah <daniel.atallah@gmail.com>
-10494 # Daniel Atallah <daniel.atallah@gmail.com>
-10489 # Stu Tomlinson <stu@nosnilmot.com>
+10656 # Dave West
+10655 # Christopher O'Brien
+10651 # Gary Kramlich
+10648 # Peter Lawler
+10647 # Peter Lawler
+10644 # Daniel Atallah
+10643 # Daniel Atallah
+10642 # Gary Kramlich
+10640 # Dave West
+10639 # Dave West
+10638 # Nathan Fredrickson
+10634 # Stu Tomlinson
+10633 # Stu Tomlinson
+10631 # Ka-Hing Cheung
+10626 # Stu Tomlinson
+10622 # Stu Tomlinson
+10621 # Nathan Fredrickson
+10618 # Stu Tomlinson
+10613 # Stu Tomlinson
+10609 # Daniel Atallah
+10608 # Stu Tomlinson
+10607 # Stu Tomlinson
+10605 # Arun Tharuvai
+10600 # Etan Reisner
+10595 # Kevin Stange
+10593 # Stu Tomlinson
+10576 # Felipe Contreras
+10565 # Stu Tomlinson
+10555 # Stu Tomlinson
+10550 # Björn Voigt
+10549 # Ambrose Li
+10537 # Ambrose Li
+10533 # Björn Voigt
+10532 # Dave West
+10531 # Mike Stoddard
+10527 # Peter Lawler
+10526 # Björn Voigt
+10525 # Daniel Atallah
+10522 # Daniel Atallah
+10521 # Kevin Stange
+10513 # Andrew Wellington
+10510 # Joe Shaw
+10509 # Daniel Atallah
+10501 # Joe LaPenna
+10499 # Mike Stoddard
+10495 # Daniel Atallah
+10494 # Daniel Atallah
+10489 # Stu Tomlinson
 10488 # Jon Oberheide
 10475 # Jon Oberheide
-10472 # Stu Tomlinson <stu@nosnilmot.com>
-10467 # Kevin Stange <kevin@simguy.net>
-10464 # Christopher O'Brien <siege@pidgin.im>
-10462 # Stu Tomlinson <stu@nosnilmot.com>
-10461 # Stu Tomlinson <stu@nosnilmot.com>
-10456 # Kevin Stange <kevin@simguy.net>
-10453 # Arun Tharuvai <aatharuv@mit.edu>
-10452 # Gary Kramlich <grim@reaperworld.com>
+10472 # Stu Tomlinson
+10467 # Kevin Stange
+10464 # Christopher O'Brien
+10462 # Stu Tomlinson
+10461 # Stu Tomlinson
+10456 # Kevin Stange
+10453 # Arun Tharuvai
+10452 # Gary Kramlich
 10451 # István Váradi
-10450 # Stu Tomlinson <stu@nosnilmot.com>
-10449 # Stu Tomlinson <stu@nosnilmot.com>
-10444 # Nathan Walp <nwalp@pidgin.im>
+10450 # Stu Tomlinson
+10449 # Stu Tomlinson
+10444 # Nathan Walp
 10435 # Eduardo Pérez
-10434 # Stu Tomlinson <stu@nosnilmot.com>
-10432 # Stu Tomlinson <stu@nosnilmot.com>
-10431 # Stu Tomlinson <stu@nosnilmot.com>
-10429 # Stu Tomlinson <stu@nosnilmot.com>
-10428 # Ambrose Li <ambrose.li@gmail.com>
-10427 # Nathan Fredrickson <nathan@silverorange.com>
+10434 # Stu Tomlinson
+10432 # Stu Tomlinson
+10431 # Stu Tomlinson
+10429 # Stu Tomlinson
+10428 # Ambrose Li
+10427 # Nathan Fredrickson
 10426 Alan Ford
-10423 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10420 # Stu Tomlinson <stu@nosnilmot.com>
+10423 # Björn Voigt
+10420 # Stu Tomlinson
 10409 Henry Jen
-10394 # Ambrose Li <ambrose.li@gmail.com>
-10387 # Stu Tomlinson <stu@nosnilmot.com>
-10386 # Stu Tomlinson <stu@nosnilmot.com>
-10381 # Stu Tomlinson <stu@nosnilmot.com>
-10379 # Casey Ho <caseyho@pidgin.im>
-10378 # Stu Tomlinson <stu@nosnilmot.com>
+10394 # Ambrose Li
+10387 # Stu Tomlinson
+10386 # Stu Tomlinson
+10381 # Stu Tomlinson
+10379 # Casey Ho
+10378 # Stu Tomlinson
 10375 # Yosef Radchenko
-10374 # Stu Tomlinson <stu@nosnilmot.com>
-10359 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10358 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10356 # Christopher O'Brien <siege@pidgin.im>
-10347 # Daniel Atallah <daniel.atallah@gmail.com>
-10345 # Gary Kramlich <grim@reaperworld.com>
-10344 # Gary Kramlich <grim@reaperworld.com>
-10341 # Gary Kramlich <grim@reaperworld.com>
-10334 # Björn Voigt <bjoern@cs.tu-berlin.de>
-10327 # Ka-Hing Cheung <khc@hxbc.us>
-10324 # Stu Tomlinson <stu@nosnilmot.com>
-10313 # Stu Tomlinson <stu@nosnilmot.com>
-10309 # Kevin Stange <kevin@simguy.net>
-10308 # Gary Kramlich <grim@reaperworld.com>
-10303 # Arun Tharuvai <aatharuv@mit.edu>
-10300 # Stu Tomlinson <stu@nosnilmot.com>
-10299 # Stu Tomlinson <stu@nosnilmot.com>
-10298 # Stu Tomlinson <stu@nosnilmot.com>
-10294 # Kevin Stange <kevin@simguy.net>
-10293 # Daniel Atallah <daniel.atallah@gmail.com>
-10292 # Kevin Stange <kevin@simguy.net>
-10291 # Daniel Atallah <daniel.atallah@gmail.com>
-10285 # Daniel Atallah <daniel.atallah@gmail.com>
-10283 # Stu Tomlinson <stu@nosnilmot.com>
-10271 # Gary Kramlich <grim@reaperworld.com>
-10258 # Arun Tharuvai <aatharuv@mit.edu>
+10374 # Stu Tomlinson
+10359 # Björn Voigt
+10358 # Björn Voigt
+10356 # Christopher O'Brien
+10347 # Daniel Atallah
+10345 # Gary Kramlich
+10344 # Gary Kramlich
+10341 # Gary Kramlich
+10334 # Björn Voigt
+10327 # Ka-Hing Cheung
+10324 # Stu Tomlinson
+10313 # Stu Tomlinson
+10309 # Kevin Stange
+10308 # Gary Kramlich
+10303 # Arun Tharuvai
+10300 # Stu Tomlinson
+10299 # Stu Tomlinson
+10298 # Stu Tomlinson
+10294 # Kevin Stange
+10293 # Daniel Atallah
+10292 # Kevin Stange
+10291 # Daniel Atallah
+10285 # Daniel Atallah
+10283 # Stu Tomlinson
+10271 # Gary Kramlich
+10258 # Arun Tharuvai
 10256 Cole Kowalski
-10254 # Arun Tharuvai <aatharuv@mit.edu>
-10252 # Kevin Stange <kevin@simguy.net>
-10251 # Kevin Stange <kevin@simguy.net>
-10247 # Arun Tharuvai <aatharuv@mit.edu>
-10245 # Arun Tharuvai <aatharuv@mit.edu>
-10244 # Arun Tharuvai <aatharuv@mit.edu>
+10254 # Arun Tharuvai
+10252 # Kevin Stange
+10251 # Kevin Stange
+10247 # Arun Tharuvai
+10245 # Arun Tharuvai
+10244 # Arun Tharuvai
 10242 Alan Ford
-10240 # Gary Kramlich <grim@reaperworld.com>
+10240 # Gary Kramlich
 10232 Andrew Whewell
-10230 # Andrew Wellington <proton@users.sf.net>
-10215 # Ambrose Li <ambrose.li@gmail.com>
-10204 # Ambrose Li <ambrose.li@gmail.com>
-10203 # Stu Tomlinson <stu@nosnilmot.com>
-10197 # Ambrose Li <ambrose.li@gmail.com>
-10189 # Felipe Contreras <felipe.contreras@gmail.com>
-10186 # Ambrose Li <ambrose.li@gmail.com>
-10181 # Stu Tomlinson <stu@nosnilmot.com>
-10175 # Emil Nowak <emil5@go2.pl>
-10172 # Stu Tomlinson <stu@nosnilmot.com>
-10171 # Felipe Contreras <felipe.contreras@gmail.com>
+10230 # Andrew Wellington
+10215 # Ambrose Li
+10204 # Ambrose Li
+10203 # Stu Tomlinson
+10197 # Ambrose Li
+10189 # Felipe Contreras
+10186 # Ambrose Li
+10181 # Stu Tomlinson
+10175 # Emil Nowak
+10172 # Stu Tomlinson
+10171 # Felipe Contreras
 10170 Mauricio Collares
-10168 # Mike Stoddard <mistoddard@novell.com>
-10167 # Stu Tomlinson <stu@nosnilmot.com>
-10161 # Stu Tomlinson <stu@nosnilmot.com>
-10149 # Don Seiler <rizzo@gentoo.org>
-10148 # Stu Tomlinson <stu@nosnilmot.com>
-10142 # Stu Tomlinson <stu@nosnilmot.com>
+10168 # Mike Stoddard
+10167 # Stu Tomlinson
+10161 # Stu Tomlinson
+10149 # Don Seiler
+10148 # Stu Tomlinson
+10142 # Stu Tomlinson
 10139 Nelson Elhage
 10138 Justin Wood
-10136 # Arun Tharuvai <aatharuv@mit.edu>
-10115 # Gary Kramlich <grim@reaperworld.com>
-10105 # Stu Tomlinson <stu@nosnilmot.com>
-10101 # Etan Reisner <pidgin@unreliablesource.net>
-10092 # Andrew Wellington <proton@users.sf.net>
-10069 # Mike Stoddard <mistoddard@novell.com>
-10063 # Stu Tomlinson <stu@nosnilmot.com>
-10062 # Andrew Wellington <proton@users.sf.net>
+10136 # Arun Tharuvai
+10115 # Gary Kramlich
+10105 # Stu Tomlinson
+10101 # Etan Reisner
+10092 # Andrew Wellington
+10069 # Mike Stoddard
+10063 # Stu Tomlinson
+10062 # Andrew Wellington
 10061 Justin Wood
-10059 # Stu Tomlinson <stu@nosnilmot.com>
-10058 # Felipe Contreras <felipe.contreras@gmail.com>
-10045 # Felipe Contreras <felipe.contreras@gmail.com>
-10043 # Tom Samstag <pidgin@modtwo.com>
-10039 # Ambrose Li <ambrose.li@gmail.com>
-10036 # Tim Ringenbach <marv@pidgin.im>
-10027 # Felipe Contreras <felipe.contreras@gmail.com>
-10023 # Don Seiler <rizzo@gentoo.org>
-10022 # Felipe Contreras <felipe.contreras@gmail.com>
-10018 # Stu Tomlinson <stu@nosnilmot.com>
-10017 # Ambrose Li <ambrose.li@gmail.com>
-10014 # Stu Tomlinson <stu@nosnilmot.com>
-10013 # Stu Tomlinson <stu@nosnilmot.com>
-9988 # Felipe Contreras <felipe.contreras@gmail.com>
-9987 # Stu Tomlinson <stu@nosnilmot.com>
+10059 # Stu Tomlinson
+10058 # Felipe Contreras
+10045 # Felipe Contreras
+10043 # Tom Samstag
+10039 # Ambrose Li
+10036 # Tim Ringenbach
+10027 # Felipe Contreras
+10023 # Don Seiler
+10022 # Felipe Contreras
+10018 # Stu Tomlinson
+10017 # Ambrose Li
+10014 # Stu Tomlinson
+10013 # Stu Tomlinson
+9988 # Felipe Contreras
+9987 # Stu Tomlinson
 9986 Eddie Sohn
-9985 # Evan Schoenberg <evan.s@dreskin.net>
-9983 # Mark Doliner <mark@kingant.net>
-9982 # Evan Schoenberg <evan.s@dreskin.net>
-9980 # Kevin Stange <kevin@simguy.net>
-9979 # Ambrose Li <ambrose.li@gmail.com>
-9978 # Björn Voigt <bjoern@cs.tu-berlin.de>
-9975 # Björn Voigt <bjoern@cs.tu-berlin.de>
-9974 # Stu Tomlinson <stu@nosnilmot.com>
-9971 # Stu Tomlinson <stu@nosnilmot.com>
+9985 # Evan Schoenberg
+9983 # Mark Doliner
+9982 # Evan Schoenberg
+9980 # Kevin Stange
+9979 # Ambrose Li
+9978 # Björn Voigt
+9975 # Björn Voigt
+9974 # Stu Tomlinson
+9971 # Stu Tomlinson
 9953 Evgueni Gavrilov
-9950 # Felipe Contreras <felipe.contreras@gmail.com>
-9942 # Felipe Contreras <felipe.contreras@gmail.com>
-9938 # Stu Tomlinson <stu@nosnilmot.com>
+9950 # Felipe Contreras
+9942 # Felipe Contreras
+9938 # Stu Tomlinson
 9919 Robert Mibus
-9915 # Pekka Riikonen <priikone@iki.fi>
-9902 # Stu Tomlinson <stu@nosnilmot.com>
-9869 # Felipe Contreras <felipe.contreras@gmail.com>
-9868 # Felipe Contreras <felipe.contreras@gmail.com>
+9915 # Pekka Riikonen
+9902 # Stu Tomlinson
+9869 # Felipe Contreras
+9868 # Felipe Contreras
 9863 Curtis Beattie
-9862 # Andrew Wellington <proton@users.sf.net>
+9862 # Andrew Wellington
 9860 Sanguine
-9854 # Gary Kramlich <grim@reaperworld.com>
-9853 # Stu Tomlinson <stu@nosnilmot.com>
-9852 # Mathieu van Loon <matje@users.sourceforge.net>
-9851 # Guðmundur Bjarni Ólafson <aquatopia@gmail.com>
-9849 # Stu Tomlinson <stu@nosnilmot.com>
-9847 # Daniel Atallah <daniel.atallah@gmail.com>
-9836 # Stu Tomlinson <stu@nosnilmot.com>
-9828 # Stu Tomlinson <stu@nosnilmot.com>
-9827 # Stu Tomlinson <stu@nosnilmot.com>
-9826 # Daniel Atallah <daniel.atallah@gmail.com>
-9821 # Stu Tomlinson <stu@nosnilmot.com>
-9817 # Stu Tomlinson <stu@nosnilmot.com>
-9816 # Kevin Stange <kevin@simguy.net>
-9815 # Björn Voigt <bjoern@cs.tu-berlin.de>
-9813 # Kevin Stange <kevin@simguy.net>
-9810 # Kevin Stange <kevin@simguy.net>
-9809 # Kevin Stange <kevin@simguy.net>
-9803 # Stu Tomlinson <stu@nosnilmot.com>
-9802 # Kevin Stange <kevin@simguy.net>
-9793 # Kevin Stange <kevin@simguy.net>
-9791 # Christopher O'Brien <siege@pidgin.im>
-9789 # Stu Tomlinson <stu@nosnilmot.com>
-9788 # Mark Doliner <mark@kingant.net>
-9786 # Stu Tomlinson <stu@nosnilmot.com>
-9780 # Kevin Stange <kevin@simguy.net>
-9779 # Stu Tomlinson <stu@nosnilmot.com>
-9776 # Ethan Blanton <elb@pidgin.im>
-9775 # Gary Kramlich <grim@reaperworld.com>
-9774 # Stu Tomlinson <stu@nosnilmot.com>
-9773 # Stu Tomlinson <stu@nosnilmot.com>
-9770 # Stu Tomlinson <stu@nosnilmot.com>
-9769 # Ambrose Li <ambrose.li@gmail.com>
-9766 # Stu Tomlinson <stu@nosnilmot.com>
-9765 # Gary Kramlich <grim@reaperworld.com>
-9764 # Daniel Atallah <daniel.atallah@gmail.com>
-9763 # Stu Tomlinson <stu@nosnilmot.com>
-9761 # Christopher O'Brien <siege@pidgin.im>
-9753 # Etan Reisner <pidgin@unreliablesource.net>
-9750 # Ambrose Li <ambrose.li@gmail.com>
-9749 # Etan Reisner <pidgin@unreliablesource.net>
-9748 # Etan Reisner <pidgin@unreliablesource.net>
-9747 # Etan Reisner <pidgin@unreliablesource.net>
-9745 # Tim Ringenbach <marv@pidgin.im>
-9743 # Stu Tomlinson <stu@nosnilmot.com>
-9739 # Stu Tomlinson <stu@nosnilmot.com>
-9737 # Kevin Stange <kevin@simguy.net>
-9735 # Kevin Stange <kevin@simguy.net>
-9732 # Ambrose Li <ambrose.li@gmail.com>
-9727 # Stu Tomlinson <stu@nosnilmot.com>
-9726 # Stu Tomlinson <stu@nosnilmot.com>
-9724 # Stu Tomlinson <stu@nosnilmot.com>
-9703 # Mike Stoddard <mistoddard@novell.com>
-9698 # Don Seiler <rizzo@gentoo.org>
-9696 # Felipe Contreras <felipe.contreras@gmail.com>
-9695 # Felipe Contreras <felipe.contreras@gmail.com>
-9694 # Felipe Contreras <felipe.contreras@gmail.com>
-9693 # Felipe Contreras <felipe.contreras@gmail.com>
-9692 # Felipe Contreras <felipe.contreras@gmail.com>
-9691 # Felipe Contreras <felipe.contreras@gmail.com>
-9690 # Felipe Contreras <felipe.contreras@gmail.com>
-9689 # Gary Kramlich <grim@reaperworld.com>
-9688 # Tim Ringenbach <marv@pidgin.im>
-9685 # Gary Kramlich <grim@reaperworld.com>
-9684 # Stu Tomlinson <stu@nosnilmot.com>
-9683 # Tim Ringenbach <marv@pidgin.im>
-9682 # Tim Ringenbach <marv@pidgin.im>
-9680 # Ambrose Li <ambrose.li@gmail.com>
-9679 # Tim Ringenbach <marv@pidgin.im>
-9678 # Gary Kramlich <grim@reaperworld.com>
-9677 # Gary Kramlich <grim@reaperworld.com>
-9662 # Felipe Contreras <felipe.contreras@gmail.com>
-9661 # Kevin Stange <kevin@simguy.net>
-9660 # Ambrose Li <ambrose.li@gmail.com>
-9659 # Kevin Stange <kevin@simguy.net>
-9656 # Kevin Barry <gorn@users.sourceforge.net>
-9655 # Kevin Stange <kevin@simguy.net>
-9654 # Evan Schoenberg <evan.s@dreskin.net>
-9647 # Nathan Fredrickson <nathan@silverorange.com>
-9645 # Arun Tharuvai <aatharuv@mit.edu>
-9643 # Mike Stoddard <mistoddard@novell.com>
-9636 # Gary Kramlich <grim@reaperworld.com>
-9634 # Nathan Walp <nwalp@pidgin.im>
+9854 # Gary Kramlich
+9853 # Stu Tomlinson
+9852 # Mathieu van Loon
+9851 # Guðmundur Bjarni Ólafson
+9849 # Stu Tomlinson
+9847 # Daniel Atallah
+9836 # Stu Tomlinson
+9828 # Stu Tomlinson
+9827 # Stu Tomlinson
+9826 # Daniel Atallah
+9821 # Stu Tomlinson
+9817 # Stu Tomlinson
+9816 # Kevin Stange
+9815 # Björn Voigt
+9813 # Kevin Stange
+9810 # Kevin Stange
+9809 # Kevin Stange
+9803 # Stu Tomlinson
+9802 # Kevin Stange
+9793 # Kevin Stange
+9791 # Christopher O'Brien
+9789 # Stu Tomlinson
+9788 # Mark Doliner
+9786 # Stu Tomlinson
+9780 # Kevin Stange
+9779 # Stu Tomlinson
+9776 # Ethan Blanton
+9775 # Gary Kramlich
+9774 # Stu Tomlinson
+9773 # Stu Tomlinson
+9770 # Stu Tomlinson
+9769 # Ambrose Li
+9766 # Stu Tomlinson
+9765 # Gary Kramlich
+9764 # Daniel Atallah
+9763 # Stu Tomlinson
+9761 # Christopher O'Brien
+9753 # Etan Reisner
+9750 # Ambrose Li
+9749 # Etan Reisner
+9748 # Etan Reisner
+9747 # Etan Reisner
+9745 # Tim Ringenbach
+9743 # Stu Tomlinson
+9739 # Stu Tomlinson
+9737 # Kevin Stange
+9735 # Kevin Stange
+9732 # Ambrose Li
+9727 # Stu Tomlinson
+9726 # Stu Tomlinson
+9724 # Stu Tomlinson
+9703 # Mike Stoddard
+9698 # Don Seiler
+9696 # Felipe Contreras
+9695 # Felipe Contreras
+9694 # Felipe Contreras
+9693 # Felipe Contreras
+9692 # Felipe Contreras
+9691 # Felipe Contreras
+9690 # Felipe Contreras
+9689 # Gary Kramlich
+9688 # Tim Ringenbach
+9685 # Gary Kramlich
+9684 # Stu Tomlinson
+9683 # Tim Ringenbach
+9682 # Tim Ringenbach
+9680 # Ambrose Li
+9679 # Tim Ringenbach
+9678 # Gary Kramlich
+9677 # Gary Kramlich
+9662 # Felipe Contreras
+9661 # Kevin Stange
+9660 # Ambrose Li
+9659 # Kevin Stange
+9656 # Kevin Barry
+9655 # Kevin Stange
+9654 # Evan Schoenberg
+9647 # Nathan Fredrickson
+9645 # Arun Tharuvai
+9643 # Mike Stoddard
+9636 # Gary Kramlich
+9634 # Nathan Walp
 9632 Robert Story
 9629 Nickolai Zeldovich
-9628 # Adam Weinberger <adamw@gnome.org>
-9610 # Pekka Riikonen <priikone@iki.fi>
-9600 # Jonathan Champ <royanee@users.sourceforge.net>
-9596 # Felipe Contreras <felipe.contreras@gmail.com>
-9595 # Daniel Atallah <daniel.atallah@gmail.com>
-9594 # Daniel Atallah <daniel.atallah@gmail.com>
-9584 # Gary Kramlich <grim@reaperworld.com>
-9577 # Gary Kramlich <grim@reaperworld.com>
-9576 # Gary Kramlich <grim@reaperworld.com>
+9628 # Adam Weinberger
+9610 # Pekka Riikonen
+9600 # Jonathan Champ
+9596 # Felipe Contreras
+9595 # Daniel Atallah
+9594 # Daniel Atallah
+9584 # Gary Kramlich
+9577 # Gary Kramlich
+9576 # Gary Kramlich
 9573 Phil Snowberger
-9570 # Felipe Contreras <felipe.contreras@gmail.com>
+9570 # Felipe Contreras
 9569 # Jon Oberheide
-9557 # Duarte Henriques <duarte_henriques@myrealbox.com>
-9552 # Jonathan Champ <royanee@users.sourceforge.net>
-9546 # Kevin Stange <kevin@simguy.net>
+9557 # Duarte Henriques
+9552 # Jonathan Champ
+9546 # Kevin Stange
 9544 Ignacio J. Elia
-9541 # Kevin Stange <kevin@simguy.net>
-9540 # Nathan Walp <nwalp@pidgin.im>
-9537 # Andrew Wellington <proton@users.sf.net>
-9531 # Stu Tomlinson <stu@nosnilmot.com>
-9521 # Arun Tharuvai <aatharuv@mit.edu>
-9515 # Kevin Stange <kevin@simguy.net>
-9514 # Stu Tomlinson <stu@nosnilmot.com>
-9509 # Ambrose Li <ambrose.li@gmail.com>
-9508 # Mike Stoddard <mistoddard@novell.com>
-9501 # Björn Voigt <bjoern@cs.tu-berlin.de>
-9500 # Gary Kramlich <grim@reaperworld.com>
-9499 # Mike Stoddard <mistoddard@novell.com>
-9491 # Stu Tomlinson <stu@nosnilmot.com>
-9490 # Jonathan Champ <royanee@users.sourceforge.net>
-9485 # Etan Reisner <pidgin@unreliablesource.net>
-9484 # Tim Ringenbach <marv@pidgin.im>
-9481 # Tim Ringenbach <marv@pidgin.im>
-9474 # Tim Ringenbach <marv@pidgin.im>
-9473 # Kevin Stange <kevin@simguy.net>
-9470 # Tim Ringenbach <marv@pidgin.im>
-9467 # Gary Kramlich <grim@reaperworld.com>
-9460 # Kevin Stange <kevin@simguy.net>
-9458 # Stu Tomlinson <stu@nosnilmot.com>
-9457 # Stu Tomlinson <stu@nosnilmot.com>
-9456 # Kevin Stange <kevin@simguy.net>
-9455 # Stu Tomlinson <stu@nosnilmot.com>
-9451 # Tim Ringenbach <marv@pidgin.im>
+9541 # Kevin Stange
+9540 # Nathan Walp
+9537 # Andrew Wellington
+9531 # Stu Tomlinson
+9521 # Arun Tharuvai
+9515 # Kevin Stange
+9514 # Stu Tomlinson
+9509 # Ambrose Li
+9508 # Mike Stoddard
+9501 # Björn Voigt
+9500 # Gary Kramlich
+9499 # Mike Stoddard
+9491 # Stu Tomlinson
+9490 # Jonathan Champ
+9485 # Etan Reisner
+9484 # Tim Ringenbach
+9481 # Tim Ringenbach
+9474 # Tim Ringenbach
+9473 # Kevin Stange
+9470 # Tim Ringenbach
+9467 # Gary Kramlich
+9460 # Kevin Stange
+9458 # Stu Tomlinson
+9457 # Stu Tomlinson
+9456 # Kevin Stange
+9455 # Stu Tomlinson
+9451 # Tim Ringenbach
 9450 # Jon Oberheide
 9448 Aubin LaBrosse
-9447 # Kevin Stange <kevin@simguy.net>
-9446 # Kevin Stange <kevin@simguy.net>
-9445 # Kevin Stange <kevin@simguy.net>
-9444 # Stu Tomlinson <stu@nosnilmot.com>
-9443 # Tim Ringenbach <marv@pidgin.im>
-9442 # Kevin Stange <kevin@simguy.net>
-9439 # Kevin Stange <kevin@simguy.net>
-9438 # Kevin Stange <kevin@simguy.net>
-9430 # Tim Ringenbach <marv@pidgin.im>
-9425 # Stu Tomlinson <stu@nosnilmot.com>
+9447 # Kevin Stange
+9446 # Kevin Stange
+9445 # Kevin Stange
+9444 # Stu Tomlinson
+9443 # Tim Ringenbach
+9442 # Kevin Stange
+9439 # Kevin Stange
+9438 # Kevin Stange
+9430 # Tim Ringenbach
+9425 # Stu Tomlinson
 9424 Matt Brenneke
-9416 # Marc E. <elcomandante@sbcglobal.net>
+9416 # Marc E.
 9413 Nickolai Zeldovich
-9409 # Felipe Contreras <felipe.contreras@gmail.com>
-9408 # Kurt McKee <the_truk_stop@users.sourceforge.net>
-9398 # Felipe Contreras <felipe.contreras@gmail.com>
+9409 # Felipe Contreras
+9408 # Kurt McKee
+9398 # Felipe Contreras
 9392 Marina Roos
-9391 # Gary Kramlich <grim@reaperworld.com>
-9370 # Ka-Hing Cheung <khc@hxbc.us>
-9369 # John Silvestri <john.silvestri@gmail.com>
-9368 # Felipe Contreras <felipe.contreras@gmail.com>
-9365 # Stu Tomlinson <stu@nosnilmot.com>
-9362 # John Silvestri <john.silvestri@gmail.com>
+9391 # Gary Kramlich
+9370 # Ka-Hing Cheung
+9369 # John Silvestri
+9368 # Felipe Contreras
+9365 # Stu Tomlinson
+9362 # John Silvestri
 9360 Sanguine
-9354 # Ka-Hing Cheung <khc@hxbc.us>
-9351 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-9350 # Mark Doliner <mark@kingant.net>
-9349 # Paul Aurich <paul@darkrain42.org>
-9347 # Daniel Atallah <daniel.atallah@gmail.com>
-9336 # Pekka Riikonen <priikone@iki.fi>
-9335 # Pekka Riikonen <priikone@iki.fi>
-9334 # Daniel Atallah <daniel.atallah@gmail.com>
-9333 # Felipe Contreras <felipe.contreras@gmail.com>
-9332 # Etan Reisner <pidgin@unreliablesource.net>
-9325 # Ambrose Li <ambrose.li@gmail.com>
-9324 # Ambrose Li <ambrose.li@gmail.com>
-9321 # Ka-Hing Cheung <khc@hxbc.us>
-9317 # Stu Tomlinson <stu@nosnilmot.com>
-9309 # Daniel Atallah <daniel.atallah@gmail.com>
-9306 # Christopher O'Brien <siege@pidgin.im>
-9305 # Ambrose Li <ambrose.li@gmail.com>
-9304 # Arun Tharuvai <aatharuv@mit.edu>
-9303 # Arun Tharuvai <aatharuv@mit.edu>
-9301 # Kevin Stange <kevin@simguy.net>
-9294 # Gary Kramlich <grim@reaperworld.com>
-9287 # Arun Tharuvai <aatharuv@mit.edu>
-9280 # Etan Reisner <pidgin@unreliablesource.net>
-9275 # Daniel Atallah <daniel.atallah@gmail.com>
-9272 # Stu Tomlinson <stu@nosnilmot.com>
-9265 # Daniel Atallah <daniel.atallah@gmail.com>
-9260 # Gary Kramlich <grim@reaperworld.com>
-9258 # Gary Kramlich <grim@reaperworld.com>
+9354 # Ka-Hing Cheung
+9351 # Robert McQueen
+9350 # Mark Doliner
+9349 # Paul Aurich
+9347 # Daniel Atallah
+9336 # Pekka Riikonen
+9335 # Pekka Riikonen
+9334 # Daniel Atallah
+9333 # Felipe Contreras
+9332 # Etan Reisner
+9325 # Ambrose Li
+9324 # Ambrose Li
+9321 # Ka-Hing Cheung
+9317 # Stu Tomlinson
+9309 # Daniel Atallah
+9306 # Christopher O'Brien
+9305 # Ambrose Li
+9304 # Arun Tharuvai
+9303 # Arun Tharuvai
+9301 # Kevin Stange
+9294 # Gary Kramlich
+9287 # Arun Tharuvai
+9280 # Etan Reisner
+9275 # Daniel Atallah
+9272 # Stu Tomlinson
+9265 # Daniel Atallah
+9260 # Gary Kramlich
+9258 # Gary Kramlich
 9257 David Vermeille
-9256 # Stu Tomlinson <stu@nosnilmot.com>
-9254 # Gary Kramlich <grim@reaperworld.com>
-9253 # Stu Tomlinson <stu@nosnilmot.com>
-9252 # Stu Tomlinson <stu@nosnilmot.com>
-9247 # Arun Tharuvai <aatharuv@mit.edu>
-9245 # Stu Tomlinson <stu@nosnilmot.com>
-9242 # Gary Kramlich <grim@reaperworld.com>
-9241 # Kevin Stange <kevin@simguy.net>
-9240 # Ambrose Li <ambrose.li@gmail.com>
-9239 # Tim Ringenbach <marv@pidgin.im>
-9236 # Tim Ringenbach <marv@pidgin.im>
+9256 # Stu Tomlinson
+9254 # Gary Kramlich
+9253 # Stu Tomlinson
+9252 # Stu Tomlinson
+9247 # Arun Tharuvai
+9245 # Stu Tomlinson
+9242 # Gary Kramlich
+9241 # Kevin Stange
+9240 # Ambrose Li
+9239 # Tim Ringenbach
+9236 # Tim Ringenbach
 9235 Robert Mibus
-9220 # John Silvestri <john.silvestri@gmail.com>
-9215 # Andrew Wellington <proton@users.sf.net>
-9214 # Gary Kramlich <grim@reaperworld.com>
-9213 # Kevin Stange <kevin@simguy.net>
+9220 # John Silvestri
+9215 # Andrew Wellington
+9214 # Gary Kramlich
+9213 # Kevin Stange
 9207 Chris Toshok
-9206 # Kevin Stange <kevin@simguy.net>
-9197 # Stu Tomlinson <stu@nosnilmot.com>
-9196 # Gary Kramlich <grim@reaperworld.com>
-9194 # Stu Tomlinson <stu@nosnilmot.com>
-9187 # Gary Kramlich <grim@reaperworld.com>
-9186 # Gary Kramlich <grim@reaperworld.com>
-9185 # Tim Ringenbach <marv@pidgin.im>
+9206 # Kevin Stange
+9197 # Stu Tomlinson
+9196 # Gary Kramlich
+9194 # Stu Tomlinson
+9187 # Gary Kramlich
+9186 # Gary Kramlich
+9185 # Tim Ringenbach
 9182 # Lazlo
-9181 # Arun Tharuvai <aatharuv@mit.edu>
-9178 # Kevin Stange <kevin@simguy.net>
-9177 # Kevin Stange <kevin@simguy.net>
-9176 # Tim Ringenbach <marv@pidgin.im>
-9175 # Stu Tomlinson <stu@nosnilmot.com>
-9172 # Tim Ringenbach <marv@pidgin.im>
-9171 # Tim Ringenbach <marv@pidgin.im>
-9170 # Tim Ringenbach <marv@pidgin.im>
-9167 # Evan Schoenberg <evan.s@dreskin.net>
+9181 # Arun Tharuvai
+9178 # Kevin Stange
+9177 # Kevin Stange
+9176 # Tim Ringenbach
+9175 # Stu Tomlinson
+9172 # Tim Ringenbach
+9171 # Tim Ringenbach
+9170 # Tim Ringenbach
+9167 # Evan Schoenberg
 9166 jarady
-9165 # Arun Tharuvai <aatharuv@mit.edu>
-9164 # Tim Ringenbach <marv@pidgin.im>
-9162 # Kevin Stange <kevin@simguy.net>
-9143 # Kevin Stange <kevin@simguy.net>
-9134 # Tim Ringenbach <marv@pidgin.im>
-9132 # Stu Tomlinson <stu@nosnilmot.com>
+9165 # Arun Tharuvai
+9164 # Tim Ringenbach
+9162 # Kevin Stange
+9143 # Kevin Stange
+9134 # Tim Ringenbach
+9132 # Stu Tomlinson
 9111 Rob Foehl
-9110 # Björn Voigt <bjoern@cs.tu-berlin.de>
-9109 # Ambrose Li <ambrose.li@gmail.com>
-9105 # Arun Tharuvai <aatharuv@mit.edu>
-9104 # Tim Ringenbach <marv@pidgin.im>
-9103 # Tim Ringenbach <marv@pidgin.im>
-9102 # Tim Ringenbach <marv@pidgin.im>
-9101 # Stu Tomlinson <stu@nosnilmot.com>
-9100 # Tim Ringenbach <marv@pidgin.im>
-9091 # Kevin Stange <kevin@simguy.net>
-9088 # Stu Tomlinson <stu@nosnilmot.com>
-9081 # Tim Ringenbach <marv@pidgin.im>
-9078 # Arun Tharuvai <aatharuv@mit.edu>
-9076 # Tim Ringenbach <marv@pidgin.im>
-9075 # Tim Ringenbach <marv@pidgin.im>
-9059 # Gary Kramlich <grim@reaperworld.com>
+9110 # Björn Voigt
+9109 # Ambrose Li
+9105 # Arun Tharuvai
+9104 # Tim Ringenbach
+9103 # Tim Ringenbach
+9102 # Tim Ringenbach
+9101 # Stu Tomlinson
+9100 # Tim Ringenbach
+9091 # Kevin Stange
+9088 # Stu Tomlinson
+9081 # Tim Ringenbach
+9078 # Arun Tharuvai
+9076 # Tim Ringenbach
+9075 # Tim Ringenbach
+9059 # Gary Kramlich
 9058 Nathan Owens
-9056 # Pekka Riikonen <priikone@iki.fi>
-9034 # Roy Spliet <seven@nimrod-online.com>
+9056 # Pekka Riikonen
+9034 # Roy Spliet
 9011 Scott Lamb
-9007 # Daniel Atallah <daniel.atallah@gmail.com>
-9006 # Tim Ringenbach <marv@pidgin.im>
+9007 # Daniel Atallah
+9006 # Tim Ringenbach
 9004 Scott Lamb
 8997 Scott Lamb
-8996 # Nathan Fredrickson <nathan@silverorange.com>
+8996 # Nathan Fredrickson
 8993 Mehdi Achour
-8989 # Kevin Barry <gorn@users.sourceforge.net>
-8983 # Tim Ringenbach <marv@pidgin.im>
-8979 # Tim Ringenbach <marv@pidgin.im>
-8978 # Stu Tomlinson <stu@nosnilmot.com>
-8966 # Daniel Atallah <daniel.atallah@gmail.com>
-8965 # Funda Wang <fundawang@gmail.com>
-8964 # Padraig O'Briain <padraigob@users.sourceforge.net>
-8960 # Nathan Fredrickson <nathan@silverorange.com>
-8958 # Gary Kramlich <grim@reaperworld.com>
-8954 # Tim Ringenbach <marv@pidgin.im>
-8953 # Tim Ringenbach <marv@pidgin.im>
-8952 # Etan Reisner <pidgin@unreliablesource.net>
+8989 # Kevin Barry
+8983 # Tim Ringenbach
+8979 # Tim Ringenbach
+8978 # Stu Tomlinson
+8966 # Daniel Atallah
+8965 # Funda Wang
+8964 # Padraig O'Briain
+8960 # Nathan Fredrickson
+8958 # Gary Kramlich
+8954 # Tim Ringenbach
+8953 # Tim Ringenbach
+8952 # Etan Reisner
 8942 Uli Luckas
-8940 # Arun Tharuvai <aatharuv@mit.edu>
-8938 # Tim Ringenbach <marv@pidgin.im>
-8935 # Tim Ringenbach <marv@pidgin.im>
-8931 # Evan Schoenberg <evan.s@dreskin.net>
-8926 # Alex Smith <madalex@users.sourceforge.net>
-8925 # MBG <chromakode@gmail.com>
-8922 # Tim Ringenbach <marv@pidgin.im>
-8910 # MBG <chromakode@gmail.com>
-8899 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8890 # Nathan Fredrickson <nathan@silverorange.com>
-8885 # Daniel Atallah <daniel.atallah@gmail.com>
-8884 # Felipe Contreras <felipe.contreras@gmail.com>
-8883 # Gary Kramlich <grim@reaperworld.com>
-8874 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8873 # Tim Ringenbach <marv@pidgin.im>
+8940 # Arun Tharuvai
+8938 # Tim Ringenbach
+8935 # Tim Ringenbach
+8931 # Evan Schoenberg
+8926 # Alex Smith
+8925 # MBG
+8922 # Tim Ringenbach
+8910 # MBG
+8899 # Björn Voigt
+8890 # Nathan Fredrickson
+8885 # Daniel Atallah
+8884 # Felipe Contreras
+8883 # Gary Kramlich
+8874 # Björn Voigt
+8873 # Tim Ringenbach
 8872 Ignacy Gawedzki
 8868 Livio B. Soares
-8867 # Etan Reisner <pidgin@unreliablesource.net>
-8859 # Mohammed Sameer <msameer@users.sourceforge.net>
-8855 # Etan Reisner <pidgin@unreliablesource.net>
-8854 # John Silvestri <john.silvestri@gmail.com>
-8851 # Nathan Fredrickson <nathan@silverorange.com>
-8849 # Daniel Atallah <daniel.atallah@gmail.com>
+8867 # Etan Reisner
+8859 # Mohammed Sameer
+8855 # Etan Reisner
+8854 # John Silvestri
+8851 # Nathan Fredrickson
+8849 # Daniel Atallah
 8846 Zaheer Merali
 8844 Philip Brown
 8842 Marc Mulcahy
-8833 # Etan Reisner <pidgin@unreliablesource.net>
-8822 # Douglas Thrift <douglas@douglasthrift.net>
-8818 # Tim Ringenbach <marv@pidgin.im>
-8817 # Tim Ringenbach <marv@pidgin.im>
-8810 # Nathan Fredrickson <nathan@silverorange.com>
-8805 # Nathan Fredrickson <nathan@silverorange.com>
-8804 # Gary Kramlich <grim@reaperworld.com>
-8802 # Ka-Hing Cheung <khc@hxbc.us>
-8794 # Daniel Atallah <daniel.atallah@gmail.com>
+8833 # Etan Reisner
+8822 # Douglas Thrift
+8818 # Tim Ringenbach
+8817 # Tim Ringenbach
+8810 # Nathan Fredrickson
+8805 # Nathan Fredrickson
+8804 # Gary Kramlich
+8802 # Ka-Hing Cheung
+8794 # Daniel Atallah
 8789 Ben Herrenschmidt
-8769 # Etan Reisner <pidgin@unreliablesource.net>
-8766 # Gary Kramlich <grim@reaperworld.com>
-8719 # Tim Ringenbach <marv@pidgin.im>
-8697 # Olivier Blin <blino@users.sourceforge.net>
-8694 # Olivier Blin <blino@users.sourceforge.net>
-8693 # Olivier Blin <blino@users.sourceforge.net>
-8688 # Ambrose Li <ambrose.li@gmail.com>
-8682 # Felipe Contreras <felipe.contreras@gmail.com>
+8769 # Etan Reisner
+8766 # Gary Kramlich
+8719 # Tim Ringenbach
+8697 # Olivier Blin
+8694 # Olivier Blin
+8693 # Olivier Blin
+8688 # Ambrose Li
+8682 # Felipe Contreras
 8674 Stefan Esser
-8673 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-8672 # Etan Reisner <pidgin@unreliablesource.net>
-8668 # Ka-Hing Cheung <khc@hxbc.us>
-8659 # Gavan Fantom <gavan@users.sourceforge.net>
-8654 # Felipe Contreras <felipe.contreras@gmail.com>
-8653 # Daniel Atallah <daniel.atallah@gmail.com>
-8629 # Gary Kramlich <grim@reaperworld.com>
-8628 # Ka-Hing Cheung <khc@hxbc.us>
-8624 # Evan Schoenberg <evan.s@dreskin.net>
-8613 # Ka-Hing Cheung <khc@hxbc.us>
-8571 # Ka-Hing Cheung <khc@hxbc.us>
-8566 # Arto Alakulju <arto@alakulju.net>
-8552 # Daniel Atallah <daniel.atallah@gmail.com>
-8551 # Gary Kramlich <grim@reaperworld.com>
-8550 # Daniel Atallah <daniel.atallah@gmail.com>
-8537 # Tim Ringenbach <marv@pidgin.im>
-8532 # Tim Ringenbach <marv@pidgin.im>
-8524 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8522 # Tim Ringenbach <marv@pidgin.im>
-8519 # Tim Ringenbach <marv@pidgin.im>
-8518 # John Silvestri <john.silvestri@gmail.com>
-8517 # Bill Tompkins <obobo@users.sourceforge.net>
-8516 # Bill Tompkins <obobo@users.sourceforge.net>
-8515 # Luke Ross <luke@lukeross.name>
-8514 # Luke Ross <luke@lukeross.name>
-8512 # Felipe Contreras <felipe.contreras@gmail.com>
-8511 # Nathan Fredrickson <nathan@silverorange.com>
-8497 # Nathan Fredrickson <nathan@silverorange.com>
-8487 # Mike Hearn <mike@theoretic.com>
-8476 # Felipe Contreras <felipe.contreras@gmail.com>
-8475 # Tim Ringenbach <marv@pidgin.im>
-8464 # Felipe Contreras <felipe.contreras@gmail.com>
-8455 # Daniel Atallah <daniel.atallah@gmail.com>
-8452 # Tim Ringenbach <marv@pidgin.im>
-8451 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-8444 # Ka-Hing Cheung <khc@hxbc.us>
-8415 # Kevin Stange <kevin@simguy.net>
-8392 # Felipe Contreras <felipe.contreras@gmail.com>
-8391 # Paul Aurich <paul@darkrain42.org>
-8383 # Tim Ringenbach <marv@pidgin.im>
-8372 # Nathan Walp <nwalp@pidgin.im>
-8370 # Phil Hannent <phil@hannent.co.uk>
-8369 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8355 # Tim Ringenbach <marv@pidgin.im>
+8673 # Robert McQueen
+8672 # Etan Reisner
+8668 # Ka-Hing Cheung
+8659 # Gavan Fantom
+8654 # Felipe Contreras
+8653 # Daniel Atallah
+8629 # Gary Kramlich
+8628 # Ka-Hing Cheung
+8624 # Evan Schoenberg
+8613 # Ka-Hing Cheung
+8571 # Ka-Hing Cheung
+8566 # Arto Alakulju
+8552 # Daniel Atallah
+8551 # Gary Kramlich
+8550 # Daniel Atallah
+8537 # Tim Ringenbach
+8532 # Tim Ringenbach
+8524 # Björn Voigt
+8522 # Tim Ringenbach
+8519 # Tim Ringenbach
+8518 # John Silvestri
+8517 # Bill Tompkins
+8516 # Bill Tompkins
+8515 # Luke Ross
+8514 # Luke Ross
+8512 # Felipe Contreras
+8511 # Nathan Fredrickson
+8497 # Nathan Fredrickson
+8487 # Mike Hearn
+8476 # Felipe Contreras
+8475 # Tim Ringenbach
+8464 # Felipe Contreras
+8455 # Daniel Atallah
+8452 # Tim Ringenbach
+8451 # Robert McQueen
+8444 # Ka-Hing Cheung
+8415 # Kevin Stange
+8392 # Felipe Contreras
+8391 # Paul Aurich
+8383 # Tim Ringenbach
+8372 # Nathan Walp
+8370 # Phil Hannent
+8369 # Björn Voigt
+8355 # Tim Ringenbach
 8344 Bill Crawford (billcrawford)
-8326 # Kevin Stange <kevin@simguy.net>
-8323 # Felipe Contreras <felipe.contreras@gmail.com>
-8320 # Ambrose Li <ambrose.li@gmail.com>
-8319 # Tim Ringenbach <marv@pidgin.im>
-8311 # Felipe Contreras <felipe.contreras@gmail.com>
-8310 # Kevin Stange <kevin@simguy.net>
-8309 # Felipe Contreras <felipe.contreras@gmail.com>
-8308 # Tim Ringenbach <marv@pidgin.im>
+8326 # Kevin Stange
+8323 # Felipe Contreras
+8320 # Ambrose Li
+8319 # Tim Ringenbach
+8311 # Felipe Contreras
+8310 # Kevin Stange
+8309 # Felipe Contreras
+8308 # Tim Ringenbach
 8302 Alex Bennee (trent)
 8301 Anthony Ehrhardt (cguru)
-8297 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8296 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8295 # Tim Ringenbach <marv@pidgin.im>
-8251 # Douglas Thrift <douglas@douglasthrift.net>
-8249 # Daniel Atallah <daniel.atallah@gmail.com>
+8297 # Björn Voigt
+8296 # Björn Voigt
+8295 # Tim Ringenbach
+8251 # Douglas Thrift
+8249 # Daniel Atallah
 8243 Juan Pablo Mendoza
-8231 # John Silvestri <john.silvestri@gmail.com>
+8231 # John Silvestri
 8230 Tom Pennings
-8229 # Stu Tomlinson <stu@nosnilmot.com>
-8220 # Stu Tomlinson <stu@nosnilmot.com>
+8229 # Stu Tomlinson
+8220 # Stu Tomlinson
 8179 Robert Mibus
-8166 # Daniel Atallah <daniel.atallah@gmail.com>
-8164 # Ambrose Li <ambrose.li@gmail.com>
-8163 # Tim Ringenbach <marv@pidgin.im>
-8152 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8119 # Daniel Atallah <daniel.atallah@gmail.com>
+8166 # Daniel Atallah
+8164 # Ambrose Li
+8163 # Tim Ringenbach
+8152 # Björn Voigt
+8119 # Daniel Atallah
 8116 Gray Watson (graywatson)
-8108 # Evan Schoenberg <evands@pidgin.im>
-8106 # Daniel Atallah <daniel.atallah@gmail.com>
+8108 # Evan Schoenberg
+8106 # Daniel Atallah
 8094 Brian Candler
-8093 # Daniel Atallah <daniel.atallah@gmail.com>
-8072 # Kevin Stange <kevin@simguy.net>
+8093 # Daniel Atallah
+8072 # Kevin Stange
 8061 zuperdeei (Daniel)
-8044 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8043 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8025 # Ethan Blanton <elb@pidgin.im>
-8022 # Etan Reisner <pidgin@unreliablesource.net>
-8020 # Björn Voigt <bjoern@cs.tu-berlin.de>
-8019 # Ambrose Li <ambrose.li@gmail.com>
-8009 # Kevin Stange <kevin@simguy.net>
-7982 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7968 # Etan Reisner <pidgin@unreliablesource.net>
-7959 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7912 # Nathan Fredrickson <nathan@silverorange.com>
-7892 # Björn Voigt <bjoern@cs.tu-berlin.de>
+8044 # Björn Voigt
+8043 # Björn Voigt
+8025 # Ethan Blanton
+8022 # Etan Reisner
+8020 # Björn Voigt
+8019 # Ambrose Li
+8009 # Kevin Stange
+7982 # Björn Voigt
+7968 # Etan Reisner
+7959 # Robert McQueen
+7912 # Nathan Fredrickson
+7892 # Björn Voigt
 7844 Karsten Huneycutt (kph)
 7810 Daniel Westermann-Clark (potpieman)
-7768 # Ambrose Li <ambrose.li@gmail.com>
-7754 # Tim Ringenbach <marv@pidgin.im>
-7696 # Björn Voigt <bjoern@cs.tu-berlin.de>
+7768 # Ambrose Li
+7754 # Tim Ringenbach
+7696 # Björn Voigt
 7679 Nathan Poznick
-7634 # Ambrose Li <ambrose.li@gmail.com>
-7606 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7596 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7586 # Ambrose Li <ambrose.li@gmail.com>
-7576 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7573 # Tim Ringenbach <marv@pidgin.im>
+7634 # Ambrose Li
+7606 # Björn Voigt
+7596 # Robert McQueen
+7586 # Ambrose Li
+7576 # Robert McQueen
+7573 # Tim Ringenbach
 7535 KAMO Tomoyuki
-7530 # Etan Reisner <pidgin@unreliablesource.net>
-7482 # Arun Tharuvai <aatharuv@mit.edu>
+7530 # Etan Reisner
+7482 # Arun Tharuvai
 7478 Danilo Segan
-7470 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-7458 # Funda Wang <fundawang@gmail.com>
-7451 # Arun Tharuvai <aatharuv@mit.edu>
-7442 # Tim Ringenbach <marv@pidgin.im>
-7428 # Tim Ringenbach <marv@pidgin.im>
-7410 # Björn Voigt <bjoern@cs.tu-berlin.de>
+7470 # Éric Boumaour
+7458 # Funda Wang
+7451 # Arun Tharuvai
+7442 # Tim Ringenbach
+7428 # Tim Ringenbach
+7410 # Björn Voigt
 7402 Nickolai Zeldovich
-7396 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7395 # Ambrose Li <ambrose.li@gmail.com>
-7392 # Tim Ringenbach <marv@pidgin.im>
-7385 # Tim Ringenbach <marv@pidgin.im>
-7384 # Ka-Hing Cheung <khc@hxbc.us>
-7380 # Funda Wang <fundawang@gmail.com>
-7379 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7368 # Ka-Hing Cheung <khc@hxbc.us>
-7364 # Tim Ringenbach <marv@pidgin.im>
-7362 # Duarte Henriques <duarte_henriques@myrealbox.com>
-7354 # Ka-Hing Cheung <khc@hxbc.us>
-7344 # Tim Ringenbach <marv@pidgin.im>
-7336 # Tim Ringenbach <marv@pidgin.im>
-7332 # Tim Ringenbach <marv@pidgin.im>
+7396 # Björn Voigt
+7395 # Ambrose Li
+7392 # Tim Ringenbach
+7385 # Tim Ringenbach
+7384 # Ka-Hing Cheung
+7380 # Funda Wang
+7379 # Björn Voigt
+7368 # Ka-Hing Cheung
+7364 # Tim Ringenbach
+7362 # Duarte Henriques
+7354 # Ka-Hing Cheung
+7344 # Tim Ringenbach
+7336 # Tim Ringenbach
+7332 # Tim Ringenbach
 7331 Jesse Farmer (vann)
-7323 # Tim Ringenbach <marv@pidgin.im>
-7315 # Nathan Walp <nwalp@pidgin.im>
+7323 # Tim Ringenbach
+7315 # Nathan Walp
 7308 Jesse Farmer
-7293 # Tim Ringenbach <marv@pidgin.im>
+7293 # Tim Ringenbach
 7292 Jesse Farmer (farmerje)
-7256 # Tim Ringenbach <marv@pidgin.im>
+7256 # Tim Ringenbach
 7255 Tore Lundqvist (luntor)
 7254 Daniel Westermann-Clark (potpieman)
-7246 # Kevin Stange <kevin@simguy.net>
-7223 # Nathan Walp <nwalp@pidgin.im>
+7246 # Kevin Stange
+7223 # Nathan Walp
 7213 Nandan Dixit
-7212 # Tim Ringenbach <marv@pidgin.im>
-7202 # Paul Aurich <paul@darkrain42.org>
-7201 # Morten Brix Pedersen <morten@wtf.dk>
+7212 # Tim Ringenbach
+7202 # Paul Aurich
+7201 # Morten Brix Pedersen
 7199 Tore Lundqvist (luntor)
 7189 Petter Johan Olsen
 7187 Misu Moldovan (dumol)
-7186 # Ambrose Li <ambrose.li@gmail.com>
-7185 # Kevin Stange <kevin@simguy.net>
+7186 # Ambrose Li
+7185 # Kevin Stange
 7182 Nathan Poznick
 7181 Danilo Segan
-7180 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7173 # Daniel Sands <dnsands@sandia.gov>
-7168 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7166 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7164 # Ambrose Li <ambrose.li@gmail.com>
-7155 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7153 # Tim Ringenbach <marv@pidgin.im>
-7152 # Ambrose Li <ambrose.li@gmail.com>
-7150 # Ambrose Li <ambrose.li@gmail.com>
-7148 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7147 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7146 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7145 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7144 # Ari Pollak <ari@debian.org>
-7101 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7100 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-7095 # Björn Voigt <bjoern@cs.tu-berlin.de>
-7092 # Ambrose Li <ambrose.li@gmail.com>
-7082 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+7180 # Björn Voigt
+7173 # Daniel Sands
+7168 # Björn Voigt
+7166 # Robert McQueen
+7164 # Ambrose Li
+7155 # Björn Voigt
+7153 # Tim Ringenbach
+7152 # Ambrose Li
+7150 # Ambrose Li
+7148 # Robert McQueen
+7147 # Björn Voigt
+7146 # Robert McQueen
+7145 # Robert McQueen
+7144 # Ari Pollak
+7101 # Robert McQueen
+7100 # Robert McQueen
+7095 # Björn Voigt
+7092 # Ambrose Li
+7082 # Robert McQueen
 7077 Robert Millan
 7031 Nathan Poznick
-7030 # Tim Ringenbach <marv@pidgin.im>
-7018 # Björn Voigt <bjoern@cs.tu-berlin.de>
+7030 # Tim Ringenbach
+7018 # Björn Voigt
 7012 Tore Lundqvist (luntor)
 7004 Hristo Todorov
-7003 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6992 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6991 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6973 # Etan Reisner <pidgin@unreliablesource.net>
-6972 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6971 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-6964 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6963 # Morten Brix Pedersen <morten@wtf.dk>
-6953 # Kevin Stange <kevin@simguy.net>
-6950 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6949 # Björn Voigt <bjoern@cs.tu-berlin.de>
-6948 # Etan Reisner <pidgin@unreliablesource.net>
-6943 # Lee Roach <phroggie@phroggie.net>
-6940 # Ethan Blanton <elb@pidgin.im>
+7003 # Robert McQueen
+6992 # Robert McQueen
+6991 # Robert McQueen
+6973 # Etan Reisner
+6972 # Robert McQueen
+6971 # Éric Boumaour
+6964 # Robert McQueen
+6963 # Morten Brix Pedersen
+6953 # Kevin Stange
+6950 # Robert McQueen
+6949 # Björn Voigt
+6948 # Etan Reisner
+6943 # Lee Roach
+6940 # Ethan Blanton
 6934 Nuno Donato
-6922 # Ethan Blanton <elb@pidgin.im>
-6909 # Morten Brix Pedersen <morten@wtf.dk>
-6889 # Etan Reisner <pidgin@unreliablesource.net>
-6888 # Etan Reisner <pidgin@unreliablesource.net>
+6922 # Ethan Blanton
+6909 # Morten Brix Pedersen
+6889 # Etan Reisner
+6888 # Etan Reisner
 6882 Sutto Zoltan
-6881 # Ethan Blanton <elb@pidgin.im>
+6881 # Ethan Blanton
 6870 vann
-6869 # Etan Reisner <pidgin@unreliablesource.net>
-6866 # Ambrose Li <ambrose.li@gmail.com>
-6864 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6850 # Björn Voigt <bjoern@cs.tu-berlin.de>
-6849 # Ethan Blanton <elb@pidgin.im>
-6832 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+6869 # Etan Reisner
+6866 # Ambrose Li
+6864 # Robert McQueen
+6850 # Björn Voigt
+6849 # Ethan Blanton
+6832 # Robert McQueen
 6831 Guntupalli Karunakar
 6822 Zach Rusin
-6820 # Björn Voigt <bjoern@cs.tu-berlin.de>
-6815 # Morten Brix Pedersen <morten@wtf.dk>
+6820 # Björn Voigt
+6815 # Morten Brix Pedersen
 6801 Brian Tarricon
-6800 # Björn Voigt <bjoern@cs.tu-berlin.de>
+6800 # Björn Voigt
 6793 Devin Bayer (mal0rd)
 6787 Mauricio de Lemos Rodrigues Collares
-6786 # Paul Aurich <paul@darkrain42.org>
-6785 # Funda Wang <fundawang@gmail.com>
-6784 # Björn Voigt <bjoern@cs.tu-berlin.de>
-6782 # Javier Fernández-Sanguino Peña <jfs@computer.org>
-6769 # Claudio Satriano <satriano@na.infn.it>
+6786 # Paul Aurich
+6785 # Funda Wang
+6784 # Björn Voigt
+6782 # Javier Fernández-Sanguino Peña
+6769 # Claudio Satriano
 6754 Zoltan Sutto
 6753 Vincent van Adrighem
 6748 Danilo Segan
-6747 # Claudio Satriano <satriano@na.infn.it>
+6747 # Claudio Satriano
 6741 Tomasz Gajewski
-6740 # Björn Voigt <bjoern@cs.tu-berlin.de>
-6738 # Björn Voigt <bjoern@cs.tu-berlin.de>
+6740 # Björn Voigt
+6738 # Björn Voigt
 6723 Luca Beltrame
-6720 # Tim Ringenbach <marv@pidgin.im>
-6697 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+6720 # Tim Ringenbach
+6697 # Robert McQueen
 6696 Miloslav Trmac (trmac)
-6694 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+6694 # Robert McQueen
 6683 Ludovic
 6678 Sam Halliday
-6656 # Ethan Blanton <elb@pidgin.im>
+6656 # Ethan Blanton
 6655 # Matthew Luckie
 6626 Mauricio de Lemos Rodrigues Collares Neto
-6621 # Ambrose Li <ambrose.li@gmail.com>
-6616 # Lee Roach <phroggie@phroggie.net>
+6621 # Ambrose Li
+6616 # Lee Roach
 6614 Mauricio de Lemos Rodrigues Collares Neto
 6613 Jakub Steiner at Ximian
 6612 chickenboycole
-6610 # Kevin Stange <kevin@simguy.net>
+6610 # Kevin Stange
 6600 Mauricio de Lemos Rodrigues Collares Neto
-6590 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-6579 # Kevin Stange <kevin@simguy.net>
-6569 # Morten Brix Pedersen <morten@wtf.dk>
+6590 # Éric Boumaour
+6579 # Kevin Stange
+6569 # Morten Brix Pedersen
 6559 Andrew Steets (asteets)
 6558 Andrew Steets (asteets)
-6556 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6555 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6550 # Ambrose Li <ambrose.li@gmail.com>
-6548 # Claudio Satriano <satriano@na.infn.it>
-6547 # Ka-Hing Cheung <khc@hxbc.us>
-6546 # Ethan Blanton <elb@pidgin.im>
+6556 # Robert McQueen
+6555 # Robert McQueen
+6550 # Ambrose Li
+6548 # Claudio Satriano
+6547 # Ka-Hing Cheung
+6546 # Ethan Blanton
 6531 Mauricio de Lemos Rodrigues Collares Neto
-6518 # Kevin Stange <kevin@simguy.net>
-6516 # Ka-Hing Cheung <khc@hxbc.us>
-6509 # John Silvestri <john.silvestri@gmail.com>
-6496 # Ka-Hing Cheung <khc@hxbc.us>
-6493 # Funda Wang <fundawang@gmail.com>
-6488 # Ka-Hing Cheung <khc@hxbc.us>
-6484 # Ka-Hing Cheung <khc@hxbc.us>
-6469 # Decklin Foster <decklin@red-bean.com>
+6518 # Kevin Stange
+6516 # Ka-Hing Cheung
+6509 # John Silvestri
+6496 # Ka-Hing Cheung
+6493 # Funda Wang
+6488 # Ka-Hing Cheung
+6484 # Ka-Hing Cheung
+6469 # Decklin Foster
 6468 Nizathan
 6467 Grant Edwards (grante)
-6460 # Nathan Walp <nwalp@pidgin.im>
-6458 # Morten Brix Pedersen <morten@wtf.dk>
-6450 # Claudio Satriano <satriano@na.infn.it>
+6460 # Nathan Walp
+6458 # Morten Brix Pedersen
+6450 # Claudio Satriano
 6445 Mauricio de Lemos Rodrigues Collares Neto
 6440 Mauricio de Lemos Rodrigues Collares Neto
-6428 # Kyung-uk Son <vvs740@chol.com>
-6403 # Nathan Walp <nwalp@pidgin.im>
-6400 # Morten Brix Pedersen <morten@wtf.dk>
-6395 # Björn Voigt <bjoern@cs.tu-berlin.de>
-6379 # Tim Ringenbach <marv@pidgin.im>
+6428 # Kyung-uk Son
+6403 # Nathan Walp
+6400 # Morten Brix Pedersen
+6395 # Björn Voigt
+6379 # Tim Ringenbach
 6367 Ryan McCabe (odin)
 6362 Aaron DeLong (groff)
-6359 # Morten Brix Pedersen <morten@wtf.dk>
-6348 # Kyung-uk Son <vvs740@chol.com>
-6337 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6285 # Kevin Stange <kevin@simguy.net>
-6284 # Kyung-uk Son <vvs740@chol.com>
-6260 # Claudio Satriano <satriano@na.infn.it>
-6257 # Morten Brix Pedersen <morten@wtf.dk>
-6254 # Björn Voigt <bjoern@cs.tu-berlin.de>
-6249 # Ka-Hing Cheung <khc@hxbc.us>
-6235 # Funda Wang <fundawang@gmail.com>
+6359 # Morten Brix Pedersen
+6348 # Kyung-uk Son
+6337 # Robert McQueen
+6285 # Kevin Stange
+6284 # Kyung-uk Son
+6260 # Claudio Satriano
+6257 # Morten Brix Pedersen
+6254 # Björn Voigt
+6249 # Ka-Hing Cheung
+6235 # Funda Wang
 6225 Ryan McCabe (odin)
 6224 Junichi Uekawa
-6220 # Kevin Stange <kevin@simguy.net>
+6220 # Kevin Stange
 6211 Matthew Hall (mthz)
-6203 # Morten Brix Pedersen <morten@wtf.dk>
-6189 # Ka-Hing Cheung <khc@hxbc.us>
+6203 # Morten Brix Pedersen
+6189 # Ka-Hing Cheung
 6184 Pavel Bibergal
-6180 # Lee Roach <phroggie@phroggie.net>
+6180 # Lee Roach
 6143 Zoltan Sutto
-6135 # Tim Ringenbach <marv@pidgin.im>
-6066 # Felipe Contreras <felipe.contreras@gmail.com>
-6053 # Ethan Blanton <elb@pidgin.im>
+6135 # Tim Ringenbach
+6066 # Felipe Contreras
+6053 # Ethan Blanton
 6035 Ryan McCabe
-6012 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6006 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6002 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-6000 # Ambrose Li <ambrose.li@gmail.com>
-5999 # Tim Ringenbach <marv@pidgin.im>
-5998 # Funda Wang <fundawang@gmail.com>
-5988 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5986 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5972 # Morten Brix Pedersen <morten@wtf.dk>
-5944 # Claudio Satriano <satriano@na.infn.it>
-5932 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5931 # Ambrose Li <ambrose.li@gmail.com>
+6012 # Robert McQueen
+6006 # Robert McQueen
+6002 # Robert McQueen
+6000 # Ambrose Li
+5999 # Tim Ringenbach
+5998 # Funda Wang
+5988 # Robert McQueen
+5986 # Robert McQueen
+5972 # Morten Brix Pedersen
+5944 # Claudio Satriano
+5932 # Robert McQueen
+5931 # Ambrose Li
 5928 Dario Sarango (darius_wolfson)
-5927 # Ambrose Li <ambrose.li@gmail.com>
-5926 # Morten Brix Pedersen <morten@wtf.dk>
+5927 # Ambrose Li
+5926 # Morten Brix Pedersen
 5912 Dario Sarango (darius_wolfson)
-5901 # Ambrose Li <ambrose.li@gmail.com>
-5899 # Funda Wang <fundawang@gmail.com>
-5884 # Claudio Satriano <satriano@na.infn.it>
+5901 # Ambrose Li
+5899 # Funda Wang
+5884 # Claudio Satriano
 5865 Zoltan Sutto
-5858 # David J. Brigada <brigada@prism.net>
-5857 # Ambrose Li <ambrose.li@gmail.com>
+5858 # David J. Brigada
+5857 # Ambrose Li
 5854 Petter Johan Olsen
 5852 Matt Weber (mrweber)
-5851 # Claudio Satriano <satriano@na.infn.it>
+5851 # Claudio Satriano
 5838 J P (j_pong)
-5836 # Decklin Foster <decklin@red-bean.com>
-5816 # Funda Wang <fundawang@gmail.com>
+5836 # Decklin Foster
+5816 # Funda Wang
 5811 # Tim Mooney
-5803 # Ambrose Li <ambrose.li@gmail.com>
-5802 # Ambrose Li <ambrose.li@gmail.com>
+5803 # Ambrose Li
+5802 # Ambrose Li
 5776 Chris (darth_sebulba04)
-5766 # Lee Roach <phroggie@phroggie.net>
+5766 # Lee Roach
 5764 Sofar's (Auke Kok)
-5756 # Claudio Satriano <satriano@na.infn.it>
-5743 # Ka-Hing Cheung <khc@hxbc.us>
-5736 # Morten Brix Pedersen <morten@wtf.dk>
+5756 # Claudio Satriano
+5743 # Ka-Hing Cheung
+5736 # Morten Brix Pedersen
 5735 Eric (Boum)
-5732 # Kyung-uk Son <vvs740@chol.com>
-5723 # Björn Voigt <bjoern@cs.tu-berlin.de>
+5732 # Kyung-uk Son
+5723 # Björn Voigt
 5720 # Tim Mooney
-5719 # David J. Brigada <brigada@prism.net>
+5719 # David J. Brigada
 5712 Jason Brisch of blueboxshell.org
-5710 # Claudio Satriano <satriano@na.infn.it>
-5702 # David J. Brigada <brigada@prism.net>
-5698 # Paul Aurich <paul@darkrain42.org>
+5710 # Claudio Satriano
+5702 # David J. Brigada
+5698 # Paul Aurich
 5691 Benjamin Zeiss
-5684 # Lee Roach <phroggie@phroggie.net>
-5679 # David J. Brigada <brigada@prism.net>
-5677 # David J. Brigada <brigada@prism.net>
-5676 # David J. Brigada <brigada@prism.net>
-5675 # Funda Wang <fundawang@gmail.com>
-5674 # Björn Voigt <bjoern@cs.tu-berlin.de>
-5667 # Etan Reisner <pidgin@unreliablesource.net>
-5665 # Etan Reisner <pidgin@unreliablesource.net>
-5658 # David J. Brigada <brigada@prism.net>
-5655 # Morten Brix Pedersen <morten@wtf.dk>
-5654 # Ka-Hing Cheung <khc@hxbc.us>
+5684 # Lee Roach
+5679 # David J. Brigada
+5677 # David J. Brigada
+5676 # David J. Brigada
+5675 # Funda Wang
+5674 # Björn Voigt
+5667 # Etan Reisner
+5665 # Etan Reisner
+5658 # David J. Brigada
+5655 # Morten Brix Pedersen
+5654 # Ka-Hing Cheung
 5653 Miloslav Trmac (trmac)
 5652 Miloslav Trmac (trmac)
-5635 # Ethan Blanton <elb@pidgin.im>
-5634 # José Mª Pérez Cáncer <jm_pc@users.sourceforge.net>
+5635 # Ethan Blanton
+5634 # José Mª Pérez Cáncer
 5633 Oskuro
-5632 # Ethan Blanton <elb@pidgin.im>
-5630 # José Mª Pérez Cáncer <jm_pc@users.sourceforge.net>
+5632 # Ethan Blanton
+5630 # José Mª Pérez Cáncer
 5628 Oh-One-inator
-5627 # Paul Aurich <paul@darkrain42.org>
-5626 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5624 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5623 # Ka-Hing Cheung <khc@hxbc.us>
-5618 # Ethan Blanton <elb@pidgin.im>
+5627 # Paul Aurich
+5626 # Robert McQueen
+5624 # Robert McQueen
+5623 # Ka-Hing Cheung
+5618 # Ethan Blanton
 5616 Vincent van Adrighem
-5606 # Björn Voigt <bjoern@cs.tu-berlin.de>
-5596 # Javier Fernández-Sanguino Peña <jfs@computer.org>
+5606 # Björn Voigt
+5596 # Javier Fernández-Sanguino Peña
 5565 Jeff Smith
 5557 Moses Lei
-5555 # Morten Brix Pedersen <morten@wtf.dk>
-5539 # Ethan Blanton <elb@pidgin.im>
+5555 # Morten Brix Pedersen
+5539 # Ethan Blanton
 5529 jsi
 5523 Sutto Zoltan
-5508 # Björn Voigt <bjoern@cs.tu-berlin.de>
-5507 # Björn Voigt <bjoern@cs.tu-berlin.de>
+5508 # Björn Voigt
+5507 # Björn Voigt
 5502 Matt Perry (occupant4)
-5484 # David J. Brigada <brigada@prism.net>
-5479 # Björn Voigt <bjoern@cs.tu-berlin.de>
-5478 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+5484 # David J. Brigada
+5479 # Björn Voigt
+5478 # Robert McQueen
 5477 Justin Hench (thanks)
 5474 Danilo Segan (dsegan)
-5469 # Ka-Hing Cheung <khc@hxbc.us>
-5468 # David J. Brigada <brigada@prism.net>
+5469 # Ka-Hing Cheung
+5468 # David J. Brigada
 5459 Daniel Yacob
-5458 # Nathan Walp <nwalp@pidgin.im>
-5456 # Morten Brix Pedersen <morten@wtf.dk>
-5453 # Ari Pollak <ari@debian.org>
-5452 # Ka-Hing Cheung <khc@hxbc.us>
+5458 # Nathan Walp
+5456 # Morten Brix Pedersen
+5453 # Ari Pollak
+5452 # Ka-Hing Cheung
 5451 Joe Clarke (jmarcus)
-5440 # José Mª Pérez Cáncer <jm_pc@users.sourceforge.net>
-5435 # José Mª Pérez Cáncer <jm_pc@users.sourceforge.net>
-5420 # Morten Brix Pedersen <morten@wtf.dk>
+5440 # José Mª Pérez Cáncer
+5435 # José Mª Pérez Cáncer
+5420 # Morten Brix Pedersen
 5411 Dave Camp
 5397 xOr
-5394 # Ka-Hing Cheung <khc@hxbc.us>
-5379 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-5361 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+5394 # Ka-Hing Cheung
+5379 # Éric Boumaour
+5361 # Robert McQueen
 5357 Jesse Farmer (vann)
-5353 # Ka-Hing Cheung <khc@hxbc.us>
-5348 # Ka-Hing Cheung <khc@hxbc.us>
-5336 # Morten Brix Pedersen <morten@wtf.dk>
-5335 # Ka-Hing Cheung <khc@hxbc.us>
+5353 # Ka-Hing Cheung
+5348 # Ka-Hing Cheung
+5336 # Morten Brix Pedersen
+5335 # Ka-Hing Cheung
 5330 kelnos (bjt23)
-5329 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5325 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+5329 # Robert McQueen
+5325 # Robert McQueen
 5321 Matt Luker
-5314 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5313 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+5314 # Robert McQueen
+5313 # Robert McQueen
 5312 Daniel Bungert (dbungert)
-5311 # Björn Voigt <bjoern@cs.tu-berlin.de>
+5311 # Björn Voigt
 5310 Danilo Segan (dsegan)
 5309 Brian (bjt23)
 5308 Brian (bjt23)
 5293 Lumiere
-5290 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5278 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-5268 # Morten Brix Pedersen <morten@wtf.dk>
+5290 # Robert McQueen
+5278 # Robert McQueen
+5268 # Morten Brix Pedersen
 5254 Chris Jones
-5249 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+5249 # Robert McQueen
 5246 Danny Colascione (quotemstr)
 5245 Danny Colascione (quotemstr)
-5227 # Ka-Hing Cheung <khc@hxbc.us>
+5227 # Ka-Hing Cheung
 5226 # Taso N. Devetzis
 5214 Aaron Namba (musicmanan)
 5203 James Vega (jamessan)
-5199 # Ari Pollak <ari@debian.org>
-5181 # Morten Brix Pedersen <morten@wtf.dk>
+5199 # Ari Pollak
+5181 # Morten Brix Pedersen
 5173 # Taso N. Devetzis
-5170 # Kyung-uk Son <vvs740@chol.com>
-5165 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+5170 # Kyung-uk Son
+5165 # Robert McQueen
 5148 Roald Dahl
-5141 # Ethan Blanton <elb@pidgin.im>
-5138 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-5137 # Morten Brix Pedersen <morten@wtf.dk>
-5121 # Morten Brix Pedersen <morten@wtf.dk>
-5120 # Ethan Blanton <elb@pidgin.im>
-5050 # Ka-Hing Cheung <khc@hxbc.us>
-5008 # Ka-Hing Cheung <khc@hxbc.us>
-5003 # Ka-Hing Cheung <khc@hxbc.us>
-5002 # Ka-Hing Cheung <khc@hxbc.us>
-4974 # Kyung-uk Son <vvs740@chol.com>
-4965 # Björn Voigt <bjoern@cs.tu-berlin.de>
+5141 # Ethan Blanton
+5138 # Nicolás Lichtmaier
+5137 # Morten Brix Pedersen
+5121 # Morten Brix Pedersen
+5120 # Ethan Blanton
+5050 # Ka-Hing Cheung
+5008 # Ka-Hing Cheung
+5003 # Ka-Hing Cheung
+5002 # Ka-Hing Cheung
+4974 # Kyung-uk Son
+4965 # Björn Voigt
 4964 Vincent van Adrighem
-4954 # Morten Brix Pedersen <morten@wtf.dk>
+4954 # Morten Brix Pedersen
 4944 Matt Blaha (thecombatwombat)
-4921 # Nathan Walp <nwalp@pidgin.im>
-4914 # Morten Brix Pedersen <morten@wtf.dk>
-4909 # Nathan Walp <nwalp@pidgin.im>
-4901 # Ka-Hing Cheung <khc@hxbc.us>
+4921 # Nathan Walp
+4914 # Morten Brix Pedersen
+4909 # Nathan Walp
+4901 # Ka-Hing Cheung
 4900 Vincent van Adrighem
 4897 shadows
 4894 Matthew Smith (smigs)
 4888 tony skuse (zeet)
-4885 # Ethan Blanton <elb@pidgin.im>
+4885 # Ethan Blanton
 4884 Smigs
-4881 # Björn Voigt <bjoern@cs.tu-berlin.de>
-4877 # Björn Voigt <bjoern@cs.tu-berlin.de>
+4881 # Björn Voigt
+4877 # Björn Voigt
 4876 # Nathan Conrad
-4873 # Björn Voigt <bjoern@cs.tu-berlin.de>
-4872 # Arun Tharuvai <aatharuv@mit.edu>
+4873 # Björn Voigt
+4872 # Arun Tharuvai
 4871 Vincent van Adrighem
 4870 Matthew Smith (smigs)
 4869 Matthew Smith (smigs)
 4868 Misu Moldovan
 4867 Vincent van Adrighem
-4861 # Ari Pollak <ari@debian.org>
-4857 # Paul Aurich <paul@darkrain42.org>
-4856 # Paul Aurich <paul@darkrain42.org>
-4848 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4845 # Ethan Blanton <elb@pidgin.im>
-4823 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+4861 # Ari Pollak
+4857 # Paul Aurich
+4856 # Paul Aurich
+4848 # Robert McQueen
+4845 # Ethan Blanton
+4823 # Robert McQueen
 4808 Carl-Daniel Hailfinger (c-d_hailfinger)
-4803 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+4803 # Robert McQueen
 4794 Carl-Daniel Hailfinger
 4787 Carl-Daniel Hailfinger (c-d_hailfinger)
-4782 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4767 # Lee Roach <phroggie@phroggie.net>
+4782 # Robert McQueen
+4767 # Lee Roach
 4748 Paul Miller
-4747 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-4738 # Felipe Contreras <felipe.contreras@gmail.com>
+4747 # Éric Boumaour
+4738 # Felipe Contreras
 4733 Trogdor
-4732 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4728 # Lee Roach <phroggie@phroggie.net>
+4732 # Robert McQueen
+4728 # Lee Roach
 4718 David Walluck
 4712 Daniel Jelinski (dejot)
-4706 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4705 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4704 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+4706 # Robert McQueen
+4705 # Robert McQueen
+4704 # Robert McQueen
 4703 Ray Strode
-4699 # Ethan Blanton <elb@pidgin.im>
-4695 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4694 # Etan Reisner <pidgin@unreliablesource.net>
-4691 # Ethan Blanton <elb@pidgin.im>
-4690 # Ari Pollak <ari@debian.org>
+4699 # Ethan Blanton
+4695 # Nicolás Lichtmaier
+4694 # Etan Reisner
+4691 # Ethan Blanton
+4690 # Ari Pollak
 4686 Michael Frankowski
-4685 # Ari Pollak <ari@debian.org>
-4673 # Ethan Blanton <elb@pidgin.im>
-4671 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4666 # Ari Pollak <ari@debian.org>
-4664 # Lee Roach <phroggie@phroggie.net>
-4645 # Ethan Blanton <elb@pidgin.im>
-4632 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
+4685 # Ari Pollak
+4673 # Ethan Blanton
+4671 # Robert McQueen
+4666 # Ari Pollak
+4664 # Lee Roach
+4645 # Ethan Blanton
+4632 # Nicolás Lichtmaier
 4620 Aubin LaBrosse
-4619 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4613 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
+4619 # Nicolás Lichtmaier
+4613 # Nicolás Lichtmaier
 4607 Aubin LaBrosse
 4604 Benjamin Tegarden (tegarden)
-4570 # Nathan Walp <nwalp@pidgin.im>
-4567 # John Silvestri <john.silvestri@gmail.com>
-4564 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-4563 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4559 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4558 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-4549 # David J. Brigada <brigada@prism.net>
+4570 # Nathan Walp
+4567 # John Silvestri
+4564 # Éric Boumaour
+4563 # Nicolás Lichtmaier
+4559 # Nicolás Lichtmaier
+4558 # Éric Boumaour
+4549 # David J. Brigada
 4548 Taku YASUI (tach)
-4547 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4539 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4532 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4531 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4530 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
+4547 # Nicolás Lichtmaier
+4539 # Nicolás Lichtmaier
+4532 # Robert McQueen
+4531 # Robert McQueen
+4530 # Éric Boumaour
 4528 Benjamin Tegarden (tegarden)
-4527 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-4526 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4525 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4523 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4521 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
+4527 # Éric Boumaour
+4526 # Nicolás Lichtmaier
+4525 # Robert McQueen
+4523 # Robert McQueen
+4521 # Nicolás Lichtmaier
 4519 Graham Cole
-4512 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4500 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4499 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4492 # John Silvestri <john.silvestri@gmail.com>
-4491 # Ethan Blanton <elb@pidgin.im>
-4487 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4482 # Etan Reisner <deryni@pidgin.im>
-4481 # Nathan Walp <nwalp@pidgin.im>
-4471 # Nathan Walp <nwalp@pidgin.im>
-4469 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
+4512 # Robert McQueen
+4500 # Robert McQueen
+4499 # Robert McQueen
+4492 # John Silvestri
+4491 # Ethan Blanton
+4487 # Robert McQueen
+4482 # Etan Reisner
+4481 # Nathan Walp
+4471 # Nathan Walp
+4469 # Nicolás Lichtmaier
 4468 The Developer (thedeveloper)
-4467 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4466 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4465 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
+4467 # Nicolás Lichtmaier
+4466 # Nicolás Lichtmaier
+4465 # Nicolás Lichtmaier
 4464 Chris (darth_sebulba04)
-4462 # Etan Reisner <pidgin@unreliablesource.net>
-4454 # Ari Pollak <ari@debian.org>
-4452 # Nathan Walp <nwalp@pidgin.im>
+4462 # Etan Reisner
+4454 # Ari Pollak
+4452 # Nathan Walp
 4449 Brandon Scott
-4448 # Nathan Walp <nwalp@pidgin.im>
-4445 # Nathan Walp <nwalp@pidgin.im>
-4439 # Etan Reisner <pidgin@unreliablesource.net>
+4448 # Nathan Walp
+4445 # Nathan Walp
+4439 # Etan Reisner
 4429 Alex Converse (alex4)
-4428 # Ari Pollak <ari@debian.org>
-4427 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4426 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
+4428 # Ari Pollak
+4427 # Nicolás Lichtmaier
+4426 # Nicolás Lichtmaier
 4418 Drew Martin (acm4me)
-4417 # Felipe Contreras <felipe.contreras@gmail.com>
+4417 # Felipe Contreras
 4416 Vincent van Adrighem (valium)
-4405 # Éric Boumaour <eric.boumaour_pidgin@m4x.org>
-4402 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+4405 # Éric Boumaour
+4402 # Robert McQueen
 4400 Alex Converse (alex4)
-4399 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
+4399 # Nicolás Lichtmaier
 4398 Taku YASUI (tach)
-4397 # Nathan Walp <nwalp@pidgin.im>
-4396 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4395 # Ethan Blanton <elb@pidgin.im>
-4392 # Björn Voigt <bjoern@cs.tu-berlin.de>
-4390 # David J. Brigada <brigada@prism.net>
-4389 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4385 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4383 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4367 # Björn Voigt <bjoern@cs.tu-berlin.de>
-4363 # David J. Brigada <brigada@prism.net>
-4361 # Ari Pollak <ari@debian.org>
-4360 # Ari Pollak <ari@debian.org>
-4359 # Ari Pollak <ari@debian.org>
-4358 # Ari Pollak <ari@debian.org>
-4356 # Ari Pollak <ari@debian.org>
+4397 # Nathan Walp
+4396 # Robert McQueen
+4395 # Ethan Blanton
+4392 # Björn Voigt
+4390 # David J. Brigada
+4389 # Nicolás Lichtmaier
+4385 # Robert McQueen
+4383 # Robert McQueen
+4367 # Björn Voigt
+4363 # David J. Brigada
+4361 # Ari Pollak
+4360 # Ari Pollak
+4359 # Ari Pollak
+4358 # Ari Pollak
+4356 # Ari Pollak
 4355 Robert Krawitz (rlk)
 4354 Loi"c Jeannin (tah0rg)
-4353 # Ari Pollak <ari@debian.org>
-4336 # Ka-Hing Cheung <khc@hxbc.us>
-4334 # Ari Pollak <ari@debian.org>
-4333 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4332 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4330 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4329 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4326 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4325 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4324 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4323 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4322 # Etan Reisner <pidgin@unreliablesource.net>
+4353 # Ari Pollak
+4336 # Ka-Hing Cheung
+4334 # Ari Pollak
+4333 # Nicolás Lichtmaier
+4332 # Nicolás Lichtmaier
+4330 # Nicolás Lichtmaier
+4329 # Nicolás Lichtmaier
+4326 # Robert McQueen
+4325 # Robert McQueen
+4324 # Robert McQueen
+4323 # Robert McQueen
+4322 # Etan Reisner
 4319 Saadiq Rodgers-King
 4318 Ashaman TU
-4310 # Nathan Walp <nwalp@pidgin.im>
-4308 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4307 # Etan Reisner <pidgin@unreliablesource.net>
-4297 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+4310 # Nathan Walp
+4308 # Robert McQueen
+4307 # Etan Reisner
+4297 # Robert McQueen
 4295 Taku YASUI
-4294 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4289 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+4294 # Nicolás Lichtmaier
+4289 # Robert McQueen
 4287 David Kaelbling
-4274 # Nathan Walp <nwalp@pidgin.im>
-4270 # Lee Roach <phroggie@phroggie.net>
+4274 # Nathan Walp
+4270 # Lee Roach
 4269 Matthew Smith (smigs)
-4266 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
-4264 # Ka-Hing Cheung <khc@hxbc.us>
+4266 # Nicolás Lichtmaier
+4264 # Ka-Hing Cheung
 4263 Matthew Smith (smigs)
-4262 # Nicolás Lichtmaier <nico@lichtmaier.com.ar>
+4262 # Nicolás Lichtmaier
 4259 Amiel Martin (agnosonga)
 4258 Eric Timme
-4255 # Etan Reisner <pidgin@unreliablesource.net>
-4253 # John Silvestri <john.silvestri@gmail.com>
-4251 # Etan Reisner <pidgin@unreliablesource.net>
-4248 # Nathan Walp <nwalp@pidgin.im>
-4247 # Felipe Contreras <felipe.contreras@gmail.com>
-4241 # Etan Reisner <pidgin@unreliablesource.net>
+4255 # Etan Reisner
+4253 # John Silvestri
+4251 # Etan Reisner
+4248 # Nathan Walp
+4247 # Felipe Contreras
+4241 # Etan Reisner
 4235 Ben Liblit (liblit)
 4233 Eric Timme (var1ety)
-4226 # John Silvestri <john.silvestri@gmail.com>
-4214 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4205 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+4226 # John Silvestri
+4214 # Robert McQueen
+4205 # Robert McQueen
 4202 Graham Booker (gbooker)
 4190 gleblanc
-4184 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4176 # Etan Reisner <pidgin@unreliablesource.net>
-4172 # Ethan Blanton <elb@pidgin.im>
+4184 # Robert McQueen
+4176 # Etan Reisner
+4172 # Ethan Blanton
 4135 Graham Booker
-4132 # Nathan Walp <nwalp@pidgin.im>
-4123 # Nathan Walp <nwalp@pidgin.im>
-4118 # John Silvestri <john.silvestri@gmail.com>
-4116 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4115 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-4103 # Evan Schoenberg <evan.s@dreskin.net>
-4081 # Evan Schoenberg <evan.s@dreskin.net>
-4054 # Ari Pollak <ari@debian.org>
+4132 # Nathan Walp
+4123 # Nathan Walp
+4118 # John Silvestri
+4116 # Robert McQueen
+4115 # Robert McQueen
+4103 # Evan Schoenberg
+4081 # Evan Schoenberg
+4054 # Ari Pollak
 4053 T. Racer
-4043 # Ethan Blanton <elb@pidgin.im>
-4042 # Ethan Blanton <elb@pidgin.im>
+4043 # Ethan Blanton
+4042 # Ethan Blanton
 4040 dindinx
-4011 # Nathan Walp <nwalp@pidgin.im>
-4002 # Ethan Blanton <elb@pidgin.im>
-3999 # Ari Pollak <ari@debian.org>
-3991 # Lee Roach <phroggie@phroggie.net>
-3988 # Nathan Walp <nwalp@pidgin.im>
-3979 # Nathan Walp <nwalp@pidgin.im>
+4011 # Nathan Walp
+4002 # Ethan Blanton
+3999 # Ari Pollak
+3991 # Lee Roach
+3988 # Nathan Walp
+3979 # Nathan Walp
 3963 click81
 3962 # Joshua Blanton
-3959 # Etan Reisner <pidgin@unreliablesource.net>
+3959 # Etan Reisner
 3958 dindinx
 3953 David D. Kilzer
-3949 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+3949 # Robert McQueen
 3948 dindinx
-3944 # Ka-Hing Cheung <khc@hxbc.us>
-3941 # Nathan Walp <nwalp@pidgin.im>
-3929 # Christian Hammond <chipx86@chipx86.com>
-3927 # Nathan Walp <nwalp@pidgin.im>
-3908 # Nathan Walp <nwalp@pidgin.im>
-3907 # Nathan Walp <nwalp@pidgin.im>
-3893 # Christian Hammond <chipx86@chipx86.com>
-3890 # William T. Mahan <wtm2@duke.edu>
+3944 # Ka-Hing Cheung
+3941 # Nathan Walp
+3929 # Christian Hammond
+3927 # Nathan Walp
+3908 # Nathan Walp
+3907 # Nathan Walp
+3893 # Christian Hammond
+3890 # William T. Mahan
 3889 Jonas Birme' (birme)
-3887 # Nathan Walp <nwalp@pidgin.im>
+3887 # Nathan Walp
 3874 Alex Converse (alex4)
 3873 birme
 3872 Benjamin Sherman
-3869 # Nathan Walp <nwalp@pidgin.im>
-3862 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+3869 # Nathan Walp
+3862 # Robert McQueen
 3861 Duffman
-3856 # John Silvestri <john.silvestri@gmail.com>
-3855 # Ethan Blanton <elb@pidgin.im>
-3843 # Etan Reisner <pidgin@unreliablesource.net>
-3842 # Nathan Walp <nwalp@pidgin.im>
+3856 # John Silvestri
+3855 # Ethan Blanton
+3843 # Etan Reisner
+3842 # Nathan Walp
 3841 birme
 3840 birme
-3838 # Etan Reisner <pidgin@unreliablesource.net>
-3827 # Nathan Walp <nwalp@pidgin.im>
+3838 # Etan Reisner
+3827 # Nathan Walp
 3788 Alex Converse (alex4)
-3785 # William T. Mahan <wtm2@duke.edu>
+3785 # William T. Mahan
 3784 jstuart
 3765 Patrick (Zyk) Aussems
-3750 # Ka-Hing Cheung <khc@hxbc.us>
-3729 # Ari Pollak <ari@debian.org>
-3727 # Nathan Walp <nwalp@pidgin.im>
-3723 # William T. Mahan <wtm2@duke.edu>
-3721 # Christian Hammond <chipx86@chipx86.com>
-3720 # Nathan Walp <nwalp@pidgin.im>
-3715 # Ethan Blanton <elb@pidgin.im>
-3703 # Nathan Walp <nwalp@pidgin.im>
-3664 # Ethan Blanton <elb@pidgin.im>
-3661 # Ethan Blanton <elb@pidgin.im>
-3657 # Ethan Blanton <elb@pidgin.im>
-3653 # John Silvestri <john.silvestri@gmail.com>
+3750 # Ka-Hing Cheung
+3729 # Ari Pollak
+3727 # Nathan Walp
+3723 # William T. Mahan
+3721 # Christian Hammond
+3720 # Nathan Walp
+3715 # Ethan Blanton
+3703 # Nathan Walp
+3664 # Ethan Blanton
+3661 # Ethan Blanton
+3657 # Ethan Blanton
+3653 # John Silvestri
 3651 David Fallon
-3644 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3624 # Nathan Walp <nwalp@pidgin.im>
-3622 # Nathan Walp <nwalp@pidgin.im>
-3617 # Ka-Hing Cheung <khc@hxbc.us>
-3615 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3606 # Ka-Hing Cheung <khc@hxbc.us>
+3644 # Robert McQueen
+3624 # Nathan Walp
+3622 # Nathan Walp
+3617 # Ka-Hing Cheung
+3615 # Robert McQueen
+3606 # Ka-Hing Cheung
 3605 Jeong-Hee Kang
-3603 # John Silvestri <john.silvestri@gmail.com>
+3603 # John Silvestri
 3602 Caleb Land
-3599 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3586 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3585 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+3599 # Robert McQueen
+3586 # Robert McQueen
+3585 # Robert McQueen
 3584 Zyk
-3583 # Etan Reisner <pidgin@unreliablesource.net>
-3576 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3570 # Ethan Blanton <elb@pidgin.im>
-3564 # Ethan Blanton <elb@pidgin.im>
-3563 # Nathan Walp <nwalp@pidgin.im>
+3583 # Etan Reisner
+3576 # Robert McQueen
+3570 # Ethan Blanton
+3564 # Ethan Blanton
+3563 # Nathan Walp
 3542 Craig Boston
 3539 Chris Rankin
-3538 # Etan Reisner <pidgin@unreliablesource.net>
-3537 # Etan Reisner <pidgin@unreliablesource.net>
-3525 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3523 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3521 # Nathan Walp <nwalp@pidgin.im>
+3538 # Etan Reisner
+3537 # Etan Reisner
+3525 # Robert McQueen
+3523 # Robert McQueen
+3521 # Nathan Walp
 3508 Eric Melski
-3506 # Mark Doliner <mark@kingant.net>
+3506 # Mark Doliner
 3503 Brian
 3500 Chris Blizzard
 3497 JONAS BIRME
 3496 Brian
 3478 peloverde
-3459 # Etan Reisner <pidgin@unreliablesource.net>
-3454 # Etan Reisner <pidgin@unreliablesource.net>
+3459 # Etan Reisner
+3454 # Etan Reisner
 3414 Timothy Lee
-3411 # Etan Reisner <pidgin@unreliablesource.net>
-3404 # Ben Miller <millebe@cs.earlham.edu>
+3411 # Etan Reisner
+3404 # Ben Miller
 3403 Michael Moulton
-3400 # Nathan Walp <nwalp@pidgin.im>
-3398 # Ari Pollak <ari@debian.org>
-3395 # Ethan Blanton <elb@pidgin.im>
-3394 # Etan Reisner <pidgin@unreliablesource.net>
-3367 # Mark Doliner <mark@kingant.net>
-3358 # Arkadiusz Miskiewicz <arekm@maven.pl>
-3356 # Nathan Walp <nwalp@pidgin.im>
-3350 # Mark Doliner <mark@kingant.net>
+3400 # Nathan Walp
+3398 # Ari Pollak
+3395 # Ethan Blanton
+3394 # Etan Reisner
+3367 # Mark Doliner
+3358 # Arkadiusz Miskiewicz
+3356 # Nathan Walp
+3350 # Mark Doliner
 3346 A Ho-seok Lee
-3344 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+3344 # Robert McQueen
 3343 Daniel Walls
-3341 # Felipe Contreras <felipe.contreras@gmail.com>
+3341 # Felipe Contreras
 3340 Charles (kkrizka)
-3334 # Mark Doliner <mark@kingant.net>
-3329 # Nathan Walp <nwalp@pidgin.im>
-3325 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+3334 # Mark Doliner
+3329 # Nathan Walp
+3325 # Robert McQueen
 3316 Przemyslaw
-3310 # Mark Doliner <mark@kingant.net>
-3309 # Mark Doliner <mark@kingant.net>
-3306 # Nathan Walp <nwalp@pidgin.im>
+3310 # Mark Doliner
+3309 # Mark Doliner
+3306 # Nathan Walp
 3304 Chris Blizzard
 3303 Chris Boyle
 3302 Lex Spoon
-3300 # Nathan Walp <nwalp@pidgin.im>
+3300 # Nathan Walp
 3299 # Tim Mooney
-3297 # Ari Pollak <ari@debian.org>
+3297 # Ari Pollak
 3296 Jeff Stuart
-3295 # Arun Tharuvai <aatharuv@mit.edu>
+3295 # Arun Tharuvai
 3289 Jason Willis
-3288 # Mark Doliner <mark@kingant.net>
-3275 # Nathan Walp <nwalp@pidgin.im>
-3273 # Mark Doliner <mark@kingant.net>
-3256 # Mark Doliner <mark@kingant.net>
+3288 # Mark Doliner
+3275 # Nathan Walp
+3273 # Mark Doliner
+3256 # Mark Doliner
 3251 rwscott
-3230 # Mark Doliner <mark@kingant.net>
-3229 # Mark Doliner <mark@kingant.net>
-3228 # Mark Doliner <mark@kingant.net>
-3227 # Mark Doliner <mark@kingant.net>
+3230 # Mark Doliner
+3229 # Mark Doliner
+3228 # Mark Doliner
+3227 # Mark Doliner
 3226 Andrew Sayman
-3215 # Ari Pollak <ari@debian.org>
+3215 # Ari Pollak
 3214 click81
-3205 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+3205 # Robert McQueen
 3191 plutonski
 3180 Ryosuke KUtsuna
-3178 # Mark Doliner <mark@kingant.net>
+3178 # Mark Doliner
 3174 Harald Barth
 3173 Toby Gray
 3170 Jason Willis
-3154 # Ben Miller <millebe@cs.earlham.edu>
-3149 # Mark Doliner <mark@kingant.net>
-3139 # Dennis Ristuccia <dristuccia@gmail.com>
+3154 # Ben Miller
+3149 # Mark Doliner
+3139 # Dennis Ristuccia
 3136 Gerd Behrmann
 3132 Jason Willis
-3126 # Christian Hammond <chipx86@chipx86.com>
-3125 # Christian Hammond <chipx86@chipx86.com>
-3123 # Mark Doliner <mark@kingant.net>
-3119 # Jim Seymour <jseymour@users.sf.net>
+3126 # Christian Hammond
+3125 # Christian Hammond
+3123 # Mark Doliner
+3119 # Jim Seymour
 3118 Andrew Echols
 3117 Daniel Walls
-3115 # Mark Doliner <mark@kingant.net>
+3115 # Mark Doliner
 3114 Tero Kuusela
-3113 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3111 # Luke Schierer <lschiere@pidgin.im>
+3113 # Robert McQueen
+3111 # Luke Schierer
 3110 Tero
 3108 Stepgane Pontier
 3105 Jason Copenhaver
-3104 # Mark Doliner <mark@kingant.net>
+3104 # Mark Doliner
 3096 Jay Guerette
-3093 # Mark Doliner <mark@kingant.net>
+3093 # Mark Doliner
 3091 tux_rocker
-3090 # Ben Miller <millebe@cs.earlham.edu>
-3089 # Luke Schierer <lschiere@pidgin.im>
-3088 # Jim Seymour <jseymour@users.sf.net>
+3090 # Ben Miller
+3089 # Luke Schierer
+3088 # Jim Seymour
 3087 mjc
-3086 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3077 # Ben Miller <millebe@cs.earlham.edu>
-3075 # Ari Pollak <ari@debian.org>
-3074 # Robert McQueen <robert.mcqueen@collabora.co.uk>
-3073 # Jim Seymour <jseymour@users.sf.net>
-3069 # Ben Miller <millebe@cs.earlham.edu>
+3086 # Robert McQueen
+3077 # Ben Miller
+3075 # Ari Pollak
+3074 # Robert McQueen
+3073 # Jim Seymour
+3069 # Ben Miller
 3065 Hette Visser
 3060 H J. Visser
 3045 Jason Willis
-3038 # Robert McQueen <robert.mcqueen@collabora.co.uk>
+3038 # Robert McQueen
 3032 Brian Macke
-3030 # Mark Doliner <mark@kingant.net>
-3025 # Luke Schierer <lschiere@pidgin.im>
-3020 # Ben Miller <millebe@cs.earlham.edu>
-3008 # Mark Doliner <mark@kingant.net>
-2995 # Ben Miller <millebe@cs.earlham.edu>
-2994 # Mark Doliner <mark@kingant.net>
+3030 # Mark Doliner
+3025 # Luke Schierer
+3020 # Ben Miller
+3008 # Mark Doliner
+2995 # Ben Miller
+2994 # Mark Doliner
 2936 Sebfrance
 2916 doug porter
 2913 jharris
@@ -2423,97 +2423,97 @@
 2900 Matt Wright
 2896 # Tim Mooney
 2863 abiligiri
-2860 # Sean Egan <seanegan@gmail.com>
-2859 # Arkadiusz Miskiewicz <arekm@maven.pl>
+2860 # Sean Egan
+2859 # Arkadiusz Miskiewicz
 2854 Ho-seok Lee
 2850 Christian Rose
-2848 # Arkadiusz Miskiewicz <arekm@maven.pl>
-2819 # Arkadiusz Miskiewicz <arekm@maven.pl>
-2817 # Arun Tharuvai <aatharuv@mit.edu>
+2848 # Arkadiusz Miskiewicz
+2819 # Arkadiusz Miskiewicz
+2817 # Arun Tharuvai
 2816 Arturo Cisneros
-2811 # Decklin Foster <decklin@red-bean.com>
+2811 # Decklin Foster
 2806 Floris Eshuis
-2805 # Arkadiusz Miskiewicz <arekm@maven.pl>
+2805 # Arkadiusz Miskiewicz
 2803 moocow (transmission)
 2799 brian macke
 2797 A Lee (Ho-seok Lee)
 2796 A Lee (Ho-seok Lee)
 2794 Ho-seok Lee
 2793 Andrew Molly
-2774 # Decklin Foster <decklin@red-bean.com>
+2774 # Decklin Foster
 2772 Arturo Cisneros (r2d2)
 2771 Travis Farley (siege_2004)
 2770 Grigory Bakunov
 2739 click81
 2736 Valdis Kletnieks (sysphrog)
-2725 # Dennis Lambe Jr. <malsyned@users.sourceforge.net>
-2703 # Sean Egan <seanegan@gmail.com>
+2725 # Dennis Lambe Jr.
+2703 # Sean Egan
 2690 John Watson
-2615 # Ben Miller <millebe@cs.earlham.edu>
-2596 # Dennis Lambe Jr. <malsyned@users.sourceforge.net>
-2583 # Ben Miller <millebe@cs.earlham.edu>
+2615 # Ben Miller
+2596 # Dennis Lambe Jr.
+2583 # Ben Miller
 2579 Brian Enigma
 2563 Allan Third
 2525 Artem Litvinovich
-2524 # Dennis Lambe Jr. <malsyned@users.sourceforge.net>
-2487 # Nathan Walp <nwalp@pidgin.im>
+2524 # Dennis Lambe Jr.
+2487 # Nathan Walp
 2481 David Raeman
-2480 # Ben Miller <millebe@cs.earlham.edu>
-2463 # Ben Miller <millebe@cs.earlham.edu>
+2480 # Ben Miller
+2463 # Ben Miller
 2432 Salvatore Valente
 2413 Przemyslaw Sulek
-2404 # Arkadiusz Miskiewicz <arekm@maven.pl>
-2398 # Sean Egan <seanegan@gmail.com>
-2390 # Decklin Foster <decklin@red-bean.com>
+2404 # Arkadiusz Miskiewicz
+2398 # Sean Egan
+2390 # Decklin Foster
 2375 Luke Warm
 2369 khromyy
-2354 # Arkadiusz Miskiewicz <arekm@maven.pl>
-2334 # Ari Pollak <ari@debian.org>
-2326 # Nathan Walp <nwalp@pidgin.im>
+2354 # Arkadiusz Miskiewicz
+2334 # Ari Pollak
+2326 # Nathan Walp
 2276 jim
 2272 Artem Litvinovich
 2271 Stefan Weyergraf
 2269 Daniel J Peng
 2217 Bac9
-2206 # Adam Fritzler <mid@auk.cx>
+2206 # Adam Fritzler
 2189 Tom Dyas
 2174 Mike Basinger
 2155 Valdis Kletnieks
 2143 Toomas Gavrilin
-2139 # Decklin Foster <decklin@red-bean.com>
-2135 # Ben Miller <millebe@cs.earlham.edu>
+2139 # Decklin Foster
+2135 # Ben Miller
 2104 Chris Testa
 2103 ben winslow
 2094 John Matthews
-2086 # Nathan Walp <nwalp@pidgin.im>
+2086 # Nathan Walp
 2085 Grigory Bakunov (black_bmc)
 2079 Gilbert Ramirez (gramirez)
-2078 # Ben Miller <millebe@cs.earlham.edu>
+2078 # Ben Miller
 2066 Mike Heffner
-1947 # Nathan Walp <nwalp@pidgin.im>
+1947 # Nathan Walp
 1939 Stephan Dittmann
 1929 Geoffrey Lane
 1893 David Stoddard
 1887 svalente
-1863 # Nathan Walp <nwalp@pidgin.im>
-1823 # Decklin Foster <decklin@red-bean.com>
+1863 # Nathan Walp
+1823 # Decklin Foster
 1818 nsanch
 1816 nsanch
-1810 # Adam Fritzler <mid@auk.cx>
-1809 # Dennis Ristuccia <dristuccia@gmail.com>
-1799 # Nathan Walp <nwalp@pidgin.im>
-1768 # Nathan Walp <nwalp@pidgin.im>
-1759 # Sean Egan <seanegan@gmail.com>
-1751 # Decklin Foster <decklin@red-bean.com>
-1742 # Dennis Ristuccia <dristuccia@gmail.com>
-1740 # Sean Egan <seanegan@gmail.com>
+1810 # Adam Fritzler
+1809 # Dennis Ristuccia
+1799 # Nathan Walp
+1768 # Nathan Walp
+1759 # Sean Egan
+1751 # Decklin Foster
+1742 # Dennis Ristuccia
+1740 # Sean Egan
 1739 nsanch
 1736 nsanch
-1734 # Adam Fritzler <mid@auk.cx>
-1733 # Adam Fritzler <mid@auk.cx>
+1734 # Adam Fritzler
+1733 # Adam Fritzler
 1729 Neil Sanchala (nsanch)
 1669 phzzzt
-1657 # Decklin Foster <decklin@red-bean.com>
+1657 # Decklin Foster
 1644 baldnik
 1626 drbobbeaty
 1570 Jason Boerner
@@ -2522,65 +2522,65 @@
 1486 tKirin
 1475 dhunter
 1461 customdesigned
-1451 # Decklin Foster <decklin@red-bean.com>
-1428 # Decklin Foster <decklin@red-bean.com>
+1451 # Decklin Foster
+1428 # Decklin Foster
 1423 mishan
 1378 tftv256
 1377 fesnel
 1316 falling
 1310 kylev
-1302 # Decklin Foster <decklin@red-bean.com>
-1264 # Ben Miller <millebe@cs.earlham.edu>
-1260 # Decklin Foster <decklin@red-bean.com>
+1302 # Decklin Foster
+1264 # Ben Miller
+1260 # Decklin Foster
 1248 nsanch
-1234 # Decklin Foster <decklin@red-bean.com>
+1234 # Decklin Foster
 1219 Justin
-1212 # Decklin Foster <decklin@red-bean.com>
-1201 # Decklin Foster <decklin@red-bean.com>
-1195 # Decklin Foster <decklin@red-bean.com>
-1182 # Decklin Foster <decklin@red-bean.com>
+1212 # Decklin Foster
+1201 # Decklin Foster
+1195 # Decklin Foster
+1182 # Decklin Foster
 1161 Moses Lei
-1121 # Ben Miller <millebe@cs.earlham.edu>
-1119 # Ben Miller <millebe@cs.earlham.edu>
-1083 # Decklin Foster <decklin@red-bean.com>
+1121 # Ben Miller
+1119 # Ben Miller
+1083 # Decklin Foster
 1054 Ryan C. Gordon
-1045 # Ben Miller <millebe@cs.earlham.edu>
+1045 # Ben Miller
 1036 bryner
-1034 # Decklin Foster <decklin@red-bean.com>
-1019 # Ben Miller <millebe@cs.earlham.edu>
+1034 # Decklin Foster
+1019 # Ben Miller
 953 kylev
 950 kylev
-949 # Ben Miller <millebe@cs.earlham.edu>
-945 # Ben Miller <millebe@cs.earlham.edu>
-944 # Ben Miller <millebe@cs.earlham.edu>
-926 # Ben Miller <millebe@cs.earlham.edu>
-925 # Ben Miller <millebe@cs.earlham.edu>
-909 # Ben Miller <millebe@cs.earlham.edu>
+949 # Ben Miller
+945 # Ben Miller
+944 # Ben Miller
+926 # Ben Miller
+925 # Ben Miller
+909 # Ben Miller
 895 William Bader
 734 Jim Phillips
 657 GrsdLtning
 474 Josh Huber
-423 # Todd Kulesza <fflewddur@users.sourceforge.net>
+423 # Todd Kulesza
 384 Travis Emslander
 373 GrsdLtning
 345 Brian Ryner
 342 James Nicolson
-321 # Todd Kulesza <fflewddur@users.sourceforge.net>
+321 # Todd Kulesza
 320 Brian Ryner
-296 # Decklin Foster <decklin@red-bean.com>
-285 # Todd Kulesza <fflewddur@users.sourceforge.net>
-265 # Decklin Foster <decklin@red-bean.com>
-244 # Todd Kulesza <fflewddur@users.sourceforge.net>
-240 # Todd Kulesza <fflewddur@users.sourceforge.net>
+296 # Decklin Foster
+285 # Todd Kulesza
+265 # Decklin Foster
+244 # Todd Kulesza
+240 # Todd Kulesza
 197 Sumner
 195 Brian Ryner
-192 # Todd Kulesza <fflewddur@users.sourceforge.net>
-91 # Syd Logan <slogan@users.sourceforge.net>
+192 # Todd Kulesza
+91 # Syd Logan
 89 G Sumner Hayes
-77 # Syd Logan <slogan@users.sourceforge.net>
+77 # Syd Logan
 35 Peter Teichman
 34 Pete
-27 # Eric Warmenhoven <warmenhoven@yahoo.com>
-25 # Eric Warmenhoven <warmenhoven@yahoo.com>
-19 # Eric Warmenhoven <warmenhoven@yahoo.com>
+27 # Eric Warmenhoven
+25 # Eric Warmenhoven
+19 # Eric Warmenhoven
 15 Todd Cohen
