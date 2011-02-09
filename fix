@@ -20,7 +20,7 @@ ENV['GIT_DIR'] = "pidgin.git"
 end
 
 # convert svn path authors to something useful
-File.open("svn_authors").each do |l|
+File.open("svn_authors.txt").each do |l|
   l.chomp!
   rev, author = l.split(" ", 2)
   next if author[0] != '#'[0]
