@@ -14,8 +14,8 @@ ENV['GIT_DIR'] = "pidgin.git"
 @map = {}
 
 File.readlines('svn_authors_map.txt').each do |l|
-  l.scan(/(.*) = (.*) <(.*)>/) do |id,real_name,email|
-    @map[id] = [real_name, email].join(":")
+  l.scan(/(.*) = (.*) <(.*)>/) do |id,name,email|
+    @map[id] = [name, email].join(":")
   end
 end
 
@@ -28,8 +28,7 @@ end
 
 # convert svn path authors to something useful
 File.open("svn_authors.txt").each do |l|
-  l.chomp!
-  rev, author = l.split(" ", 2)
+  rev, author = l.chomp.split(" ", 2)
   next if author[0] != '#'[0]
   author = author[2..-1]
   id = @svn_map[rev]

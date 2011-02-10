@@ -4,8 +4,8 @@
 @missing = {}
 
 File.readlines('authors_map.txt').each do |l|
-  l.scan(/(.*) = (.*) <(.*)>/) do |id,real_name,email|
-    @map[id] = real_name
+  l.scan(/(.*) = (.*) <(.*)>/) do |id,name,email|
+    @map[id] = name
   end
 end
 
