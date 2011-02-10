@@ -166,3 +166,4 @@ A Lee = A Ho-seok Lee <alee@debian.org>
 Jonas Birme = Jonas Birme <jonas.birme@fro.se>
 Chris Stafford = Chris Stafford <c.stafford@gmail.com>
 Joshua Blanton = Joshua Blanton <jblanton@masaka.cs.ohiou.edu>
+Miloslav Trmac = Miloslav Trmac <mitr@volny.cz>

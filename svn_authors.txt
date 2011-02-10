@@ -1817,7 +1817,7 @@
 6723 Luca Beltrame
 6720 # Tim Ringenbach
 6697 # Robert McQueen
-6696 Miloslav Trmac (trmac)
+6696 # Miloslav Trmac
 6694 # Robert McQueen
 6683 Ludovic
 6678 Sam Halliday
@@ -1946,8 +1946,8 @@
 5658 # David J. Brigada
 5655 # Morten Brix Pedersen
 5654 # Ka-Hing Cheung
-5653 Miloslav Trmac (trmac)
-5652 Miloslav Trmac (trmac)
+5653 # Miloslav Trmac
+5652 # Miloslav Trmac
 5635 # Ethan Blanton
 5634 # José Mª Pérez Cáncer
 5633 Oskuro
