@@ -167,3 +167,7 @@ Jonas Birme = Jonas Birme <jonas.birme@fro.se>
 Chris Stafford = Chris Stafford <c.stafford@gmail.com>
 Joshua Blanton = Joshua Blanton <jblanton@cs.ohiou.edu>
 Miloslav Trmac = Miloslav Trmac <mitr@volny.cz>
+Moses Lei = Moses Lei <bugs@moseslei.net>
+Misu Moldovan = Mişu Moldovan <dumol@gnome.ro>
+Debian security team = Debian Security Team <security@debian.org>
+Bob Beaty = Bob Beaty <drbobbeaty@gmail.com>

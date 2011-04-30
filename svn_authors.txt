@@ -226,7 +226,7 @@
 3504 # A Lee
 3502 # Christian Hammond
 3501 Chris Blizzard
-3494 Debian security team
+3494 # Debian security team
 3464 # Christian Hammond
 3462 # Ethan Blanton
 3449 # Christian Hammond
@@ -1736,7 +1736,7 @@
 7201 # Morten Brix Pedersen
 7199 Tore Lundqvist (luntor)
 7189 Petter Johan Olsen
-7187 Misu Moldovan (dumol)
+7187 # Misu Moldovan
 7186 # Ambrose Li
 7185 # Kevin Stange
 7182 Nathan Poznick
@@ -1963,7 +1963,7 @@
 5606 # Björn Voigt
 5596 # Javier Fernández-Sanguino Peña
 5565 Jeff Smith
-5557 Moses Lei
+5557 # Moses Lei
 5555 # Morten Brix Pedersen
 5539 # Ethan Blanton
 5529 jsi
@@ -2058,7 +2058,7 @@
 4871 # Vincent van Adrighem
 4870 # Matthew Smith
 4869 # Matthew Smith
-4868 Misu Moldovan
+4868 # Misu Moldovan
 4867 # Vincent van Adrighem
 4861 # Ari Pollak
 4857 # Paul Aurich
@@ -2515,7 +2515,7 @@
 1669 phzzzt
 1657 # Decklin Foster
 1644 baldnik
-1626 drbobbeaty
+1626 # Bob Beaty
 1570 Jason Boerner
 1530 Yan
 1495 Schuyler
@@ -2539,7 +2539,7 @@
 1201 # Decklin Foster
 1195 # Decklin Foster
 1182 # Decklin Foster
-1161 Moses Lei
+1161 # Moses Lei
 1121 # Ben Miller
 1119 # Ben Miller
 1083 # Decklin Foster
