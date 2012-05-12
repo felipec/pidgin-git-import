@@ -78,3 +78,9 @@ fi
 EOF
 
 system "git filter-branch --env-filter '#{env_filter}' --msg-filter '#{msg_filter}' --tag-name-filter cat -- --all"
+
+# cleanup old stuff
+system 'git remote rm origin'
+system 'rm -rf refs/original'
+system 'git reflog expire --expire=now --all'
+system 'git gc --aggressive --prune=now'
