@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# encoding: utf-8
 
 fix_commit("7de5133262d5d6072a3fda6458fe9075aa7e4bc4", "Unknown <unknown>")
 

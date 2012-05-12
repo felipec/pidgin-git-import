@@ -20,7 +20,7 @@ File.readlines('svn_authors_map.txt').each do |l|
 end
 
 # get svn-rev -> git-sha1 mapping
-`git log --format="%H %s\n" --grep gaim-migrate --all`.each do |l|
+`git log --format="%H %s\n" --grep gaim-migrate --all`.each_line do |l|
    l.scan(/^(\S+) \[gaim-migrate @ (\d+)\]/) do |id, rev|
      @svn_map[rev] = id
    end
@@ -52,7 +52,7 @@ def fix_commit(rev, author = "")
   end
 end
 
-require 'fix_commits'
+require './fix_commits'
 
 @commit_authors.close
 
