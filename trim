@@ -49,7 +49,6 @@ end
 
 parents_regex = '\(' + @bases.values.join('\|') + '\)'
 
-system 'git reset --hard'
 system "git filter-branch --parent-filter \"sed -e 's/-p #{parents_regex}//'\" --tag-name-filter cat -- #{@list}"
 
 File.open('grafts', 'w') do |f|
