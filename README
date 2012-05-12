@@ -19,3 +19,7 @@ time.
 And if you want to fix the repo (bad commits, missing authors, etc.):
 
  $ ./fix
+
+Finally, to trim the repsitory:
+
+ $ ./trim

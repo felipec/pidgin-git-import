@@ -1,0 +1,65 @@
+#!/usr/bin/env ruby
+
+@fix='pidgin-fix.git'
+@trim='pidgin-trim.git'
+
+base_tag = "v2.7.0"
+branches = "master next.major next.minor"
+extra_tags = "v2.7.* v2.8.* v2.9.* v2.10.*"
+
+extra_tags_filter = extra_tags.split(" ").map { |e| "--tags='#{e}'" }.join(" ")
+@list = "--ancestry-path ^#{base_tag}^ #{branches} #{extra_tags_filter}"
+
+@bases = {}
+@tags = []
+
+boundaries = {}
+
+`git --git-dir=#{@fix} log --oneline --decorate=full --boundary --reverse --format="%m:%d:%H:%P" #{@list}`.each_line do |l|
+  mark, decorate, commit, parents = l.chomp.split(':')
+  parents = parents.split(" ")
+  case mark
+  when '-'
+    boundaries[commit] = true
+  when '>'
+    parents.each do |t|
+      if boundaries[t]
+        raise if @bases[commit]
+        @bases[commit] = t
+      end
+    end
+    if decorate =~ / \((.*)\)/
+      $1.split(', ').each do |ref|
+        if ref =~ /refs\/tags\/(.*)/
+          @tags << $1
+        end
+      end
+    end
+  end
+end
+
+system "git init --bare #{@trim}"
+system "git --git-dir=#{@fix} push #{@trim} #{@tags.join(' ')} #{branches}"
+
+Dir.chdir(@trim)
+
+@bases.each do |base, parent|
+  system "git tag original-base/#{base} #{base}"
+end
+
+parents_regex = '\(' + @bases.values.join('\|') + '\)'
+
+system 'git reset --hard'
+system "git filter-branch --parent-filter \"sed -e 's/-p #{parents_regex}//'\" --tag-name-filter cat -- #{@list}"
+
+File.open('grafts', 'w') do |f|
+  @bases.each do |base, parent|
+    original = `git rev-parse original-base/#{base}`.chomp
+    f.puts "#{original} #{parent}"
+    system "git tag -d original-base/#{base}"
+  end
+end
+
+# cleanup old stuff
+system 'rm -rf refs/original'
+system 'git gc --aggressive --prune=0'
