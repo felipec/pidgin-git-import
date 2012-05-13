@@ -33,6 +33,6 @@ for_each_author do |id, count|
     end
 end
 
-@missing.sort {|a,b| a[1] <=> b[1]}.each do |k,v|
+@missing.sort { |a,b| a[1] <=> b[1] }.each do |k,v|
   puts "#{k} | #{v}"
 end
