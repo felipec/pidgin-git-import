@@ -29,13 +29,19 @@ end
 # convert svn path authors to something useful
 File.open("svn_authors.txt").each do |l|
   rev, author = l.chomp.split(" ", 2)
-  next if author[0] != '#'[0]
-  author = author[2..-1]
+  mark = author[0] == '#'[0]
+  if not mark
+    author.gsub!(/ ?\(.*/,'')
+  else
+    author = author[2..-1]
+  end
   id = @svn_map[rev]
   if author =~ /^(.*) <(.*)>/
     name, email = $1, $2
-  elsif @map[author]
+  elsif mark and @map[author]
     name, email = @map[author]
+  else
+    name, email = author, 'unknown'
   end
   @commit_authors.puts([id, name, email].join(":"))
 end
