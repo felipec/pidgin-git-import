@@ -285,3 +285,4 @@ mateuszpiekos@gmail.com = Mateusz Piękos <mateuszpiekos@gmail.com>
 davidben@mit.edu = David Benjamin <davidben@mit.edu>
 lucas.fisher@gmail.com = Lucas Fisher <lucas.fisher@gmail.com>
 tomkiewicz@o2.pl = Tomasz Wasilczyk <tomkiewicz@o2.pl>
+Cristi Posoiu = Cristi Posoiu <unknown>
