@@ -1,8 +1,6 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-fix_commit("7de5133262d5d6072a3fda6458fe9075aa7e4bc4", "Unknown <unknown>")
-
 fix_commit("2d6f9e6fefcb1cc3acf077976fb4563ec6195f82", "Tomáš Kebert <unknown>")
 fix_commit("e8b2e1e7ac4597ec67db53c64064e2e8e7f3cbc1", "Tomáš Kebert <unknown>")
 
