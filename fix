@@ -34,10 +34,11 @@ File.open('svn_authors_map.txt').each do |l|
 end
 
 # get svn-rev -> git-sha1 mapping
-`git log --format="%H %s\n" --grep gaim-migrate --all`.each_line do |l|
-   l.scan(/^(\S+) \[gaim-migrate @ (\d+)\]/) do |id, rev|
-     @svn_map[rev] = id
-   end
+File.open('svn-revisions').each do |l|
+  svn_id, mtn_id = l.split
+  git_id = @mtn_map[mtn_id]
+  @svn_map[svn_id] ||= []
+  @svn_map[svn_id] << git_id
 end
 
 # convert svn path authors to something useful
@@ -49,7 +50,6 @@ File.open("svn_authors.txt").each do |l|
   else
     author = author[2..-1]
   end
-  id = @svn_map[rev]
   if author =~ /^(.*) <(.*)>/
     name, email = $1, $2
   elsif mark and @map[author]
@@ -57,7 +57,9 @@ File.open("svn_authors.txt").each do |l|
   else
     name, email = author, 'unknown'
   end
-  @commit_authors.puts([id, name, email].join(":"))
+  @svn_map[rev].each do |id|
+    @commit_authors.puts([id, name, email].join(":"))
+  end
 end
 
 def fix_commit(rev, author = "")
