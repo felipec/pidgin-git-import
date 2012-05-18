@@ -40,7 +40,7 @@ File.open("svn_authors.txt").each do |l|
 end
 
 def fix_commit(rev, author = "")
-  id=`git rev-list -1 mtn/revs/#{rev} -- 2> /dev/null`.chomp
+  id=`git rev-parse mtn/revs/#{rev}`.chomp
   author.scan(/(.*) <(.*)>/) do |name, email|
     @commit_authors.puts([id, name, email].join(":"))
   end
