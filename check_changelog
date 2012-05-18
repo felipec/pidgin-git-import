@@ -1,0 +1,24 @@
+#!/usr/bin/env ruby
+
+id = ARGV[0]
+message = $stdin.read()
+
+query = "select quote(value),count(*) from revision_certs where name = 'changelog' and lower(hex(revision_id)) == '#{id}' group by value"
+result = `mtn --db pidgin.mtn db execute \"#{query}\"`.split($/)[2..-1]
+
+if result.size == 1
+  value, count = result[0].split(" | ")
+  count = count.to_i
+  value.gsub!(/X'(.*)'/, '\1')
+  value = Array(value).pack('H*')
+  exit if value == message
+end
+
+File.open("fix_commits.rb.new", "a") do |f|
+  f.puts "fix_commit(\"#{id}\") do"
+  f.puts "<<EOF"
+  f.puts message
+  f.puts "EOF"
+  f.puts "end"
+  f.puts ""
+end

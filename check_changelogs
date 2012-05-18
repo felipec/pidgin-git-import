@@ -1,0 +1,22 @@
+#!/bin/bash
+
+dir="${1-../pidgin-hg-convert/}"
+
+mtn()
+{
+	while true
+	do
+		case $1 in
+		-k) shift 2;;
+		-d) shift 2;;
+		*) break;;
+		esac
+	done
+	if [ "$1" == "cert" ]
+	then
+		./check_changelog $2 || return
+	fi
+}
+
+> "fix_commits.rb.new"
+source $dir/fix-changelogs.sh pidgin.mtn foo@bar.com
