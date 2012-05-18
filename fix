@@ -15,7 +15,7 @@ ENV['GIT_DIR'] = "pidgin.git"
 
 File.readlines('svn_authors_map.txt').each do |l|
   l.scan(/(.*) = (.*) <(.*)>/) do |id,name,email|
-    @map[id] = [name, email].join(":")
+    @map[id] = [name, email]
   end
 end
 
@@ -33,10 +33,11 @@ File.open("svn_authors.txt").each do |l|
   author = author[2..-1]
   id = @svn_map[rev]
   if author =~ /^(.*) <(.*)>/
-    @commit_authors.puts([id, $1, $2].join(":"))
+    name, email = $1, $2
   elsif @map[author]
-    @commit_authors.puts([id, @map[author]].join(":"))
+    name, email = @map[author]
   end
+  @commit_authors.puts([id, name, email].join(":"))
 end
 
 def fix_commit(rev, author = "")
