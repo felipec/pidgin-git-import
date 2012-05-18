@@ -62,4 +62,4 @@ end
 # cleanup old stuff
 system 'rm -rf refs/original'
 system 'git reflog expire --expire=now --all'
-system 'git gc --aggressive --prune=now'
+system 'git prune --expire=now'
