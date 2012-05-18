@@ -71,9 +71,17 @@ incorrectly-configured editor (and fix my editor settings).
 EOF
 end
 
-fix_commit("5cfc19787cb16932e5e50c4034a7c46699fe1c51") do
+fix_commit("cbff5094920653b96fd8752191cf581b9fa79846") do
 <<EOF
 Add stubs and comments for group chat commands, a start of #4691.
+EOF
+end
+
+fix_commit("5cfc19787cb16932e5e50c4034a7c46699fe1c51") do
+<<EOF
+In msimprpl, grow the read buffer if it gets full using g_realloc(), similar to
+how the IRC prpl does it. Now large messages should be received and processed
+without filling up the read buffer and crashing.
 EOF
 end
 
@@ -336,13 +344,19 @@ Adding dox references to the various signals pages
 EOF
 end
 
-fix_commit("7252a43314152ad33cc6dc4d65c0349a16575b81") do
+fix_commit("748e70b43d9e828a79f3c72c9fbe484f9e893dbd") do
 <<EOF
 ChangeLog by grim@pidgin.im:
 Patch from Eoin Coffey to install the mono loader into the correct directory.
 
 ChangeLog by ecoffey@soc.pidgin.im:
 Fixed installation of mono.so and PurpleAPI.dll
+EOF
+end
+
+fix_commit("8a14c1d90381baa3c31adeedee7f673d58d66304") do
+<<EOF
+disapproval of revision 'abcb63937b0282df910bc35d286c3f0d3245bfa5'
 EOF
 end
 
