@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require './util'
+
+@list = {}
+for_each_author do |id, count|
+  @list[id] ||= 0
+  @list[id] += count.to_i
+end
+
+@list.sort { |a,b| a[1] <=> b[1] }.each do |k,v|
+  puts "#{k} | #{v}"
+end

@@ -1,0 +1,36 @@
+#!/usr/bin/env ruby
+
+@map = {}
+@missing = {}
+
+dir = ARGV[0]
+
+File.readlines("#{dir}/authormap").each do |l|
+  id, author = l.chomp.split(" = ", 2)
+  @map[id] = author
+end
+
+require './util'
+
+for_each_author do |id, count|
+    if not @map.include?(id)
+      @missing[id] ||= 0
+      @missing[id] += count.to_i
+    end
+end
+
+puts "== missing =="
+
+@missing.sort { |a,b| a[1] <=> b[1] }.each do |k,v|
+  puts "#{k} | #{v}"
+end
+
+puts "== extra =="
+
+for_each_author do |id, count|
+  @map.delete(id)
+end
+
+@map.each do |k, v|
+  puts "#{k}, #{v}"
+end

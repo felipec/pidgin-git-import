@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require './util'
+
+run_query 'select lower(hex(revision_id)),count(*) from revision_certs where name="author" group by revision_id' do |id, count|
+  next if count.to_i == 1
+  puts "#{id}: #{count}"
+end
