@@ -1181,3 +1181,9 @@ out and inspiring me, also in my last patch he spotted the current
 directory wasn't being stored
 EOF
 end
+
+fix_commit("d137c7046bae7e4a0144fee82bfce8061f61e3b3", "Rob Flynn <gaim@robflynn.com>") do
+<<EOF
+Initial commit
+EOF
+end
