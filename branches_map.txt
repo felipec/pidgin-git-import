@@ -144,6 +144,7 @@ im.pidgin.soc.2010.detachablepurple = soc.2010.detachablepurple
 im.pidgin.soc.2010.icq-tlc = soc.2010.icq-tlc
 im.pidgin.soc.2010.logviewer = soc.2010.logviewer
 im.pidgin.soc.2010.msn-tlc = soc.2010.msn-tlc
+im.pidgin.soc.2012.statscollector = soc.2012.statscollector
 im.pidgin.web.old = www.old
 im.pidgin.www = www
 im.pidgin.xmpp.custom_smiley = xmpp.custom_smiley
