@@ -9,9 +9,7 @@ require './util'
 branches = {}
 branches_missing = {}
 
-run_query %{select b.branch,lower(hex(b.revision_id)),sum(c.name == "suspend" and c.value == b.branch) "suspended"
-  from branch_leaves b left join revision_certs c on c.revision_id == b.revision_id group by b.revision_id} do |branch, id, suspended|
-  next if suspended == '1'
+run_query %{select b.branch,lower(hex(b.revision_id)) from branch_leaves b} do |branch, id|
   branches[branch] ||= []
   branches[branch] << id
 end
