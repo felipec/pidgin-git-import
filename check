@@ -1,0 +1,52 @@
+#!/usr/bin/env ruby
+
+require './util'
+
+# author format
+# multiple certs
+# commit on multiple branches
+
+branches = {}
+branches_missing = {}
+
+run_query %{select b.branch,lower(hex(b.revision_id)),sum(c.name == "suspend" and c.value == b.branch) "suspended"
+  from branch_leaves b left join revision_certs c on c.revision_id == b.revision_id group by b.revision_id} do |branch, id, suspended|
+  next if suspended == '1'
+  branches[branch] ||= []
+  branches[branch] << id
+end
+
+branches_map = {}
+File.open('branches_map.txt').each do |l|
+  orig, map = l.split(" = ")
+  branches_map[orig] = map
+end
+
+branches_missing = branches.keys.select { |e| not branches_map.include?(e) }
+
+multi_branches = branches.select { |branch, ids| ids.count > 1 }
+
+authors_map = load_authors_map
+authors_missing = {}
+
+for_each_author do |id, count|
+  if not authors_map.include?(id)
+    authors_missing[id] ||= 0
+    authors_missing[id] += count.to_i
+  end
+end
+
+puts "\n== Authors missing mapping ==" unless authors_missing.empty?
+authors_missing.sort { |a,b| b[1] <=> a[1] }.each do |k,v|
+  puts "#{k} | #{v}"
+end
+
+puts "\n== Branches missing mapping ==" unless branches_missing.empty?
+branches_missing.each do |k|
+  puts k
+end
+
+puts "\n== Branches with multiple heads ==" unless multi_branches.empty?
+multi_branches.each do |branch, ids|
+  puts "%s: %s" % [branch, ids.join(" ")]
+end
