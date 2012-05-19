@@ -100,7 +100,7 @@ else
 fi
 EOF
 
-system "git filter-branch --env-filter '#{env_filter}' --msg-filter '#{msg_filter}' --tag-name-filter cat -- --all"
+system "git filter-branch -d /tmp/git-rewrite/ --env-filter '#{env_filter}' --msg-filter '#{msg_filter}' --tag-name-filter cat -- --all"
 
 # cleanup old stuff
 system 'git remote rm origin'
