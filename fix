@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'fileutils'
+require './util'
 
 @fwd = File.expand_path(File.dirname(__FILE__))
 @messages = File.join(@fwd, "messages")
@@ -83,6 +84,24 @@ FileUtils.rm_rf("pidgin-fix.git")
 system "git clone --bare pidgin.git pidgin-fix.git"
 
 ENV['GIT_DIR'] = "pidgin-fix.git"
+
+# check for lingering heads
+
+@branches = {}
+
+run_query %{select b.branch,lower(hex(b.revision_id)) from branch_leaves b} do |branch, id|
+  @branches[branch] ||= []
+  @branches[branch] << id
+end
+
+@branches.select { |branch, ids| ids.count > 1 }.each do |branch,ids|
+  count = 0
+  ids.each do |id|
+    git_id = @mtn_map[id]
+    bad = `git branch --contains #{git_id} | wc -l`.chomp.to_i == 0
+    system "git branch tmp-#{branch}-#{count += 1} #{git_id}" if bad
+  end
+end
 
 env_filter = <<EOF
 line=$(grep "^$GIT_COMMIT:" "#{@fwd}/commit_authors")
