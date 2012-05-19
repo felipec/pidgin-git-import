@@ -78,7 +78,7 @@ end
 
 require './fix_commits'
 
-@commit_authors.close
+@commit_authors.fsync
 
 FileUtils.rm_rf("pidgin-fix.git")
 system "git clone --bare pidgin.git pidgin-fix.git"
