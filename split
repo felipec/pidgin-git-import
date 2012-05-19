@@ -1,0 +1,57 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+$orig = 'pidgin-fix.git'
+$dir = 'split-repos'
+
+FileUtils.rm_rf($dir)
+FileUtils.mkdir_p($dir)
+
+def get_branches(repo, filter = '')
+  `git --git-dir=#{repo} branch -v --no-abbrev #{filter}`.each_line.map { |e| e.scan(/^..(\S+)\s+([0-9a-z]+)/).first }
+end
+
+def create_repo(name, branches)
+  puts "Creating '#{name}'"
+
+  repo = File.join($dir, name + '.git')
+  system "git clone --quiet --shared --bare -b #{branches.first} #{$orig} #{repo}"
+  other_refs = @all_refs.reject { |id, name, short| branches.include?(short) }
+  other_refs.select! { |id, name, short| name =~ /^refs\/heads/ } if name == 'main'
+  other_refs.each do |id, name, short|
+    system "git --git-dir=#{repo} update-ref -d '#{name}' '#{id}'"
+  end
+  system "git --git-dir=#{repo} remote rm 'origin'"
+  @current_branches += branches
+end
+
+@all_refs = `git --git-dir=#{$orig} for-each-ref --format='%(objectname) %(refname) %(refname:short)'`.each_line.map { |e| e.split }
+@current_branches = []
+@main_branches = []
+@merged_branches = []
+
+create_repo('www', ['www', 'www.old'])
+create_repo('userguide', ['doc.userguide.pidgin'])
+create_repo('transport', ['soc.2009.transport'])
+
+@main_branches << 'master'
+
+get_branches($orig).each do |e, _|
+  case e
+  when /^release-/, /^next\./
+    @main_branches << e
+  end
+end
+
+get_branches($orig, '--merged master').each do |e, _|
+  next if @current_branches.include?(e)
+  @merged_branches << e
+end
+
+create_repo('main', @main_branches | @merged_branches)
+
+get_branches($orig, '--no-merged master').each do |e, _|
+  next if @current_branches.include?(e)
+  create_repo(e, [e])
+end
