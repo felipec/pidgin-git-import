@@ -1184,6 +1184,72 @@ end
 
 fix_commit("d137c7046bae7e4a0144fee82bfce8061f61e3b3", "Rob Flynn <gaim@robflynn.com>") do
 <<EOF
+[gaim-migrate @ 9]
 Initial commit
+EOF
+end
+
+fix_commit("84ed68a77e223f83d7891347c70e18519423e96b", "Nathan Walp <nwalp@pidgin.im>") do
+<<EOF
+[gaim-migrate @ 10836]
+EOF
+end
+
+fix_commit("e0b0f3283559c9583658d47005cbf8a2719e5e45", "Luke Schierer <lschiere@pidgin.im>") do
+<<EOF
+[gaim-migrate @ 12524]
+EOF
+end
+
+fix_commit("eb43dd9ae1ab74d11ea3cdc685e487b3fc5f48cd", "Daniel Atallah <datallah@pidgin.im>") do
+<<EOF
+[gaim-migrate @ 11819]
+EOF
+end
+
+fix_commit("c42325d0684bbdde5f0161a049e709c2df6cf137", "Tim Ringenbach <marv@pidgin.im>") do
+<<EOF
+[gaim-migrate @ 11408]
+EOF
+end
+
+fix_commit("7a10a49bb178320bab4d2f5241609ecdecb68a7d", "Sean Egan <seanegan@pidgin.im>") do
+<<EOF
+[gaim-migrate @ 3437]
+EOF
+end
+
+fix_commit("26f9fd8304f47257cfe76bd7ea2f989bd2b83f5b", "Mark Doliner <markdoliner@pidgin.im>") do
+<<EOF
+Change the version from 1.5.1cvs to 1.5.1dev.
+Thanks to Kevin for mentioning this
+EOF
+end
+
+fix_commit("152f6d4a5c3c68d008f93aa52ea166a4ef2cd528", "Mark Doliner <markdoliner@pidgin.im>") do
+<<EOF
+[gaim-migrate @ 13410]
+Conversion nonsense
+EOF
+end
+
+fix_commit("4f23dae193c4c65a599c972bd9f77e3b68761a5e", "Mark Doliner <markdoliner@pidgin.im>") do
+<<EOF
+[gaim-migrate @ 13411]
+Conversion nonsense
+EOF
+end
+
+fix_commit("9a5e7fb820bf82d0009c007e3c5146dfd9bda395", "Christian Hammond <chipx86@chipx86.com>") do
+<<EOF
+[gaim-migrate @ 3445]
+Conversion nonsense
+EOF
+end
+
+fix_commit("17326b88b85d2f13939a71ca80d4a617f0527f9a") do
+<<EOF
+propagate from branch 'im.pidgin.pidgin.mxit' (head 342293440b7089597815dac27b11677a4cef7254)
+            to branch 'im.pidgin.pidgin' (head 28c3d2da674aa9cd470995ce6bd39c4434e026fe)
 EOF
 end
