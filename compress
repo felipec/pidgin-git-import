@@ -2,5 +2,5 @@
 
 repos="${@-pidgin.git pidgin-fix.git pidgin-trim.git}"
 for repo in $repos; do
-	test -e "$repo" && echo "git --git-dir=$repo gc --aggressive --prune=now"
+	test -e "$repo" && git --git-dir=$repo gc --aggressive --prune=now
 done
