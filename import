@@ -9,7 +9,13 @@ mtn_marks="marks-mtn.txt"
 
 touch $git_marks $mtn_marks
 
+# clean
+# options="--use-one-changelog"
+
+# final
+options="--log-revids --log-certs"
+
 mtn --db pidgin.mtn pull
 mtn --rcfile mtn-hooks.lua git_export --db pidgin.mtn --authors-file=authors_map.txt --branches-file=branches_map.txt \
-        --refs=revs --import-marks=$mtn_marks --export-marks=$mtn_marks --use-one-changelog |
+        --refs=revs --import-marks=$mtn_marks --export-marks=$mtn_marks $options |
         git fast-import --import-marks=$git_marks --export-marks=$git_marks
