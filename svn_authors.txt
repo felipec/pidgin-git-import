@@ -1,246 +1,3 @@
-12238 Curtis
-11811 # Jérôme Poulin
-11743 # Andrew Magness
-11612 # Daniel Atallah
-11611 # Gary Kramlich
-11607 Gabor Farkas
-11605 # Evan Schoenberg
-10855 # Bernat López
-10850 # Daniel Atallah
-10865 # Daniel Atallah
-10867 # Daniel Atallah
-10876 # Stu Tomlinson
-10880 # Dave West
-10897 # Felipe Contreras
-10899 # Stu Tomlinson
-10910 # Björn Voigt
-10917 # Unknown <oannu@users.sourceforge.net>
-10918 # Javier Fernández-Sanguino Peña
-10931 # Daniel Atallah
-10936 Nathan
-10939 # Daniel Atallah
-10953 # Evan Schoenberg
-10956 # Vincent van Adrighem
-10958 # Björn Voigt
-10959 # Javier Fernández-Sanguino Peña
-10967 # Dave West
-10972 # Felipe Contreras
-10974 # Peter Lawler
-10977 # Felipe Contreras
-10981 # Björn Voigt
-11006 # Daniel Atallah
-11014 # Nathan Fredrickson
-11015 # Nathan Fredrickson
-11017 Gregory C. Harfst
-11019 Henry Jen
-11024 # Kevin Stange
-11026 # Dave West
-11031 Alex Duggan
-11036 # Tim Ringenbach
-11042 # Gary Kramlich
-11050 # Felipe Contreras
-11067 # Dave West
-11069 Henry Jen
-11072 # Funda Wang
-11075 # Javier Fernández-Sanguino Peña
-11077 # Björn Voigt
-11082 # Claudio Satriano
-11095 # Vincent van Adrighem
-11099 Jean-Francois Roy
-11134 # Peter Lawler
-11136 # Andrew Hart
-11137 # Evan Schoenberg
-11146 # Andrew Hart
-11164 # Daniel Atallah
-11205 # Daniel Atallah
-11211 # Evan Schoenberg
-11215 # Peter Lawler
-11259 John Jolly
-11264 DaSkreech
-11311 # Andrew Hart
-11344 Daniel Westermann-Clark
-11356 # Felipe Contreras
-11430 # Miah Gregory
-11442 # Sean Egan
-11443 # Sean Egan
-11448 # Etan Reisner
-11453 # Miah Gregory
-11457 # Kevin Stange
-11467 # Funda Wang
-11468 # Paladin R. Liu
-11472 # Gary Kramlich
-11475 # Felipe Contreras
-11477 Nathan
-11491 # Felipe Contreras
-11555 # Felipe Contreras
-11557 # Björn Voigt
-11559 # Felipe Contreras
-11585 # Kevin Stange
-11594 # Kevin Stange
-11596 # Kevin Stange
-11597 # Maxim V. Dziumanenko
-11606 # Evan Schoenberg
-11613 # Daniel Atallah
-11624 # Evan Schoenberg
-11634 Programe Shqip
-11641 # Claudio Satriano
-11642 # Paladin R. Liu
-11644 # Mauricio Collares
-11646 # Javier Fernández-Sanguino Peña
-11647 # Felipe Contreras
-11651 # Evan Schoenberg
-11690 # Felipe Contreras
-11707 Fidel Martinez
-11716 # Felipe Contreras
-11720 # Unknown <rbowes@users.sourceforge.net>
-11736 # Felipe Contreras
-11742 # Andrew Magness
-11745 # Kevin Stange
-11746 # Kevin Stange
-11768 # Felipe Contreras
-11770 # Robert McQueen
-11787 # Björn Voigt
-11820 # Jérôme Poulin
-11831 # Martin Srebotnjak
-11885 # Jonathan Champ
-11904 Magnus Hult
-11906 # Andrew Hart
-11914 # Maxim V. Dziumanenko
-11916 Kalle Kotte
-11920 # Luke Ross
-11940 Malcolm Smith
-11943 Justin Wood
-11945 # Don Seiler
-11948 Magnus Hult
-11962 # Richard Laager
-11972 # Richard Laager
-11974 # Björn Voigt
-12013 # Gediminas Čičinskas
-12021 # Peter Hjalmarsson
-12025 # Ambrose Li
-12031 # Felipe Contreras
-12049 # Björn Voigt
-12054 # Richard Laager
-12073 # Torrey McMahon
-12075 # Ka-Hing Cheung
-12100 # Christopher O'Brien
-12109 Carl-Daniel Hailfinger
-12143 # Nathan Conrad
-12146 # Cestonaro Thilo
-12148 # Stu Tomlinson
-12164 # Gary Kramlich
-12174 # Martin Srebotnjak
-12183 Bastien Durel
-12185 Will Gorman
-12189 # Richard Laager
-12193 # Martin Srebotnjak
-12201 # Richard Laager
-12204 # Christopher O'Brien
-12217 # Richard Laager
-12239 Curtis
-12247 # Marc E.
-12252 # Javier Fernández-Sanguino Peña
-12254 # Peter Lawler
-12260 # Peter Lawler
-12281 # Peter Lawler
-12285 # Peter Lawler
-12290 # Rian Hunter
-12304 # Richard Laager
-12305 Peter Ajamian
-12313 Petter Johan Olsen
-12316 Eitan Isaacson
-12381 # Felipe Contreras
-12386 # Ivar Smolin
-12397 # Robert McQueen
-12409 # Gary Kramlich
-12419 # Ivar Smolin
-12430 # Richard Laager
-12481 # Miklós Vajna
-12482 # Gary Kramlich
-12486 # Gary Kramlich
-12487 # Gary Kramlich
-12489 # Pekka Riikonen
-12531 # Pekka Riikonen
-12538 # Martin Srebotnjak
-12540 # Javier Fernández-Sanguino Peña
-12541 Pascal Terjan
-12551 # Peter Lawler
-12560 # Steven Garrity
-12600 # Björn Voigt
-12605 # Caleb Gilmour
-12631 # Jean-Yves Lefort
-12685 # John Bailey
-12702 # John Bailey
-12718 Dave Ahlswede
-12722 # Peter Lawler
-12739 # Peter Lawler
-12756 # Levi Bard
-12762 # Richard Laager
-12767 # Peter Lawler
-12769 # Andrew Magness
-12818 # Warren Togami
-12860 # Sadrul Habib Chowdhury
-12869 # Jason Cohen
-12882 # Pekka Riikonen
-12889 # Richard Laager
-12896 # Evan Schoenberg
-12898 # Stanislav Brabec
-12932 # Richard Laager
-12941 # Richard Laager
-12944 # Richard Laager
-12956 # Peter Lawler
-12959 # Peter Lawler
-12960 # Joshua Honeycutt
-13011 # Palmer Cox
-13044 # Daniel Atallah
-13066 # Jason Roth
-13079 Ryan McCabe
-13081 Lalo Martins
-13084 Ryan McCabe
-13102 # Levi Bard
-13165 # Riley Patterson
-13170 # Will Thompson
-13211 # Kevin Stange
-13234 # Evan Schoenberg
-13243 # Wojtek Kaniewski
-13273 Ilya Konstantinov
-13323 # Erick Hamness
-13378 # Daniel Atallah
-13379 # Federico Schwindt
-13381 # Federico Schwindt
-13438 # Steve Láposi
-13464 Nacho Resa
-13465 # Bernat López
-13554 Charlie Gordon
-13622 # Zmitrok
-13643 # Federico Schwindt
-4863 # Eric S. Raymond
-4606 # Feng-Cheng Chang
-4288 David Kaelbling
-4286 David Kaelbling
-4285 David Kaelbling
-4257 Eric Timme
-3826 Sergey V. Udaltsov (svu)
-3764 Craig
-3656 # A Lee
-3652 David Fallon
-3565 # Malcolm Wallace
-3541 Craig Boston
-3540 # Nathan Walp
-3531 # Ka-Hing Cheung
-3514 # Ari Pollak
-3509 Eric Melski
-3504 # A Lee
-3502 # Christian Hammond
-3501 Chris Blizzard
-3494 # Debian security team
-3464 # Christian Hammond
-3462 # Ethan Blanton
-3449 # Christian Hammond
-3448 Timothy Lee
-3446 R2D2781
-3439 Junichi Uekawa
-3438 # Robert McQueen
 17712 # Will Thompson
 17696 # Stanislav Brabec
 17687 # Scott Jackson
@@ -2591,3 +2348,246 @@
 25 # Eric Warmenhoven
 19 # Eric Warmenhoven
 15 Todd Cohen
+10855 # Bernat López
+10850 # Daniel Atallah
+10865 # Daniel Atallah
+10867 # Daniel Atallah
+10876 # Stu Tomlinson
+10880 # Dave West
+10897 # Felipe Contreras
+10899 # Stu Tomlinson
+10910 # Björn Voigt
+10917 # Unknown <oannu@users.sourceforge.net>
+10918 # Javier Fernández-Sanguino Peña
+10931 # Daniel Atallah
+10936 Nathan
+10939 # Daniel Atallah
+10953 # Evan Schoenberg
+10956 # Vincent van Adrighem
+10958 # Björn Voigt
+10959 # Javier Fernández-Sanguino Peña
+10967 # Dave West
+10972 # Felipe Contreras
+10974 # Peter Lawler
+10977 # Felipe Contreras
+10981 # Björn Voigt
+11006 # Daniel Atallah
+11014 # Nathan Fredrickson
+11015 # Nathan Fredrickson
+11017 Gregory C. Harfst
+11019 Henry Jen
+11024 # Kevin Stange
+11026 # Dave West
+11031 Alex Duggan
+11036 # Tim Ringenbach
+11042 # Gary Kramlich
+11050 # Felipe Contreras
+11067 # Dave West
+11069 Henry Jen
+11072 # Funda Wang
+11075 # Javier Fernández-Sanguino Peña
+11077 # Björn Voigt
+11082 # Claudio Satriano
+11095 # Vincent van Adrighem
+11099 Jean-Francois Roy
+11134 # Peter Lawler
+11136 # Andrew Hart
+11137 # Evan Schoenberg
+11146 # Andrew Hart
+11164 # Daniel Atallah
+11205 # Daniel Atallah
+11211 # Evan Schoenberg
+11215 # Peter Lawler
+11259 John Jolly
+11264 DaSkreech
+11311 # Andrew Hart
+11344 Daniel Westermann-Clark
+11356 # Felipe Contreras
+11430 # Miah Gregory
+11442 # Sean Egan
+11443 # Sean Egan
+11448 # Etan Reisner
+11453 # Miah Gregory
+11457 # Kevin Stange
+11467 # Funda Wang
+11468 # Paladin R. Liu
+11472 # Gary Kramlich
+11475 # Felipe Contreras
+11477 Nathan
+11491 # Felipe Contreras
+11555 # Felipe Contreras
+11557 # Björn Voigt
+11559 # Felipe Contreras
+11585 # Kevin Stange
+11594 # Kevin Stange
+11596 # Kevin Stange
+11597 # Maxim V. Dziumanenko
+11606 # Evan Schoenberg
+11613 # Daniel Atallah
+11624 # Evan Schoenberg
+11634 Programe Shqip
+11641 # Claudio Satriano
+11642 # Paladin R. Liu
+11644 # Mauricio Collares
+11646 # Javier Fernández-Sanguino Peña
+11647 # Felipe Contreras
+11651 # Evan Schoenberg
+11690 # Felipe Contreras
+11707 Fidel Martinez
+11716 # Felipe Contreras
+11720 # Unknown <rbowes@users.sourceforge.net>
+11736 # Felipe Contreras
+11742 # Andrew Magness
+11745 # Kevin Stange
+11746 # Kevin Stange
+11768 # Felipe Contreras
+11770 # Robert McQueen
+11787 # Björn Voigt
+11820 # Jérôme Poulin
+11831 # Martin Srebotnjak
+11885 # Jonathan Champ
+11904 Magnus Hult
+11906 # Andrew Hart
+11914 # Maxim V. Dziumanenko
+11916 Kalle Kotte
+11920 # Luke Ross
+11940 Malcolm Smith
+11943 Justin Wood
+11945 # Don Seiler
+11948 Magnus Hult
+11962 # Richard Laager
+11972 # Richard Laager
+11974 # Björn Voigt
+12013 # Gediminas Čičinskas
+12021 # Peter Hjalmarsson
+12025 # Ambrose Li
+12031 # Felipe Contreras
+12049 # Björn Voigt
+12054 # Richard Laager
+12073 # Torrey McMahon
+12075 # Ka-Hing Cheung
+12100 # Christopher O'Brien
+12109 Carl-Daniel Hailfinger
+12143 # Nathan Conrad
+12146 # Cestonaro Thilo
+12148 # Stu Tomlinson
+12164 # Gary Kramlich
+12174 # Martin Srebotnjak
+12183 Bastien Durel
+12185 Will Gorman
+12189 # Richard Laager
+12193 # Martin Srebotnjak
+12201 # Richard Laager
+12204 # Christopher O'Brien
+12217 # Richard Laager
+12239 Curtis
+12247 # Marc E.
+12252 # Javier Fernández-Sanguino Peña
+12254 # Peter Lawler
+12260 # Peter Lawler
+12281 # Peter Lawler
+12285 # Peter Lawler
+12290 # Rian Hunter
+12304 # Richard Laager
+12305 Peter Ajamian
+12313 Petter Johan Olsen
+12316 Eitan Isaacson
+12381 # Felipe Contreras
+12386 # Ivar Smolin
+12397 # Robert McQueen
+12409 # Gary Kramlich
+12419 # Ivar Smolin
+12430 # Richard Laager
+12481 # Miklós Vajna
+12482 # Gary Kramlich
+12486 # Gary Kramlich
+12487 # Gary Kramlich
+12489 # Pekka Riikonen
+12531 # Pekka Riikonen
+12538 # Martin Srebotnjak
+12540 # Javier Fernández-Sanguino Peña
+12541 Pascal Terjan
+12551 # Peter Lawler
+12560 # Steven Garrity
+12600 # Björn Voigt
+12605 # Caleb Gilmour
+12631 # Jean-Yves Lefort
+12685 # John Bailey
+12702 # John Bailey
+12718 Dave Ahlswede
+12722 # Peter Lawler
+12739 # Peter Lawler
+12756 # Levi Bard
+12762 # Richard Laager
+12767 # Peter Lawler
+12769 # Andrew Magness
+12818 # Warren Togami
+12860 # Sadrul Habib Chowdhury
+12869 # Jason Cohen
+12882 # Pekka Riikonen
+12889 # Richard Laager
+12896 # Evan Schoenberg
+12898 # Stanislav Brabec
+12932 # Richard Laager
+12941 # Richard Laager
+12944 # Richard Laager
+12956 # Peter Lawler
+12959 # Peter Lawler
+12960 # Joshua Honeycutt
+13011 # Palmer Cox
+13044 # Daniel Atallah
+13066 # Jason Roth
+13079 Ryan McCabe
+13081 Lalo Martins
+13084 Ryan McCabe
+13102 # Levi Bard
+13165 # Riley Patterson
+13170 # Will Thompson
+13211 # Kevin Stange
+13234 # Evan Schoenberg
+13243 # Wojtek Kaniewski
+13273 Ilya Konstantinov
+13323 # Erick Hamness
+13378 # Daniel Atallah
+13379 # Federico Schwindt
+13381 # Federico Schwindt
+13438 # Steve Láposi
+13464 Nacho Resa
+13465 # Bernat López
+13554 Charlie Gordon
+13622 # Zmitrok
+13643 # Federico Schwindt
+4863 # Eric S. Raymond
+4606 # Feng-Cheng Chang
+4288 David Kaelbling
+4286 David Kaelbling
+4285 David Kaelbling
+4257 Eric Timme
+3826 Sergey V. Udaltsov (svu)
+3764 Craig
+3656 # A Lee
+3652 David Fallon
+3565 # Malcolm Wallace
+3541 Craig Boston
+3540 # Nathan Walp
+3531 # Ka-Hing Cheung
+3514 # Ari Pollak
+3509 Eric Melski
+3504 # A Lee
+3502 # Christian Hammond
+3501 Chris Blizzard
+3494 # Debian security team
+3464 # Christian Hammond
+3462 # Ethan Blanton
+3449 # Christian Hammond
+3448 Timothy Lee
+3446 R2D2781
+3439 Junichi Uekawa
+3438 # Robert McQueen
+12238 Curtis
+11811 # Jérôme Poulin
+11743 # Andrew Magness
+11612 # Daniel Atallah
+11611 # Gary Kramlich
+11607 Gabor Farkas
+11605 # Evan Schoenberg
