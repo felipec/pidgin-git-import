@@ -17,9 +17,13 @@ And if you want to fix the repo (bad commits, missing authors, etc.):
 
  $ ./fix
 
-Finally, to trim the repsitory:
+To trim the repsitory:
 
  $ ./trim
+
+And to split into multiple repositories:
+
+ $ ./split
 
 If you want to compress the repos, run:
 
