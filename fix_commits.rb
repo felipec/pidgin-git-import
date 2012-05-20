@@ -1246,10 +1246,3 @@ fix_commit("9a5e7fb820bf82d0009c007e3c5146dfd9bda395", "Christian Hammond <chipx
 Conversion nonsense
 EOF
 end
-
-fix_commit("17326b88b85d2f13939a71ca80d4a617f0527f9a") do
-<<EOF
-propagate from branch 'im.pidgin.pidgin.mxit' (head 342293440b7089597815dac27b11677a4cef7254)
-            to branch 'im.pidgin.pidgin' (head 28c3d2da674aa9cd470995ce6bd39c4434e026fe)
-EOF
-end
