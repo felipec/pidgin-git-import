@@ -25,6 +25,7 @@ end
 File.open('marks-git.txt').each do |l|
   mark, git_id = l.split
   mtn_id = @marks[mark]
+  next if not mtn_id
   @mtn_map[mtn_id] = git_id
 end
 
