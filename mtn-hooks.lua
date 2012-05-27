@@ -1,12 +1,12 @@
 function unmapped_git_author(author)
    name = author:match("^([^<>]+)@[^<>]+$")
    if name then
-      return "Unknown <" .. author .. ">"
+      return name .. " <" .. author .. ">"
    end
 
    name = author:match("^<([^<>]+)@[^<>]+>$")
    if name then
-      return "Unknown " .. author
+      return name .. " " .. author
    end
 
    name = author:match("^[^<>@]+$")
@@ -16,3 +16,12 @@ function unmapped_git_author(author)
 
    return author
 end
+
+-- function test(author)
+-- 	print(author .. " = " .. unmapped_git_author(author))
+-- end
+-- 
+-- test('John Snow <john@snow.com>')
+-- test('John Snow')
+-- test('<john@snow.com>')
+-- test('john@snow.com')
