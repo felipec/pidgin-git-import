@@ -143,6 +143,7 @@ im.pidgin.soc.2009.webkitmessageview = soc.2009.webkitmessageview
 im.pidgin.soc.2010.detachablepurple = soc.2010.detachablepurple
 im.pidgin.soc.2010.icq-tlc = soc.2010.icq-tlc
 im.pidgin.soc.2010.logviewer = soc.2010.logviewer
+im.pidgin.soc.2012.android = soc.2012.android
 im.pidgin.soc.2010.msn-tlc = soc.2010.msn-tlc
 im.pidgin.soc.2012.gg = soc.2012.gg
 im.pidgin.soc.2012.statscollector = soc.2012.statscollector
