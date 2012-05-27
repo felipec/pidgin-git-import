@@ -28,7 +28,7 @@ authors_map = load_authors_map
 authors_missing = {}
 
 for_each_author do |id, count|
-  if not authors_map.include?(id)
+  if not authors_map.include?(id) and not id =~ /^(.*) <(.*)>/
     authors_missing[id] ||= 0
     authors_missing[id] += count.to_i
   end
