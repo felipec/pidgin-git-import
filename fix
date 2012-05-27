@@ -4,13 +4,13 @@ require 'fileutils'
 require './util'
 
 @fwd = File.expand_path(File.dirname(__FILE__))
-@messages = File.join(@fwd, "messages")
+@messages = File.join(@fwd, 'messages')
 
 FileUtils.mkdir_p(@messages)
 
-ENV['GIT_DIR'] = "pidgin.git"
+ENV['GIT_DIR'] = 'pidgin.git'
 
-@commit_authors = File.open("commit_authors", "w")
+@commit_authors = File.open('commit_authors', 'w')
 @svn_map = {}
 @map = {}
 
@@ -43,8 +43,8 @@ File.open('svn-revisions').each do |l|
 end
 
 # convert svn path authors to something useful
-File.open("svn_authors.txt").each do |l|
-  rev, author = l.chomp.split(" ", 2)
+File.open('svn_authors.txt').each do |l|
+  rev, author = l.chomp.split(' ', 2)
   mark = author[0] == '#'[0]
   if not mark
     author.gsub!(/ ?\(.*/,'')
@@ -59,14 +59,14 @@ File.open("svn_authors.txt").each do |l|
     name, email = author, 'unknown'
   end
   @svn_map[rev].each do |id|
-    @commit_authors.puts([id, name, email].join(":"))
+    @commit_authors.puts([id, name, email].join(':'))
   end
 end
 
-def fix_commit(rev, author = "")
+def fix_commit(rev, author = '')
   id = @mtn_map[rev]
   author.scan(/(.*) <(.*)>/) do |name, email|
-    @commit_authors.puts([id, name, email].join(":"))
+    @commit_authors.puts([id, name, email].join(':'))
   end
 
   return if not block_given?
@@ -80,10 +80,10 @@ require './fix_commits'
 
 @commit_authors.fsync
 
-FileUtils.rm_rf("pidgin-fix.git")
-system "git clone --bare pidgin.git pidgin-fix.git"
+FileUtils.rm_rf('pidgin-fix.git')
+system 'git clone --bare pidgin.git pidgin-fix.git'
 
-ENV['GIT_DIR'] = "pidgin-fix.git"
+ENV['GIT_DIR'] = 'pidgin-fix.git'
 
 # check for lingering heads
 
