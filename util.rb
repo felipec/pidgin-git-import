@@ -1,8 +1,8 @@
 def run_query(query)
-  result = `mtn db --db pidgin.mtn execute '#{query}'`
-  result.split($/)[2..-1].each do |a|
-    next if a.empty?
-    yield a.split(" | ")
+  pipe = IO.popen(%W[mtn db --db pidgin.mtn execute #{query}])
+  pipe.each_with_index($/) do |a, i|
+    next if a.empty? or i < 2
+    yield a.chomp.split(" | ")
   end
 end
 
