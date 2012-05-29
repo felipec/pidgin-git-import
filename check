@@ -15,7 +15,7 @@ run_query %{select b.branch,lower(hex(b.revision_id)) from branch_leaves b} do |
 end
 
 branches_map = {}
-File.open('branches_map.txt').each do |l|
+File.open('branches-map').each do |l|
   orig, map = l.split(" = ")
   branches_map[orig] = map
 end

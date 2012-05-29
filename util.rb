@@ -17,7 +17,7 @@ end
 
 def load_authors_map
   map = {}
-  File.open('authors_map.txt').each do |l|
+  File.open('authors-map').each do |l|
     l.scan(/(.*) = (.*) <(.*)>/) do |id,name,email|
       map[id] = name
     end

@@ -15,19 +15,19 @@ $commit_map_mtn = {}
 @marks = {}
 @mtn_map = {}
 
-File.open('marks-mtn.txt').each do |l|
+File.open('marks-mtn').each do |l|
   mark, id = l.split
   @marks[mark] = id
 end
 
-File.open('marks-git.txt').each do |l|
+File.open('marks-git').each do |l|
   mark, git_id = l.split
   mtn_id = @marks[mark]
   next if not mtn_id
   @mtn_map[mtn_id] = git_id
 end
 
-File.open('svn_authors_map.txt').each do |l|
+File.open('svn-authors-map').each do |l|
   l.scan(/(.*) = (.*) <(.*)>/) do |id,name,email|
     @map[id] = [name, email]
   end
@@ -42,7 +42,7 @@ File.open('svn-revisions').each do |l|
 end
 
 # convert svn path authors to something useful
-File.open('svn_authors.txt').each do |l|
+File.open('svn-authors').each do |l|
   rev, author = l.chomp.split(' ', 2)
   mark = author[0] == '#'[0]
   if not mark
@@ -73,7 +73,7 @@ def fix_commit(rev, author = '')
   $commit_messages[id] = yield
 end
 
-require './fix_commits'
+require './fix-commits'
 
 FileUtils.rm_rf('pidgin-fix.git')
 system 'git clone --bare pidgin.git pidgin-fix.git'
