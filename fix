@@ -7,6 +7,7 @@ require './util'
 $commit_authors = {}
 $commit_messages = {}
 $commit_map_git = {}
+$commit_map_mtn = {}
 
 @svn_map = {}
 @map = {}
@@ -153,7 +154,18 @@ class Commit
     ENV['GIT_COMMITTER_EMAIL'] = @committer[1]
     ENV['GIT_COMMITTER_DATE'] = @committer_date.strftime('%s %z')
 
-    msg = @msg + "\n" + @mtn_msg
+    msg = @msg
+
+    # convert mtn ids
+    ids = {}
+    msg.scan(/\h{40}/).each do |mtn_id|
+      ids[mtn_id] = $commit_map_mtn[mtn_id] if $commit_map_mtn[mtn_id]
+    end
+    ids.each do |mtn_id, new_id|
+      msg.gsub!(/#{mtn_id}/, new_id)
+    end
+
+    msg = msg + "\n" + @mtn_msg
     new_id = nil
 
     parents = @parents.map { |e| ['-p', $commit_map_git[e]] }.flatten
@@ -163,6 +175,7 @@ class Commit
       new_id = pipe.read().chomp()
     end
 
+    $commit_map_mtn[@mtn_id] = new_id
     $commit_map_git[@id] = new_id
 
   end
@@ -195,10 +208,31 @@ def show(str)
   $stdout.print str if $stdout.isatty
 end
 
+def is_ready(c)
+  c.parents.each do |e|
+    return false if not $commit_map_git[e]
+  end
+
+  c.msg.scan(/\h{40}/).each do |mtn_id|
+    git_id = @mtn_map[mtn_id]
+    next if not git_id or git_id == c.id
+    return false if not $commit_map_git[git_id]
+  end
+
+  return true
+end
+
 until stack.empty? do
   c = stack.shift
 
   next if $commit_map_git[c.id]
+
+  if not is_ready(c)
+    stack.unshift(c)
+    next_index = stack.index { |e| is_ready(e) }
+    stack.rotate!(next_index)
+    next
+  end
 
   c.export
   show "\rRewrite #{c.id} (#{count += 1}/#{total})"
