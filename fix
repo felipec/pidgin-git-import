@@ -131,6 +131,12 @@ class Commit
     @author = $commit_authors[@id] if $commit_authors[@id]
 
     msg = msg.force_encoding('ascii-8bit')
+    if msg =~ /\A(.*?)\n(Monotone-\S+: .*\n*)+\Z/m
+      msg, mtn_msg = $1, $2
+      mtn_msg.gsub!(/^Monotone-Date: .*\n/, '')
+      @mtn_id = mtn_msg.match(/^Monotone-Revision: (.*)$/)[1]
+      @mtn_msg = mtn_msg
+    end
 
     msg = $commit_messages[@id] if $commit_messages[@id]
 
@@ -147,11 +153,12 @@ class Commit
     ENV['GIT_COMMITTER_EMAIL'] = @committer[1]
     ENV['GIT_COMMITTER_DATE'] = @committer_date.strftime('%s %z')
 
+    msg = @msg + "\n" + @mtn_msg
     new_id = nil
 
     parents = @parents.map { |e| ['-p', $commit_map_git[e]] }.flatten
     IO.popen(['git', 'commit-tree', @tree] + parents, "w+") do |pipe|
-      pipe.write(@msg)
+      pipe.write(msg)
       pipe.close_write
       new_id = pipe.read().chomp()
     end
