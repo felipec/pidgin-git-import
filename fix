@@ -1,16 +1,13 @@
 #!/usr/bin/env ruby
 
 require 'fileutils'
+require 'date'
 require './util'
 
-@fwd = File.expand_path(File.dirname(__FILE__))
-@messages = File.join(@fwd, 'messages')
+$commit_authors = {}
+$commit_messages = {}
+$commit_map_git = {}
 
-FileUtils.mkdir_p(@messages)
-
-ENV['GIT_DIR'] = 'pidgin.git'
-
-@commit_authors = File.open('commit_authors', 'w')
 @svn_map = {}
 @map = {}
 
@@ -60,26 +57,22 @@ File.open('svn_authors.txt').each do |l|
     name, email = author, 'unknown'
   end
   @svn_map[rev].each do |id|
-    @commit_authors.puts([id, name, email].join(':'))
+    $commit_authors[id] = [name, email]
   end
 end
 
 def fix_commit(rev, author = '')
   id = @mtn_map[rev]
   author.scan(/(.*) <(.*)>/) do |name, email|
-    @commit_authors.puts([id, name, email].join(':'))
+    $commit_authors[id] = [name, email]
   end
 
   return if not block_given?
 
-  File.open("#{@messages}/#{id}", 'w') do |f|
-    f.puts(yield)
-  end
+  $commit_messages[id] = yield
 end
 
 require './fix_commits'
-
-@commit_authors.fsync
 
 FileUtils.rm_rf('pidgin-fix.git')
 system 'git clone --bare pidgin.git pidgin-fix.git'
@@ -104,26 +97,115 @@ end
   end
 end
 
-env_filter = <<EOF
-line=$(grep "^$GIT_COMMIT:" "#{@fwd}/commit_authors")
-if [ "$line" ]; then
-  IFS=':' read __ GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL <<< "$line"
-  export GIT_AUTHOR_NAME GIT_AUTHOR_EMAIL
-fi
-EOF
+class Commit
 
-msg_filter = <<EOF
-if [ -f "#{@messages}/$GIT_COMMIT" ]; then
-  cat "#{@messages}/$GIT_COMMIT"
-else
-  cat -
-fi
-EOF
+  attr_reader :id, :parents, :msg
 
-system "git filter-branch -d /tmp/git-rewrite/ --env-filter '#{env_filter}' --msg-filter '#{msg_filter}' --tag-name-filter cat -- --all"
+  def initialize(data)
+    @parents = []
+    msg = nil
+
+    data.each_line do |l|
+      if not msg
+        case l
+        when /^commit (.*)$/
+          @id = $1
+        when /^tree (.*)$/
+          @tree = $1
+        when /^author (.*) (<.*>) (.*)$/
+          @author = [$1, $2]
+          @author_date = DateTime.strptime($3, '%s %z')
+        when /^committer (.*) (<.*>) (.*)$/
+          @committer = [$1, $2]
+          @committer_date = DateTime.strptime($3, '%s %z')
+        when /^parents (.*)$/
+          @parents = $1.split(" ")
+        when /^$/
+          msg = ""
+        end
+      else
+        msg << l
+      end
+    end
+
+    @author = $commit_authors[@id] if $commit_authors[@id]
+
+    msg = msg.force_encoding('ascii-8bit')
+
+    msg = $commit_messages[@id] if $commit_messages[@id]
+
+    @msg = msg
+
+  end
+
+  def export()
+
+    ENV['GIT_AUTHOR_NAME'] = @author[0]
+    ENV['GIT_AUTHOR_EMAIL'] = @author[1]
+    ENV['GIT_AUTHOR_DATE'] = @author_date.strftime('%s %z')
+    ENV['GIT_COMMITTER_NAME'] = @committer[0]
+    ENV['GIT_COMMITTER_EMAIL'] = @committer[1]
+    ENV['GIT_COMMITTER_DATE'] = @committer_date.strftime('%s %z')
+
+    new_id = nil
+
+    parents = @parents.map { |e| ['-p', $commit_map_git[e]] }.flatten
+    IO.popen(['git', 'commit-tree', @tree] + parents, "w+") do |pipe|
+      pipe.write(@msg)
+      pipe.close_write
+      new_id = pipe.read().chomp()
+    end
+
+    $commit_map_git[@id] = new_id
+
+  end
+
+end
+
+stack = []
+
+heads = `git rev-parse --no-flags --revs-only --symbolic-full-name --all`.split
+
+format = [
+  'commit %H',
+  'tree %T',
+  'author %an <%ae> %ad',
+  'committer %cn <%ce> %cd',
+  'parents %P',
+  '', '%B' ].join('%n')
+args = %w[--reverse --topo-order --parents --simplify-merges --all]
+command = %W[git log -z -s --date=raw --format=format:#{format}] + args
+IO.popen(command).each("\0") do |data|
+  c = Commit.new(data.chomp("\0"))
+  stack << c
+end
+
+count = 0
+total = stack.size
+pending = {}
+
+def show(str)
+  $stdout.print str if $stdout.isatty
+end
+
+until stack.empty? do
+  c = stack.shift
+
+  next if $commit_map_git[c.id]
+
+  c.export
+  show "\rRewrite #{c.id} (#{count += 1}/#{total})"
+
+end
+
+heads.each do |e|
+  id = `git rev-parse #{e}^0`.chomp
+  new_id = $commit_map_git[id]
+  system('git', 'update-ref', e, new_id, id)
+  puts "%s %s -> %s" % [e, id, new_id]
+end
 
 # cleanup old stuff
 system 'git remote rm origin'
-system 'rm -rf pidgin-fix.git/refs/original'
 system 'git reflog expire --expire=now --all'
 system 'git prune --expire=now'
