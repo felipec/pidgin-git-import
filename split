@@ -44,6 +44,16 @@ get_branches($orig).each do |e, _|
   end
 end
 
+@main_branches += [
+  'cpw.qulogic.gtk3-required',
+  'gaim',
+  'mxit',
+  'mxit-2.x.y',
+  'soc.2007.finchfeat',
+  'soc.2012.gg',
+  'xmpp.custom_smiley'
+]
+
 get_branches($orig, '--merged master').each do |e, _|
   next if @current_branches.include?(e)
   @merged_branches << e

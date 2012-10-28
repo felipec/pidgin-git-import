@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 
-fix_commit("2d6f9e6fefcb1cc3acf077976fb4563ec6195f82", "Tomáš Kebert <unknown>")
-fix_commit("e8b2e1e7ac4597ec67db53c64064e2e8e7f3cbc1", "Tomáš Kebert <unknown>")
+fix_commit("2d6f9e6fefcb1cc3acf077976fb4563ec6195f82", "Tomáš Kebert <tom342@gmail.com>")
+fix_commit("e8b2e1e7ac4597ec67db53c64064e2e8e7f3cbc1", "Tomáš Kebert <tom342@gmail.com>")
 
 fix_commit("73e463add9a124c86554c2958526e1a6ee5fc22f") do
 <<EOF
