@@ -1,0 +1,254 @@
+#!/usr/bin/env ruby
+
+require 'date'
+
+def show(str)
+  $stdout.print str if $stdout.isatty
+end
+
+class Repo
+
+  class << self
+    attr_accessor :alias
+  end
+
+  def initialize(path, head_id = nil)
+    @path = path
+    @commits = {}
+
+    count = 0
+    IO.popen(command(head_id)).each("\0") do |data|
+      c = self.class::Commit.new(data.chomp("\0"))
+      show "\rImporting #{self.class.alias} #{count += 1}"
+      @commits[c.id] = c
+    end
+    show "\n"
+
+    @commits.each do |id, commit|
+      commit.parents.each do |parent|
+        @commits[parent].children << id if @commits[parent]
+      end
+    end
+  end
+
+  def roots
+    @commits.select { |id,commit| commit.parents.empty? }.values
+  end
+
+  def get(keys)
+    keys.map { |e| @commits[e] }
+  end
+
+  class Commit
+    attr_reader :id, :parents
+    attr_reader :author, :author_date, :desc
+    attr_accessor :children
+    attr_accessor :compared
+
+    def initialize
+      @parents = []
+      @children = []
+    end
+
+    def cmp(b)
+      c = 0
+      c += 1 if self.clean_author != b.clean_author
+      c += 1 if @author_date != b.author_date
+      c += 3 if self.clean_desc != b.clean_desc
+      c += 5 if self.parents.size != b.parents.size
+      return c
+    end
+
+    def ==(b)
+      cmp(b) == 0
+    end
+
+    def find_brother(commits)
+      commits.find { |c| c == self }
+    end
+
+    def diff(b)
+      puts "== #{@id}, #{b.id} =="
+      if self.clean_author != b.clean_author
+        puts "author: #{@author}, #{b.author}"
+      end
+      if @author_date != b.author_date
+        puts "author_date: #{@author_date}, #{b.author_date}"
+      end
+      if self.clean_desc != b.clean_desc
+        puts "desc a:\n#{self.clean_desc.inspect}"
+        puts "desc b:\n#{b.clean_desc.inspect}"
+      end
+    end
+
+    def to_s()
+      s = []
+      s << "id: #{@id}"
+      s << "author: #{@author}"
+      s << "author_date: #{@author_date}"
+      s << "desc: #{@desc.inspect}"
+      s << "clean_desc: #{self.clean_desc.inspect}"
+      s << "parents: #{@parents.size}"
+      s << "childern: #{@children.size}"
+      return s.join("\n")
+    end
+
+  end
+
+end
+
+class Hg < Repo
+
+  @alias = "mercurial"
+
+  def command(head_id)
+    selector = head_id ? "-r :#{head_id}" : ""
+    "hg -R #{@path} log --debug --template='commit {node}\\nauthor {author}\\ndate {date}\\nparents {parents}\\n\\n{desc}\\n\\0' #{selector}"
+  end
+
+  class Commit < Repo::Commit
+
+    def initialize(data)
+      super()
+      desc = nil
+      data.each_line do |l|
+        if not desc
+          case l
+          when /^commit (.+)$/
+            @id = $1
+          when /^author (.+)$/
+            @author = $1
+          when /^date (.+)$/
+            @author_date = DateTime.strptime($1, "%s")
+          when /^parents (.+)$/
+            $1.split(" ").each do |parent|
+            rev, id = parent.split(":")
+            @parents << id if id != '0000000000000000000000000000000000000000'
+            end
+          when /^$/
+            desc = ""
+          end
+        else
+          desc << l
+        end
+      end
+      @desc = desc
+    end
+
+    def clean_author
+      case @author
+      when /(.+) <(.+)>/
+        name = $1
+        email = $2
+      when /<(.+)>/
+        name = "Unknown"
+        email = $1
+      when /@/
+        name = "Unknown"
+        email = @author
+      else
+        name = @author
+        email = 'unknown'
+      end
+      name.gsub!(/\.$/, '') # git bug?
+      return "#{name} <#{email}>"
+    end
+
+    def clean_desc
+      @desc
+    end
+
+  end
+
+end
+
+class Git < Repo
+
+  @alias = "git"
+
+  def command(head_id)
+    selector = head_id ? head_id : "--all"
+    "git --git-dir=#{@path} log -z -s --date=raw --format='format:commit %H%nauthor %an <%ae> %ad%nparents %P%n%n%B' #{selector}"
+  end
+
+  class Commit < Repo::Commit
+
+    def initialize(data)
+      super()
+      desc = nil
+      data.each_line do |l|
+        if not desc
+          case l
+          when /^commit (.+)$/
+            @id = $1
+          when /^author (.+ <.+>) (.+)$/
+            @author = $1
+            @author_date = DateTime.strptime($2, '%s %z')
+          when /^parents (.+)$/
+            @parents = $1.split(" ")
+          when /^$/
+            desc = ""
+          end
+        else
+          desc << l
+        end
+      end
+      @desc = desc
+    end
+
+    def clean_author
+      @author
+    end
+
+    def clean_desc
+      @desc.strip + "\n"
+    end
+
+  end
+
+end
+
+@hg = Hg.new(ARGV[0])
+@git = Git.new(ARGV[1])
+
+show "Comparing\n"
+
+stack = []
+
+# push initial commits
+stack << [@hg.roots, @git.roots]
+missing = {}
+
+until stack.empty? do
+  a, b = stack.delete_at(0)
+  a.each do |c|
+    next if c.compared
+
+    # find closest brother
+    brother = b.min { |a,b| a.cmp(c) <=> b.cmp(c) }
+    diff = brother ? c.cmp(brother) : 1000
+
+    if diff >= 3
+      missing[c] = brother if not missing[c]
+      next
+    elsif diff > 0
+      c.diff(brother)
+    end
+
+    c.compared = true
+
+    # push next
+    stack << [@hg.get(c.children), @git.get(brother.children)]
+  end
+end
+
+missing.each do |c, brother|
+    print "== Missing commit ==\n\n"
+    puts c
+    puts
+    if brother
+      print "Closest match:\n\n"
+      puts brother
+      puts
+    end
+end
