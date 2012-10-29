@@ -164,7 +164,9 @@ class Hg < Repo
     end
 
     def clean_desc
-      @desc
+      tmp = @desc.gsub(/\h{40}/, 'id')
+      tmp.gsub!(/\n+committer: /, "\ncommitter: ") # pidgin guys screwed up something here
+      return tmp
     end
 
   end
@@ -225,7 +227,9 @@ class Git < Repo
     end
 
     def clean_desc
-      @desc.strip + "\n"
+      tmp = @desc.gsub(/\h{40}/, 'id')
+      tmp.gsub!(/\n+committer: /, "\ncommitter: ") # pidgin guys screwed up something here
+      return tmp.gsub(/\r\n?/, "\n").split("\n", -1).map(&:rstrip).join("\n").strip + "\n"
     end
 
   end
@@ -253,6 +257,14 @@ until stack.empty? do
     diff = brother ? c.cmp(brother) : 1000
 
     if diff >= 3
+      case c.desc
+      when /\AMerge .+ to fix package_version.h\n\Z/,
+        /\AUpdate .+ to work with hg\n\Z/,
+        "update tags\n",
+        "Migrate .mtn-ignore to .hgignore\n"
+        next
+      end
+
       missing[c] = brother if not missing[c]
       next
     elsif diff > 0
@@ -268,11 +280,12 @@ end
 
 missing.each do |c, brother|
     print "== Missing commit ==\n\n"
-    puts c
+    puts %x[hg -R #{ARGV[0]} log --graph -v -r #{c.id}]
     puts
     if brother
       print "Closest match:\n\n"
-      puts brother
+      mtn_id = brother.extra['monotone-revision']
+      puts %x[mtn --db pidgin.mtn log --graph -r #{mtn_id}]
       puts
     end
 end
