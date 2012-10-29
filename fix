@@ -165,7 +165,11 @@ class Commit
       msg.gsub!(/#{mtn_id}/, new_id)
     end
 
-    msg = msg + "\n" + @mtn_msg
+    if @author != @committer and @committer != ['Tailor Conversion Tool', 'tailor@pidgin.im']
+      msg += "\n\ncommitter: %s <%s>\n" % @committer
+    end
+
+    msg += "\n" + @mtn_msg
     new_id = nil
 
     parents = @parents.map { |e| ['-p', $commit_map_git[e]] }.flatten
