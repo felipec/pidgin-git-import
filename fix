@@ -113,10 +113,10 @@ class Commit
           @id = $1
         when /^tree (.*)$/
           @tree = $1
-        when /^author (.*) (<.*>) (.*)$/
+        when /^author (.*) <(.*)> (.*)$/
           @author = [$1, $2]
           @author_date = DateTime.strptime($3, '%s %z')
-        when /^committer (.*) (<.*>) (.*)$/
+        when /^committer (.*) <(.*)> (.*)$/
           @committer = [$1, $2]
           @committer_date = DateTime.strptime($3, '%s %z')
         when /^parents (.*)$/
