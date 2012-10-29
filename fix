@@ -5,6 +5,7 @@ require 'date'
 require './util'
 
 $commit_authors = {}
+$commit_svn_authors = {}
 $commit_messages = {}
 $commit_map_git = {}
 $commit_map_mtn = {}
@@ -58,7 +59,7 @@ File.open('svn-authors').each do |l|
     name, email = author, 'unknown'
   end
   @svn_map[rev].each do |id|
-    $commit_authors[id] = [name, email]
+    $commit_svn_authors[id] = [name, email]
   end
 end
 
@@ -130,6 +131,11 @@ class Commit
     end
 
     @author = $commit_authors[@id] if $commit_authors[@id]
+
+    if $commit_svn_authors[@id]
+      @committer = @author # mercurial conv did this
+      @author = $commit_svn_authors[@id]
+    end
 
     msg = msg.force_encoding('ascii-8bit')
     if msg =~ /\A(.*?)\n(Monotone-\S+: .*\n*)+\Z/m
