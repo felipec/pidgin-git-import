@@ -7,15 +7,23 @@ require './util'
 $commit_authors = {}
 $commit_svn_authors = {}
 $commit_committers = {}
+$commit_dates = {}
 $commit_messages = {}
 $commit_map_git = {}
 $commit_map_mtn = {}
+
+$author_map = {}
 
 @svn_map = {}
 @map = {}
 
 @marks = {}
 @mtn_map = {}
+
+File.open('authors-map').each do |l|
+  id, author = l.chomp.split(' = ')
+  $author_map[id] = author
+end
 
 File.open('marks-mtn').each do |l|
   mark, id = l.split
@@ -79,6 +87,61 @@ def fix_commit(rev, author = '', committer = '')
   $commit_messages[id] = yield
 end
 
+def extract_text(value)
+    return [value].pack("H*").encode('utf-8', 'iso-8859-1')
+end
+
+def fix_certs()
+
+  #
+  # mercurial conversion picked the last cert when there was more than one.
+  # Lets manually look for these repeated certs and pick the last one.
+  #
+  # To do this efficiently we use a trick of sqlite; using 'group by' returns
+  # the value of the last row.
+  #
+
+  run_query %{select lower(hex(revision_id)),value from revision_certs where name="author" group by revision_id having count(*) > 1} do |rev, value|
+    id = @mtn_map[rev]
+    author = $author_map[value]
+    author.scan(/(.*) <(.*)>/) do |name, email|
+      $commit_authors[id] = [name, email]
+    end
+  end
+
+  run_query %{select lower(hex(revision_id)),value from revision_certs where name="date" group by revision_id having count(*) > 1} do |rev, value|
+    id = @mtn_map[rev]
+    $commit_dates[id] = DateTime.parse(value)
+  end
+
+  run_query %{select lower(hex(cc.revision_id)),hex(cc.value),k.name from revision_certs cc join public_keys k on k.id = cc.keypair_id where cc.name='changelog' group by cc.revision_id having count(*) > 1} do |rev, value, key|
+    id = @mtn_map[rev]
+    author = $author_map[key]
+    author.scan(/(.*) <(.*)>/) do |name, email|
+      $commit_committers[id] = [name, email]
+    end
+    $commit_messages[id] = extract_text(value)
+  end
+
+  #
+  # mercurial conversion added comments in a different format, plus it only used
+  # the last one. Lets manually fix all the commits with comments.
+  #
+
+  run_query %{select lower(hex(revision_id)),hex(value),count(*) as c from revision_certs where name="comment" group by revision_id} do |rev, value, count|
+    id = @mtn_map[rev]
+    # get the last changelog of this revision
+    changelog = ''
+    run_query %{select hex(value) from revision_certs where name="changelog" and revision_id=X'#{rev}' group by revision_id} do |value, _|
+      changelog = extract_text(value)
+    end
+    $commit_messages[id] = changelog + "\n\n" + extract_text(value)
+  end
+
+end
+
+fix_certs()
+
 require './fix-commits'
 
 FileUtils.rm_rf('pidgin-fix.git')
@@ -137,6 +200,7 @@ class Commit
 
     @author = $commit_authors[@id] if $commit_authors[@id]
     @committer = $commit_committers[@id] if $commit_committers[@id]
+    @author_date = $commit_dates[@id] if $commit_dates[@id]
 
     if $commit_svn_authors[@id]
       @committer = @author # mercurial conv did this
