@@ -16,7 +16,7 @@ end
 
 branches_map = {}
 File.open('branches-map').each do |l|
-  orig, map = l.split(" = ")
+  orig, map = l.chomp.split(" = ")
   branches_map[orig] = map
 end
 

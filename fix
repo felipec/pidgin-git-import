@@ -38,7 +38,7 @@ File.open('marks-git').each do |l|
 end
 
 File.open('svn-authors-map').each do |l|
-  l.scan(/(.*) = (.*) <(.*)>/) do |id,name,email|
+  l.scan(/(.+) = (.+) <(.+)>/) do |id,name,email|
     @map[id] = [name, email]
   end
 end
@@ -56,11 +56,11 @@ File.open('svn-authors').each do |l|
   rev, author = l.chomp.split(' ', 2)
   mark = author[0] == '#'[0]
   if not mark
-    author.gsub!(/ ?\(.*/,'')
+    author.gsub!(/ ?\(.+/,'')
   else
     author = author[2..-1]
   end
-  if author =~ /^(.*) <(.*)>/
+  if author =~ /^(.+) <(.+)>/
     name, email = $1, $2
   elsif mark and @map[author]
     name, email = @map[author]
@@ -74,11 +74,11 @@ end
 
 def fix_commit(rev, author = '', committer = '')
   id = @mtn_map[rev]
-  author.scan(/(.*) <(.*)>/) do |name, email|
+  author.scan(/(.+) <(.+)>/) do |name, email|
     $commit_authors[id] = [name, email]
   end
 
-  committer.scan(/(.*) <(.*)>/) do |name, email|
+  committer.scan(/(.+) <(.+)>/) do |name, email|
     $commit_committers[id] = [name, email]
   end
 
@@ -104,7 +104,7 @@ def fix_certs()
   run_query %{select lower(hex(revision_id)),value from revision_certs where name="author" group by revision_id having count(*) > 1} do |rev, value|
     id = @mtn_map[rev]
     author = $author_map[value]
-    author.scan(/(.*) <(.*)>/) do |name, email|
+    author.scan(/(.+) <(.+)>/) do |name, email|
       $commit_authors[id] = [name, email]
     end
   end
@@ -117,7 +117,7 @@ def fix_certs()
   run_query %{select lower(hex(cc.revision_id)),hex(cc.value),k.name from revision_certs cc join public_keys k on k.id = cc.keypair_id where cc.name='changelog' group by cc.revision_id having count(*) > 1} do |rev, value, key|
     id = @mtn_map[rev]
     author = $author_map[key]
-    author.scan(/(.*) <(.*)>/) do |name, email|
+    author.scan(/(.+) <(.+)>/) do |name, email|
       $commit_committers[id] = [name, email]
     end
     $commit_messages[id] = extract_text(value)
@@ -178,17 +178,17 @@ class Commit
     data.each_line do |l|
       if not msg
         case l
-        when /^commit (.*)$/
+        when /^commit (.+)$/
           @id = $1
-        when /^tree (.*)$/
+        when /^tree (.+)$/
           @tree = $1
-        when /^author (.*) <(.*)> (.*)$/
+        when /^author (.+) <(.+)> (.+)$/
           @author = [$1, $2]
           @author_date = DateTime.strptime($3, '%s %z')
-        when /^committer (.*) <(.*)> (.*)$/
+        when /^committer (.+) <(.+)> (.+)$/
           @committer = [$1, $2]
           @committer_date = DateTime.strptime($3, '%s %z')
-        when /^parents (.*)$/
+        when /^parents (.+)$/
           @parents = $1.split(" ")
         when /^$/
           msg = ""
@@ -208,10 +208,10 @@ class Commit
     end
 
     msg = msg.force_encoding('ascii-8bit')
-    if msg =~ /\A(.*?)\n(Monotone-\S+: .*\n*)+\Z/m
+    if msg =~ /\A(.*?)\n(Monotone-\S+: .+\n*)+\Z/m
       msg, mtn_msg = $1, $2
-      mtn_msg.gsub!(/^Monotone-Date: .*\n/, '')
-      @mtn_id = mtn_msg.match(/^Monotone-Revision: (.*)$/)[1]
+      mtn_msg.gsub!(/^Monotone-Date: .+\n/, '')
+      @mtn_id = mtn_msg.match(/^Monotone-Revision: (.+)$/)[1]
       @mtn_msg = mtn_msg
     end
 
