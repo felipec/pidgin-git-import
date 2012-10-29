@@ -6,6 +6,7 @@ require './util'
 
 $commit_authors = {}
 $commit_svn_authors = {}
+$commit_committers = {}
 $commit_messages = {}
 $commit_map_git = {}
 $commit_map_mtn = {}
@@ -63,10 +64,14 @@ File.open('svn-authors').each do |l|
   end
 end
 
-def fix_commit(rev, author = '')
+def fix_commit(rev, author = '', committer = '')
   id = @mtn_map[rev]
   author.scan(/(.*) <(.*)>/) do |name, email|
     $commit_authors[id] = [name, email]
+  end
+
+  committer.scan(/(.*) <(.*)>/) do |name, email|
+    $commit_committers[id] = [name, email]
   end
 
   return if not block_given?
@@ -131,6 +136,7 @@ class Commit
     end
 
     @author = $commit_authors[@id] if $commit_authors[@id]
+    @committer = $commit_committers[@id] if $commit_committers[@id]
 
     if $commit_svn_authors[@id]
       @committer = @author # mercurial conv did this
