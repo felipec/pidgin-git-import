@@ -15,7 +15,6 @@ touch $git_marks $mtn_marks
 # final
 options="--log-revids --log-certs"
 
-mtn --db pidgin.mtn pull
 mtn --rcfile mtn-hooks.lua git_export --db pidgin.mtn --authors-file=authors-map --branches-file=branches-map \
         --refs=revs --import-marks=$mtn_marks --export-marks=$mtn_marks $options |
         git fast-import --import-marks=$git_marks --export-marks=$git_marks
