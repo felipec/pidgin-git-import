@@ -13,6 +13,7 @@ $commit_map_git = {}
 $commit_map_mtn = {}
 
 $author_map = {}
+$branches_map = {}
 
 @svn_map = {}
 @map = {}
@@ -70,6 +71,11 @@ File.open('svn-authors').each do |l|
   @svn_map[rev].each do |id|
     $commit_svn_authors[id] = [name, email]
   end
+end
+
+File.open('branches-map').each do |l|
+  orig, map = l.chomp.split(" = ")
+  $branches_map[orig] = map
 end
 
 def fix_commit(rev, author = '', committer = '')
@@ -210,9 +216,29 @@ class Commit
     msg = msg.force_encoding('ascii-8bit')
     if msg =~ /\A(.*?)\n(Monotone-\S+: .+\n*)+\Z/m
       msg, mtn_msg = $1, $2
-      mtn_msg.gsub!(/^Monotone-Date: .+\n/, '')
       @mtn_id = mtn_msg.match(/^Monotone-Revision: (.+)$/)[1]
-      @mtn_msg = mtn_msg
+
+      branches = []
+      mtn_msg.scan(/^Monotone-Branch: (.+)$/) do |b, _|
+        branches << b
+      end
+      branch = branches.member?('im.pidgin.pidgin') ? 'im.pidgin.pidgin' : branches.last
+      if branch
+        branch = $branches_map[branch]
+        branch = 'default' if branch == 'master'
+      else
+        branch = 'default'
+      end
+      hg_msg = "\n--HG--\n"
+      hg_msg += "branch : #{branch}\n"
+      if @author != @committer and @committer != ['Tailor Conversion Tool', 'tailor@pidgin.im']
+        hg_msg += "committer : %s <%s>\n" % @committer
+      end
+      hg_msg += "extra : monotone-revision : #{@mtn_id}\n"
+      hg_msg += "extra : monotone-branches : #{branches.join(' ')}\n"
+      @hg_msg = hg_msg
+
+      @mtn_msg = mtn_msg.gsub!(/\n(Monotone-\S+: .+\n*)+\Z/, '')
     end
 
     msg = $commit_messages[@id] if $commit_messages[@id]
@@ -245,7 +271,7 @@ class Commit
       msg += "\n\ncommitter: %s <%s>\n" % @committer
     end
 
-    msg += "\n" + @mtn_msg
+    msg += "\n" + @hg_msg + "\n" + @mtn_msg
     new_id = nil
 
     parents = @parents.map { |e| ['-p', $commit_map_git[e]] }.flatten
