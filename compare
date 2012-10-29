@@ -44,16 +44,19 @@ class Repo
     attr_reader :author, :author_date, :desc
     attr_accessor :children
     attr_accessor :compared
+    attr_accessor :branch, :extra
 
     def initialize
       @parents = []
       @children = []
+      @extra = {}
     end
 
     def cmp(b)
       c = 0
       c += 1 if self.clean_author != b.clean_author
       c += 1 if @author_date != b.author_date
+      c += 1 if @branch != b.branch
       c += 3 if self.clean_desc != b.clean_desc
       c += 5 if self.parents.size != b.parents.size
       return c
@@ -75,6 +78,9 @@ class Repo
       if @author_date != b.author_date
         puts "author_date: #{@author_date}, #{b.author_date}"
       end
+      if @branch != b.branch
+        puts "branch: #{@branch}, #{b.branch}"
+      end
       if self.clean_desc != b.clean_desc
         puts "desc a:\n#{self.clean_desc.inspect}"
         puts "desc b:\n#{b.clean_desc.inspect}"
@@ -84,6 +90,7 @@ class Repo
     def to_s()
       s = []
       s << "id: #{@id}"
+      s << "branch: #{@branch}"
       s << "author: #{@author}"
       s << "author_date: #{@author_date}"
       s << "desc: #{@desc.inspect}"
@@ -103,7 +110,7 @@ class Hg < Repo
 
   def command(head_id)
     selector = head_id ? "-r :#{head_id}" : ""
-    "hg -R #{@path} log --debug --template='commit {node}\\nauthor {author}\\ndate {date}\\nparents {parents}\\n\\n{desc}\\n\\0' #{selector}"
+    "hg -R #{@path} log --debug --template='commit {node}\\nauthor {author}\\ndate {date}\\nparents {parents}\\nbranch {branch}\\n\\n{desc}\\n\\0' #{selector}"
   end
 
   class Commit < Repo::Commit
@@ -125,6 +132,8 @@ class Hg < Repo
             rev, id = parent.split(":")
             @parents << id if id != '0000000000000000000000000000000000000000'
             end
+          when /^branch (.+)$/
+            @branch = $1
           when /^$/
             desc = ""
           end
@@ -193,6 +202,21 @@ class Git < Repo
           desc << l
         end
       end
+
+      _, _, extra = desc.partition("\n--HG--\n")
+      extra.each_line do |l|
+        key, field, value = l.chomp.split(" : ")
+        case key
+        when "extra"
+          @extra[field] = value
+        when "branch"
+          @branch = field == 'master' ? 'default' : field
+        when "committer"
+          @commiter = field
+        end
+      end
+      desc.gsub!(/\n--HG--\n.*\Z/m, '')
+
       @desc = desc
     end
 
